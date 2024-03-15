@@ -1,1 +1,201 @@
-CSV
+Team_ID,Team_Name,Team_Abbreviation,Year_Founded,Manager_ID,Manager_ID,First_Name,Last_Name,Age,Player_ID,First_Name,Last_Name,Shirt_Number,Age,Team_ID
+1,Arsenal FC,ARS,1886,1,1,Mikel,Arteta,41,1,David,Raya,22,21,1
+2,Aston Villa FC,AVL,1874,2,2,Unai,Emery,52,2,William,Saliba,2,35,1
+3,AFC Bournemouth,BOU,1899,3,3,Scott,Parker,40,3,Ben,White,4,25,1
+4,Brentford FC,BRE,1889,4,4,Thomas ,Frank,50,4,Thomas,Partey,5,28,1
+5,Brighton And Hove Albion,BHA,1897,5,5,Roberto,De Zerbi,44,5,Martin,Odegaard,8,27,1
+6,Burnley FC,BUR,1882,6,6,Vincent,Kompany,37,6,Bukayo,Saka,7,29,1
+7,Chelsea FC,CHE,1905,7,7,Mauricio,Pochettino,52,7,Gabriel,Jesus,9,20,1
+8,Crystal Palace FC,CRY,1905,8,8,Patrick,Vieira,48,8,Eddie,Nketiah,14,25,1
+9,Everton FC,EVE,1879,9,9,Sean,Dyche,52,9,Gabriel,Martinelli,11,33,1
+10,Fulham FC,FUL,1879,10,10,Marco,Silva,46,10,Declan,Rice,41,24,1
+11,Liverpool FC,LIV,1892,11,11,Jurgen,Klopp,56,11,Emiliano,Martinez,1,26,2
+12,Luton Town FC,LUT,1885,12,12,Rob ,Edwards,41,12,Matty,Cash,2,34,2
+13,Manchester City ,MCI,1880,13,13,Pep,Guardiola,53,13,Diego,Carlos,3,30,2
+14,Manchester United,MUN,1902,14,14,Erik,Ten Hag,54,14,Alex,Moreno,15,26,2
+15,Newcastle United,NEW,1892,15,15,Eddie,Howe,46,15,Douglas,Luiz,6,23,2
+16,Nottingham Forest FC,NFO,1865,16,16,Steve,Cooper,44,16,John,McGinn,7,29,2
+17,Sheffield United,SHU,1889,17,17,Chris,Wilder,56,17,Moussa,Diaby,19,31,2
+18,Tottenham Hotspur,TOT,1882,18,18,Ange,Postecoglou,57,18,Leon,Bailey,31,19,2
+19,West Ham United,WHU,1895,19,19,David ,Moyes,60,19,Jacob,Ramsey,41,20,2
+20,Wolverhampton Wanderers,WOL,1877,20,20,Gary,O'Neil,40,20,Ollie,Watkins,11,31,2
+,,,,,,,,,21,Ryan,Fredericks,2,21,3
+,,,,,,,,,22,Milos,Kerkez,3,21,3
+,,,,,,,,,23,Marcos,Senesi,25,19,3
+,,,,,,,,,24,Max,Aarons,37,24,3
+,,,,,,,,,25,Lewis,Cook,4,33,3
+,,,,,,,,,26,Alex,Scott,14,27,3
+,,,,,,,,,27,Marcus,Tavernier,16,24,3
+,,,,,,,,,28,Tyler,Adams,18,18,3
+,,,,,,,,,29,Phillip,Billing,29,28,3
+,,,,,,,,,30,Dominic,Solanke,9,18,3
+,,,,,,,,,31,Aaron,Hickey,2,32,4
+,,,,,,,,,32,Rico,Henry,3,21,4
+,,,,,,,,,33,Mark,Flekken,1,18,4
+,,,,,,,,,34,Christian,Norgaard,6,26,4
+,,,,,,,,,35,Mathias,Jensen,8,30,4
+,,,,,,,,,36,Yoane,Wissa,11,30,4
+,,,,,,,,,37,Frank,Onyeka,15,30,4
+,,,,,,,,,38,Ivan,Toney,17,32,4
+,,,,,,,,,39,Bryan ,Mbeumo,19,29,4
+,,,,,,,,,40,Neil,Maupay,7,35,4
+,,,,,,,,,41,Bart,Verbruggen,1,32,5
+,,,,,,,,,42,Jason,Steele,23,25,5
+,,,,,,,,,43,Tariq,Lamptey,2,22,5
+,,,,,,,,,44,Adam,Webster,4,19,5
+,,,,,,,,,45,Lewis,Dunk,5,30,5
+,,,,,,,,,46,Pervis,Estupinan,30,34,5
+,,,,,,,,,47,Kaoru,Mitoma,22,24,5
+,,,,,,,,,48,Joao,Pedro,9,33,5
+,,,,,,,,,49,Julio,Enciso,10,24,5
+,,,,,,,,,50,Danny,Welbeck,18,32,5
+,,,,,,,,,51,James,Trafford,1,25,6
+,,,,,,,,,52,Dara,O'Shea,2,18,6
+,,,,,,,,,53,Charlie,Taylor,3,19,6
+,,,,,,,,,54,Jack,Cork,4,25,6
+,,,,,,,,,55,Josh,Brownhill,8,21,6
+,,,,,,,,,56,Sander,Berge,16,27,6
+,,,,,,,,,57,Aaron,Ramsey,21,29,6
+,,,,,,,,,58,Josh,Cullen,24,32,6
+,,,,,,,,,59,Ameen,Al-Dakhil,28,21,6
+,,,,,,,,,60,Lyle,Foster,17,25,6
+,,,,,,,,,61,Robert,Sanchez,1,26,7
+,,,,,,,,,62,Djordje,Petrovic,28,28,7
+,,,,,,,,,63,Axel,Disasi,2,31,7
+,,,,,,,,,64,Marc,Cucurella,3,18,7
+,,,,,,,,,65,Thiago,Silva,6,33,7
+,,,,,,,,,66,Ben,Chilwell,21,21,7
+,,,,,,,,,67,Levi,Colwill,26,34,7
+,,,,,,,,,68,Malo,Gusto,27,18,7
+,,,,,,,,,69,Moises,Caicedo,25,24,7
+,,,,,,,,,70,Cole,Palmer,20,35,7
+,,,,,,,,,71,Sam,Johnstone,1,29,8
+,,,,,,,,,72,Dean,Henderson,30,21,8
+,,,,,,,,,73,Joel,Ward,2,32,8
+,,,,,,,,,74,Tyrick,Mitchell,3,25,8
+,,,,,,,,,75,Rob,Holding,4,28,8
+,,,,,,,,,76,Joachim,Andersen,16,20,8
+,,,,,,,,,77,Michael,Olise,7,19,8
+,,,,,,,,,78,Jefferson,Lerma,8,29,8
+,,,,,,,,,79,Eberechi,Eze,10,19,8
+,,,,,,,,,80,Jordan,Ayew,9,21,8
+,,,,,,,,,81,Jordan,Pickford,1,19,9
+,,,,,,,,,82,Nathan,Patterson,2,31,9
+,,,,,,,,,83,James,Tarkowski,6,29,9
+,,,,,,,,,84,Jarrad,Branthwaite,32,24,9
+,,,,,,,,,85,Amadou,Onana,8,20,9
+,,,,,,,,,86,James,Garner,37,27,9
+,,,,,,,,,87,Dwight,McNeil,7,34,9
+,,,,,,,,,88,Dominic,Calvert-Lewin,9,19,9
+,,,,,,,,,89,Lewis,Dobbin,61,22,9
+,,,,,,,,,90,Dele,Alli,20,19,9
+,,,,,,,,,91,Bernd,Leno,17,23,10
+,,,,,,,,,92,Calvin,Bassey,3,31,10
+,,,,,,,,,93,Tim,Ream,13,20,10
+,,,,,,,,,94,Timothy,Castagne,21,28,10
+,,,,,,,,,95,Issa,Diop,31,24,10
+,,,,,,,,,96,Harrison ,Reed,6,22,10
+,,,,,,,,,97,Joao,Palhinha,26,35,10
+,,,,,,,,,98,Raul,Jimenez,7,34,10
+,,,,,,,,,99,Rodrigo,Muniz,19,20,10
+,,,,,,,,,100,Adama,Traore,11,22,10
+,,,,,,,,,101,Alisson,Becker,1,32,11
+,,,,,,,,,102,Joe,Gomez,2,24,11
+,,,,,,,,,103,Virgil,van Dijk,4,20,11
+,,,,,,,,,104,Ibrahima,Konate,5,25,11
+,,,,,,,,,105,Kostas,Tsimikas,21,19,11
+,,,,,,,,,106,Dominik,Szoboszlai,8,29,11
+,,,,,,,,,107,Harvey,Elliott,19,30,11
+,,,,,,,,,108,Luis ,Diaz,7,25,11
+,,,,,,,,,109,Darwin,Nunez,9,27,11
+,,,,,,,,,110,Mo,Salah,11,24,11
+,,,,,,,,,111,James,Shea,1,20,12
+,,,,,,,,,112,Thomas,Kaminski,24,23,12
+,,,,,,,,,113,Tom,Lockyer,4,30,12
+,,,,,,,,,114,Issa,Kabore,12,34,12
+,,,,,,,,,115,Teden,Mengi,15,22,12
+,,,,,,,,,116,Alfie,Doughty,45,26,12
+,,,,,,,,,117,Ross,Barkley,6,34,12
+,,,,,,,,,118,Elijah,Adebayo,11,31,12
+,,,,,,,,,119,John,McAtee,21,29,12
+,,,,,,,,,120,Jordan,Clark,18,27,12
+,,,,,,,,,121,Manuel,Akanji,25,31,13
+,,,,,,,,,122,Nathan,Ake,6,32,13
+,,,,,,,,,123,Joao,Cancelo,7,30,13
+,,,,,,,,,124,Ruben,Dias,3,26,13
+,,,,,,,,,125,Sergio,Gomez,21,29,13
+,,,,,,,,,126,Josko,Gvardiol,24,18,13
+,,,,,,,,,127,Kevin,De Bruyne,17,28,13
+,,,,,,,,,128,Phil,Foden,47,32,13
+,,,,,,,,,129,Jeremy,Doku,11,26,13
+,,,,,,,,,130,Erling,Haaland,9,22,13
+,,,,,,,,,131,Andre,Onana,24,34,14
+,,,,,,,,,132,Luke,Shaw,23,29,14
+,,,,,,,,,133,Diogo ,Dalot,20,21,14
+,,,,,,,,,134,Bruno,Fernandes,8,34,14
+,,,,,,,,,135,Marcus,Rashford,10,27,14
+,,,,,,,,,136,Alejandro,Garnacho,17,23,14
+,,,,,,,,,137,Rasmus,Hojlund,11,23,14
+,,,,,,,,,138,Anthony,Martial,9,30,14
+,,,,,,,,,139,Mason,Mount,7,22,14
+,,,,,,,,,140,Harry,Maguire,5,20,14
+,,,,,,,,,141,Martin,Dubravka,1,30,15
+,,,,,,,,,142,Nick,Pope,22,24,15
+,,,,,,,,,143,Sven,Botman,4,18,15
+,,,,,,,,,144,Dan,Burn,33,25,15
+,,,,,,,,,145,Lewis,Hall,20,26,15
+,,,,,,,,,146,Jamaal,Lascelles,6,24,15
+,,,,,,,,,147,Tino,Livramento,21,24,15
+,,,,,,,,,148,Fabian,Schar,5,24,15
+,,,,,,,,,149,Kieran,Trippier,2,28,15
+,,,,,,,,,150,Miguel,Almiron,24,29,15
+,,,,,,,,,151,Matt,Turner,1,26,16
+,,,,,,,,,152,Neco,Williams,7,32,16
+,,,,,,,,,153,Harry,Toffolo,15,32,16
+,,,,,,,,,154,Morgan,Gibbs-White,10,35,16
+,,,,,,,,,155,Giovanni,Reyna,20,29,16
+,,,,,,,,,156,Ryan,Yates,22,34,16
+,,,,,,,,,157,Taiwo,Awoniyi,9,22,16
+,,,,,,,,,158,Chris,Wood,11,33,16
+,,,,,,,,,159,Callum,Hudson-Odoi,14,25,16
+,,,,,,,,,160,Anthony,Elanga,21,19,16
+,,,,,,,,,161,Wes,Foderingham,18,24,17
+,,,,,,,,,162,Ivo,Grbic,13,22,17
+,,,,,,,,,163,George,Baldock,2,23,17
+,,,,,,,,,164,Max,Lowe,3,23,17
+,,,,,,,,,165,Auston,Trusty,5,22,17
+,,,,,,,,,166,Chris,Basham,6,22,17
+,,,,,,,,,167,Jayden,Bogle,20,27,17
+,,,,,,,,,168,Mason,Holgate,30,20,17
+,,,,,,,,,169,Gustavo,Hamer,8,25,17
+,,,,,,,,,170,Cameron,Archer,10,23,17
+,,,,,,,,,171,Oliver,Skipp,4,28,18
+,,,,,,,,,172,Pierre-Emile,Hojbjerg,5,22,18
+,,,,,,,,,173,Radu,Dragusin,6,27,18
+,,,,,,,,,174,Heung-Min,Son,7,21,18
+,,,,,,,,,175,Yves,Bissouma,8,22,18
+,,,,,,,,,176,James,Maddison,10,20,18
+,,,,,,,,,177,Guglielmo,Vicario,13,19,18
+,,,,,,,,,178,Emerson,Royal,12,18,18
+,,,,,,,,,179,Timo,Werner,16,25,18
+,,,,,,,,,180,Christian,Romero,17,29,18
+,,,,,,,,,181,Michail,Antonio,9,30,19
+,,,,,,,,,182,Tomas,Soucek,28,24,19
+,,,,,,,,,183,Alphonse,Areola,23,30,19
+,,,,,,,,,184,Ben,Johnson,2,23,19
+,,,,,,,,,185,Nayef,Aguerd,27,33,19
+,,,,,,,,,186,James,Ward-Prowse,7,19,19
+,,,,,,,,,187,Lucas,Paqueta,10,34,19
+,,,,,,,,,188,Kalvin,Phillips,11,20,19
+,,,,,,,,,189,Mohammed,Kudus,14,30,19
+,,,,,,,,,190,Jarrod ,Bowen,20,26,19
+,,,,,,,,,191,Jose,Sa,1,28,20
+,,,,,,,,,192,Matt,Doherty,2,18,20
+,,,,,,,,,193,Rayan,Ait-Nouri,3,23,20
+,,,,,,,,,194,Craig,Dawson,15,22,20
+,,,,,,,,,195,Nelson,Semedo,22,19,20
+,,,,,,,,,196,Mario,Lemina,5,27,20
+,,,,,,,,,197,Tommy,Doyle,20,35,20
+,,,,,,,,,198,Pedro,Neto,7,24,20
+,,,,,,,,,199,Matheus,Cunha,12,22,20
+,,,,,,,,,200,Pablo,Sarabia,21,20,20
