@@ -1,1 +1,217 @@
-CSV
+Team.Team_ID,Team.Team_Name,Team.Team_Abbreviation,Team.Manager_ID,Team.Year_Founded,Team.Team_ID3,Manager.First_Name,Manager.Last_Name,Manager.Age,Player.Player_ID,Player.First_Name,Player.Last_Name,Player.Team_ID,Player.Age,Player.Shirt_Number
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,1,Florian,Wirtz,1,20,10
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,2,Jeremie,Frimpong,1,23,30
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,3,Exequiel,Palacios,1,25,25
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,4,Edmond,Tapsoba,1,25,12
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,5,Victor,Boniface,1,23,22
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,6,Alejandro,Grimaldo,1,28,20
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,7,Odilon,Kossounou,1,23,6
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,8,Piero,Hincapie,1,22,3
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,9,Jonathan,Tah,1,28,4
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,10,Amine,Adli,1,23,21
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,11,Nathan,Tella,1,24,19
+1,Bayer Leverkusen,B04,1,1904,1,Xabi,Alonso,42,12,Patrik,Schick,1,28,14
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,13,Harry,Kane,2,30,9
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,14,Jamal,Musiala,2,21,42
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,15,Leroy,Sane,2,28,10
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,16,Joshua,Kimmich,2,29,6
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,17,Alphonso,Davies,2,23,19
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,18,Kingsley,Coman,2,27,11
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,19,Matthijs,De Ligt,2,24,4
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,20,Dayot,Upamecano,2,25,2
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,21,Min-jae,Kim,2,27,3
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,22,Mathys,Tel,2,18,39
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,23,Serge,Gnabry,2,28,7
+2,Bayern Munich,BAY,2,1900,2,Thomas,Tuchel,50,24,Leon,Goretzka,2,29,8
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,25,Julian,Brandt,3,27,19
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,26,Gregor,Kobel,3,26,1
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,27,Donyell,Malen,3,25,21
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,28,Nico,Schlotterbeck,3,24,4
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,29,Youssoufa,Moukoko,3,19,18
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,30,Karim,Adeyemi,3,22,27
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,31,Jamie,Bynoe-Gittens,3,19,43
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,32,Jadon,Sancho,3,23,10
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,33,Felix,Nmecha,3,23,8
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,34,Niklas,Sule,3,28,25
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,35,Marcel,Sabitzer,3,29,20
+3,Borussia Dortmund,DOR,3,1909,3,Edin,Terzic,41,36,Ian,Maatsen,3,22,22
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,37,Manu,Kone,4,22,17
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,38,Ko,Itakura,4,27,3
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,39,Nico,Elvedi,4,27,30
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,40,Maximilian,Wober,4,26,39
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,41,Franck,Honorat,4,27,9
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,42,Joe,Scally,4,21,29
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,43,Tomas,Cvancara,4,23,31
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,44,Julian,Weigl,4,28,8
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,45,Rocco,Reitz,4,21,27
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,46,Luca,Netz,4,20,20
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,47,Jonas,Omlin,4,30,1
+4,Borussia Monchengladbach,BMG,4,1900,4,Gerardo,Seoane,45,48,Florian,Neuhaus,4,27,10
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,49,Dejan,Ljubicic,5,26,7
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,50,Jeff,Chabot,5,26,24
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,51,Eric,Martel,5,21,6
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,52,Timo,Hubers,5,27,4
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,53,Marvin,Schwabe,5,28,1
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,54,Jan,Thielmann,5,21,29
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,55,Linton,Maina,5,24,37
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,56,Florian,Kainz,5,31,11
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,57,Denis,Huseinbasic,5,22,8
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,58,Davie,Selke,5,29,27
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,59,Luca,Waldschmidt,5,27,9
+5,1. FC Koln,CGN,5,1948,5,Timo,Schultz,46,60,Rasmus,Carstensen,5,23,18
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,61,Marvin,Mehlem,6,26,6
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,62,Christoph,Klarer,6,23,14
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,63,Matthias,Bader,6,26,26
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,64,Fabian,Nurnberger,6,24,15
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,65,Bartol,Franjic,6,24,28
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,66,Gerrit,Holtmann,6,28,25
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,67,Tim,Skarke,6,27,27
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,68,Matej,Maglica,6,25,5
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,69,Oscar,Vihelmsson,6,20,29
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,70,Clemens,Riedel,6,20,38
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,71,Fraser,Hornby,6,24,9
+6,Darmstadt 98,DAR,6,1898,6,Torsten,Lieberknecht,50,72,Luca,Pfeiffer,6,27,24
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,73,Hugo,Larsson,7,19,16
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,74,Willian,Pacho,7,22,3
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,75,Robin,Koch,7,27,4
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,76,Omar,Marmoush,7,25,7
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,77,Lucas,Melo,7,24,35
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,78,Hugo,Ekitike,7,21,11
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,79,Fares,Chaibi,7,21,8
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,80,Junior,Dina Ebimbe,7,23,26
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,81,Ellyes,Skhiri,7,28,15
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,82,Sasa,Kalajdzic,7,26,9
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,83,Donny,van de Beek,7,26,25
+7,Eintracht Frankfurt,SGE,7,1899,7,Dino,Toppmoller,43,84,Aurelio,Buta,7,27,24
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,85,Ermedin,Demirovic,8,25,9
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,86,Arne,Engels,8,20,27
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,87,Niklas,Dorsch,8,26,30
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,88,Felix,Uduokhai,8,26,19
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,89,Rubén,Vargas,8,25,16
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,90,Dion,Beljo,8,22,7
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,91,Pep,Biel,8,27,11
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,92,Kristijan,Jakic,8,26,17
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,93,Iago,Borduchi,8,26,22
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,94,Finn,Dahmen,8,25,1
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,95,Arne,Maier,8,25,10
+8,FC Augsburg,AUG,8,1907,8,Jess,Thorup,54,96,Phillip,Tietz,8,26,21
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,97,Philipp,Lienhart,9,27,3
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,98,Ritsu,Doan,9,25,42
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,99,Kiliann,Sildillia,9,21,25
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,100,Matthias,Ginter,9,30,28
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,101,Vincenzo,Grifo,9,30,32
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,102,Roland,Sallai,9,26,22
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,103,Maximilian,Eggstein,9,27,8
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,104,Attila,Szalai,9,26,6
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,105,Michael,Gregoritsch,9,29,38
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,106,Junior,Adamu,9,22,20
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,107,Noah,Weisshaupt,9,22,7
+9,SC Freiburg,SCF,9,1904,9,Christian,Streich,58,108,Noah,Atubolu,9,21,1
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,109,Jan-Niklas,Beste,10,25,37
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,110,Eren,Dinkci,10,22,8
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,111,Tim,Kleindienst,10,28,10
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,112,Lennard,Maloney,10,24,33
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,113,Patrick,Mainka,10,29,6
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,114,Tim,Siersleben,10,24,4
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,115,Marvin,Pieringer,10,24,18
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,116,Benedikt,Gimber,10,27,5
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,117,Marnon,Busch,10,29,2
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,118,Jonas,Fohrenbach,10,28,19
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,119,Omar,Traore,10,26,23
+10,1. FC Heidenheim,HEI,10,1911,10,Frank,Schmidt,50,120,Jan,Schoppner,10,24,3
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,121,Anton,Stach,11,25,16
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,122,Ozan,Kabak,11,23,5
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,123,Mergim,Berisha,11,25,7
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,124,Maximilian,Beier,11,21,14
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,125,Wout,Weghorst,11,31,10
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,126,David,Jurasek,11,23,19
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,127,Grischa,Promel,11,29,6
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,128,Florian,Grillitsch,11,28,11
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,129,Robert,Skov,11,27,29
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,130,Andrej,Kramaric,11,32,27
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,131,Oliver,Baumann,11,33,1
+11,TSG Hoffenheim,TSG,11,1899,11,Pellegrino,Matarazzo,46,132,Ihlas,Bebou,11,29,9
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,133,Leandro,Barreiro,12,24,8
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,134,Brajan,Gruda,12,19,43
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,135,Andreas,Hanche-Olsen,12,27,25
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,136,Ludovic,Ajorque,12,30,17
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,137,Jonathan,Burkardt,12,23,29
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,138,Anthony,Caci,12,26,19
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,139,Edimilson,Fernandes,12,27,20
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,140,Tom,Krauss,12,22,14
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,141,Robin,Zentner,12,29,27
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,142,Sepp,van den Berg,12,22,3
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,143,Nelson,Weiper,12,18,44
+12,Mainz 05,MAI,12,1905,12,Bo,Henriksen,49,144,Nadiem,Amiri,12,27,18
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,145,Xavi,Simons,13,20,20
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,146,Lois,Openda,13,24,17
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,147,Dani,Olmo,13,25,7
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,148,Castello,Lukeba,13,21,23
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,149,Mohamed,Simakan,13,23,2
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,150,Benjamin,Sesko,13,20,30
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,151,Xaver,Schlager,13,26,24
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,152,Christoph,Baumgartner,13,24,14
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,153,Eljif,Elmas,13,24,6
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,154,Benjamin,Henrichs,13,27,39
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,155,Nicolas,Seiwald,13,22,13
+13,RB Leipzig,RBL,13,2009,13,Marco,Rose,47,156,David,Raum,13,25,22
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,157,Danilho,Doekhi,14,25,5
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,158,Robin,Gosens,14,29,6
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,159,Diogo,Leite,14,25,4
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,160,Brenden,Aaronson,14,23,7
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,161,Aissa,Laidouni,14,27,20
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,162,Josip,Juranovic,14,28,18
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,163,Rani,Khedira,14,30,8
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,164,Alex,Kral,14,25,33
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,165,Lucas,Tousart,14,26,29
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,166,Frederik,Ronnow,14,31,1
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,167,Kevin,Volland,14,31,10
+14,Union Berlin,UNB,14,1966,14,Nenad,Bjelica,52,168,Robin,Knoche,14,31,31
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,169,Serhou,Guirassy,15,28,9
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,170,Enzo,Millot,15,21,8
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,171,Hiroki,Ito,15,24,21
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,172,Chris,Fuhrich,15,26,27
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,173,Deniz,Undav,15,27,26
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,174,Mahmoud,Dahoud,15,28,5
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,175,Angelo,Stiller,15,22,6
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,176,Waldemar,Anton,15,27,2
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,177,Alexander,Nubel,15,27,33
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,178,Dan-Axel,Zagadou,15,24,23
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,179,Atakan,Karazor,15,27,16
+15,VfB Stuttgart,STU,15,1893,15,Sebastian,Hoeness,41,180,Josha,Vagnoman,15,23,4
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,181,Erhan,Masovic,16,25,4
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,182,Patrick,Osterhage,16,24,6
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,183,Takuma,Asano,16,29,11
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,184,Matus,Bero,16,28,19
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,185,Keven,Schlotterbeck,16,26,31
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,186,Kevin,Stoger,16,30,7
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,187,Ivan,Ordets,16,31,20
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,188,Philipp,Hofmann,16,30,33
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,189,Philipp,Forster,16,29,10
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,190,Christopher,Antwi-Adjei,16,30,22
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,191,Maximilian,Wittek,16,28,32
+16,VfL Bochum,BOC,16,1848,16,Thomas,Letsch,55,192,Goncalo,Paciencia,16,29,9
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,193,Lovro,Majer,17,26,19
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,194,Jonas,Wind,17,25,23
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,195,Maxence,Lacroix,17,23,4
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,196,Mattias,Svanberg,17,25,32
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,197,Patrick,Wimmer,17,22,39
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,198,Joakim,Maehle,17,26,21
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,199,Aster,Vranckx,17,21,6
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,200,Maximilian,Arnold,17,29,27
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,201,Ridle,Baku,17,25,20
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,202,Jakub,Kaminski,17,21,16
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,203,Lukas,Nmecha,17,25,10
+17,VfL Wolfsburg,WOB,17,1945,17,Niko,Kovac,52,204,Koen,Casteels,17,31,1
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,205,Marvin,Ducksch,18,30,7
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,206,Romano,Schmid,18,24,20
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,207,Mitchell,Weiser,18,29,8
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,208,Jens,Stage,18,27,6
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,209,Naby,Keita,18,29,18
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,210,Oliver,Deman,18,23,2
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,211,Marco,Friedl,18,26,32
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,212,Niklas,Stark,18,28,4
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,213,Amos,Pieper,18,26,5
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,214,Milos,Veljkovic,18,28,13
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,215,Skelly,Alvero,18,21,28
+18,Werder Bremen,SVW,18,1899,18,Ole,Werner,35,216,Senne,Lynen,18,25,14
