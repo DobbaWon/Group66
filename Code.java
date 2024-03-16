@@ -1,4 +1,9 @@
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.Driver;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -10,9 +15,8 @@ public class Code {
     private static class CharlieReader {
         public CharlieReader() {
             String databaseName = "CharlieDB";
-            Connection connection = createConnection();
+            Connection connection = createDatabase(databaseName);
 
-            createDatabase(connection, databaseName);
             createTables(connection);
         }
 
@@ -35,9 +39,8 @@ public class Code {
     private static class JoeReader {
         public JoeReader() {
             String databaseName = "JoeDB";
-            Connection connection = createConnection();
+            Connection connection = createDatabase(databaseName);
 
-            createDatabase(connection, databaseName);
             createTables(connection);
         }
 
@@ -84,9 +87,7 @@ public class Code {
     private static class KaweeshaReader {
         public KaweeshaReader() {
             String databaseName = "KaweeshaDB";
-            Connection connection = createConnection();
-
-            createDatabase(connection, databaseName);
+            Connection connection = createDatabase(databaseName);
         }
 
         private void createTables() {
@@ -94,22 +95,13 @@ public class Code {
         }
     }
 
-    public static Connection createConnection() {
+    public static Connection createDatabase(String databaseName) {
         String jdbcUrl = "jdbc:mysql://localhost:3306/";
-        Connection connection = null;
 
-        try {
-            connection = DriverManager.getConnection(jdbcUrl);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        return connection;
-    }
-
-    public static void createDatabase(Connection connection, String databaseName) {
-        try {
-            Statement statement = connection.createStatement();
+        try (
+            Connection connection = DriverManager.getConnection(jdbcUrl);
+            Statement statement = connection.createStatement()
+        ) {
             String createDatabase = "CREATE DATABASE IF NOT EXISTS " + databaseName;
             statement.executeUpdate(createDatabase);
             System.out.println("Database '" + databaseName + "' created successfully.");
@@ -117,8 +109,10 @@ public class Code {
             String useDatabase = "USE " + databaseName;
             statement.executeUpdate(useDatabase);
             System.out.println("Database '" + databaseName + "' is now in use.");
+            return connection;
         } catch (SQLException e) {
             e.printStackTrace();
+            return null;
         }
     }
 
