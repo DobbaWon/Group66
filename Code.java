@@ -18,6 +18,9 @@ public class Code {
             Connection connection = createDatabase(databaseName);
 
             createTables(connection);
+            String[][] csv = extractCSV();
+            populateTables(csv, connection);
+            runQueries(connection);
         }
 
         private void createTables(Connection connection) {
@@ -33,6 +36,20 @@ public class Code {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+        }
+
+        
+        private void populateTables(String[][] csv, Connection connection){
+
+        }
+
+        private void runQueries(Connection connection){
+            Statement statement = connection.createStatement();
+            
+            String averageAge;
+            String managersByAge;
+            String deleteArsenalManager;
+            String youngestTwenty;
         }
     }
 
@@ -115,6 +132,46 @@ public class Code {
             return null;
         }
     }
+
+    public static String[][] extractCSV(){
+        String filename = "38700514.csv";
+        try (BufferedReader br = new BufferedReader(new FileReader(fileName)))
+        {
+            String line;
+            List<String[]> allRows = new ArrayList<>();
+
+            // Read each line from the CSV file
+            while ((line = br.readLine()) != null) {
+                // Split the line into an array of values using a comma as the delimiter
+                String[] row = line.split(",");
+                allRows.add(row);
+            }
+
+            // Assuming the first row contains column headers
+            String[] headers = allRows.get(0);
+
+            // Create arrays for each column dynamically
+            int numColumns = headers.length;
+            String[][] dataArrays = new String[numColumns][];
+
+            // Initialize arrays
+            for (int i = 0; i < numColumns; i++) {
+                dataArrays[i] = new String[allRows.size()];
+            }
+            System.out.println(allRows.size());
+            System.out.println(numColumns);
+
+            // Populate arrays with data
+            for (int i = 1; i < allRows.size()-1; i++) {
+                String[] row = allRows.get(i);
+                for (int j = 0; j < numColumns; j++) {
+                    dataArrays[j][i - 1] = row[j];
+                }
+            }
+        }
+        return dataArrays; 
+    }
+
 
     public static void main(String[] args) {
         CharlieReader charlie = new CharlieReader();
