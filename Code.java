@@ -66,7 +66,9 @@ public class Code {
             Connection connection = createDatabase(databaseName);
 
             createTables(connection);
+
             String[][] data = extractCSV(csvName);
+            populateTables(data, connection);
 
             try {
                 connection.close();
@@ -109,6 +111,22 @@ public class Code {
                 statement.executeUpdate(createPlayerTable);
 
                 System.out.println("Tables created successfully.");
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+        private void populateTables(String[][] csv, Connection connection) {
+            try {
+                Statement statement = connection.createStatement();
+
+                for (int i = 0; i < csv[0].length; i++) {
+                    String insertManager =  "INSERT IGNORE INTO Manager (" +
+                                            "Manager_ID, First_Name, Last_Name, Age) " +
+                                            "VALUES (" +
+                                            csv[0][i] + ", '" + csv[1][i] + "', '" + csv[2][i] + "', " + csv[3][i] + ")";
+                    statement.executeUpdate(insertManager);
+                }
             } catch (SQLException e) {
                 e.printStackTrace();
             }
