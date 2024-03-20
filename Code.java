@@ -159,11 +159,34 @@ public class Code {
 
                 String deletionA =  "DELETE FROM Manager " +
                                     "WHERE Manager_ID = 1";
-                statement.executeUpdate(deletionA);
 
+                try {
+                    statement.executeUpdate(deletionA);
+                } catch (SQLException e) {
+                    if (e.getErrorCode() == 1451) {
+                        System.out.println("Deletion query A failed: Foreign Key constraint violated.");
+                    } else {
+                        e.printStackTrace();
+                    }
+                }
+                
                 String deletionB =  "DELETE FROM Team " +
                                     "WHERE Team_ID = 1";
-                statement.executeUpdate(deletionB);
+
+                try {
+                    statement.executeUpdate(deletionB);
+                } catch (SQLException e) {
+                    if (e.getErrorCode() == 1451) {
+                        System.out.println("Deletion query B failed: Foreign Key constraint violated.");
+                    } else {
+                        e.printStackTrace();
+                    }
+                }
+
+                String groupByA =   "SELECT SUM(Age) " +
+                                    "FROM Player WHERE Team_ID = 1 " +
+                                    "GROUP BY Team_ID";
+                statement.executeUpdate(groupByA);
             } catch (SQLException e) {
                 e.printStackTrace();
             }
