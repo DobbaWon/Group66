@@ -68,7 +68,9 @@ public class Code {
             createTables(connection);
 
             String[][] data = extractCSV(csvName);
-            populateTables(data, connection);
+            populateTables(data, connection, databaseName);
+
+            dmlQueries(connection);
 
             try {
                 connection.close();
@@ -116,7 +118,7 @@ public class Code {
             }
         }
 
-        private void populateTables(String[][] csv, Connection connection) {
+        private void populateTables(String[][] csv, Connection connection, String databaseName) {
             try {
                 Statement statement = connection.createStatement();
 
@@ -144,6 +146,24 @@ public class Code {
                     statement.executeUpdate(insertPlayer);
                 }
 
+                System.out.println("Tables for database '" + databaseName + "' populated.");
+
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+        private void dmlQueries(Connection connection) {
+            try {
+                Statement statement = connection.createStatement();
+
+                String deletionA =  "DELETE FROM Manager " +
+                                    "WHERE Manager_ID = 1";
+                statement.executeUpdate(deletionA);
+
+                String deletionB =  "DELETE FROM Team " +
+                                    "WHERE Team_ID = 1";
+                statement.executeUpdate(deletionB);
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -195,7 +215,7 @@ public class Code {
 
             String useDatabase = "USE " + databaseName;
             statement.executeUpdate(useDatabase);
-            System.out.println("Database '" + databaseName + "' is now in use.");
+
             return connection;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -226,8 +246,8 @@ public class Code {
             for (int i = 0; i < numColumns; i++) {
                 dataArrays[i] = new String[allRows.size()];
             }
-            System.out.println(allRows.size());
-            System.out.println(numColumns);
+            // System.out.println(allRows.size());
+            // System.out.println(numColumns);
 
             // Populate arrays with data
             for (int i = 1; i < allRows.size(); i++) {
