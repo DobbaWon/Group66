@@ -1,6 +1,7 @@
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -183,10 +184,23 @@ public class Code {
                     }
                 }
 
-                String groupByA =   "SELECT SUM(Age) " +
-                                    "FROM Player WHERE Team_ID = 1 " +
-                                    "GROUP BY Team_ID";
-                statement.executeUpdate(groupByA);
+                String groupByA =   "SELECT First_Name, Last_Name, Shirt_Number " +
+                                    "FROM Player " +
+                                    "WHERE Team.Team_ID = 1 AND Shirt_Number < 10 " +
+                                    "GROUP BY First_Name, Last_Name, Shirt_Number";
+                
+                try (
+                    ResultSet resultSetA = statement.executeQuery(groupByA);
+                ) {
+                    System.out.println("Players who play for Team_ID = 1 with shirt numbers less than 10:");
+
+                    while (resultSetA.next()) {
+                        String firstName = resultSetA.getString("First_Name");
+                        String lastName = resultSetA.getString("Last_Name");
+                        int shirtNumber = resultSetA.getInt("Shirt_Number");
+                        System.out.println(firstName + " " + lastName + ", Shirt Number: " + shirtNumber);
+                }
+                }
             } catch (SQLException e) {
                 e.printStackTrace();
             }
