@@ -65,6 +65,12 @@ public class Code {
             Connection connection = createDatabase(databaseName);
 
             createTables(connection);
+
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
 
         private void createTables(Connection connection) {
@@ -146,10 +152,10 @@ public class Code {
     public static Connection createDatabase(String databaseName) {
         String jdbcUrl = "jdbc:mysql://localhost:3306/";
 
-        try (
+        try {
             Connection connection = DriverManager.getConnection(jdbcUrl);
-            Statement statement = connection.createStatement()
-        ) {
+            Statement statement = connection.createStatement();
+
             String createDatabase = "CREATE DATABASE IF NOT EXISTS " + databaseName;
             statement.executeUpdate(createDatabase);
             System.out.println("Database '" + databaseName + "' created successfully.");
