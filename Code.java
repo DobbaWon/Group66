@@ -5,6 +5,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.ConnectException;
@@ -18,7 +19,7 @@ public class Code {
             Connection connection = createDatabase(databaseName);
 
             createTables(connection);
-            String[][] csv = extractCSV();
+            String[][] csv = extractCSV("test");
             populateTables(csv, connection);
             runQueries(connection);
         }
@@ -44,7 +45,12 @@ public class Code {
         }
 
         private void runQueries(Connection connection){
-            Statement statement = connection.createStatement();
+            try {
+                Statement statement = connection.createStatement();
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            }
             
             String averageAge;
             String managersByAge;
@@ -65,34 +71,37 @@ public class Code {
             try {
                 Statement statement = connection.createStatement();
 
-                String createManagerTable = "CREATE TABLE IF NOT EXISTS Manager ( " +
+                String createManagerTable = "CREATE TABLE Manager ( " +
                                             "Manager_ID INTEGER NOT NULL, " +
-                                            "First_Name TINYTEXT NOT NULL, " +
-                                            "Last_Name TINYTEXT, " +
+                                            "First_Name VARCHAR(50), " +
+                                            "Last_Name VARCHAR(50), " +
                                             "Age INTEGER, " +
                                             "PRIMARY KEY (Manager_ID) );";
                 statement.executeUpdate(createManagerTable);
+                System.out.println("Manager table created.");
 
-                String createTeamTable =    "CREATE TABLE IF NOT EXISTS Team ( " +
+                String createTeamTable =    "CREATE TABLE Team ( " +
                                             "Team_ID INTEGER NOT NULL, " +
-                                            "Team_Name TINYTEXT NOT NULL, " +
+                                            "Team_Name VARCHAR(100), " +
                                             "Team_Abbreviation VARCHAR(5), " +
                                             "Manager_ID INTEGER NOT NULL, " +
                                             "Year_Founded INTEGER, " +
                                             "PRIMARY KEY (Team_ID), " +
                                             "FOREIGN KEY (Manager_ID) REFERENCES Manager(Manager_ID) );";
                 statement.executeUpdate(createTeamTable);
+                System.out.println("Team table created.");
 
-                String createPlayerTable =  "CREATE TABLE IF NOT EXISTS Player ( " +
+                String createPlayerTable =  "CREATE TABLE Player ( " +
                                             "Player_ID INTEGER NOT NULL, " +
-                                            "First_Name TINYTEXT NOT NULL, " +
-                                            "Last_Name TINYTEXT, " +
+                                            "First_Name VARCHAR(50), " +
+                                            "Last_Name VARCHAR(50), " +
                                             "Team_ID INTEGER NOT NULL, " +
                                             "Age INTEGER, " +
                                             "Shirt_Number INTEGER, " +
                                             "PRIMARY KEY (Player_ID), " +
                                             "FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID) );";
                 statement.executeUpdate(createPlayerTable);
+                System.out.println("Player table created.");
 
                 System.out.println("Tables created successfully.");
             } catch (SQLException e) {
@@ -107,11 +116,33 @@ public class Code {
             Connection connection = createDatabase(databaseName);
         }
 
+        private Connection createDatabase(String databaseName) {
+            String jdbcUrl = "jdbc:mysql://localhost:3306/";
+    
+            try (
+                Connection connection = DriverManager.getConnection(jdbcUrl);
+                Statement statement = connection.createStatement()
+            ) {
+                String createDatabase = "CREATE DATABASE IF NOT EXISTS " + databaseName;
+                statement.executeUpdate(createDatabase);
+                System.out.println("Database '" + databaseName + "' created successfully.");
+    
+                String useDatabase = "USE " + databaseName;
+                statement.executeUpdate(useDatabase);
+                System.out.println("Database '" + databaseName + "' is now in use.");
+                return connection;
+            } catch (SQLException e) {
+                e.printStackTrace();
+                return null;
+            }
+        }
+
         private void createTables() {
 
         }
     }
 
+    
     public static Connection createDatabase(String databaseName) {
         String jdbcUrl = "jdbc:mysql://localhost:3306/";
 
@@ -133,10 +164,8 @@ public class Code {
         }
     }
 
-    public static String[][] extractCSV(){
-        String filename = "38700514.csv";
-        try (BufferedReader br = new BufferedReader(new FileReader(fileName)))
-        {
+    public static String[][] extractCSV(String filename){
+        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             String line;
             List<String[]> allRows = new ArrayList<>();
 
@@ -168,14 +197,23 @@ public class Code {
                     dataArrays[j][i - 1] = row[j];
                 }
             }
+
+            return dataArrays; 
         }
-        return dataArrays; 
+        catch (FileNotFoundException e) {
+            e.printStackTrace();
+            return null;
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
 
     public static void main(String[] args) {
-        CharlieReader charlie = new CharlieReader();
+        // CharlieReader charlie = new CharlieReader();
         JoeReader joe = new JoeReader();
-        KaweeshaReader kaweesha = new KaweeshaReader();
+        // KaweeshaReader kaweesha = new KaweeshaReader();
     }
 }
