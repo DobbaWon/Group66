@@ -62,9 +62,11 @@ public class Code {
     private static class JoeReader {
         public JoeReader() {
             String databaseName = "JoeDB";
+            String csvName = "38771225.csv";
             Connection connection = createDatabase(databaseName);
 
             createTables(connection);
+            String[][] data = extractCSV(csvName);
 
             try {
                 connection.close();
@@ -77,16 +79,15 @@ public class Code {
             try {
                 Statement statement = connection.createStatement();
 
-                String createManagerTable = "CREATE TABLE Manager ( " +
+                String createManagerTable = "CREATE TABLE IF NOT EXISTS Manager ( " +
                                             "Manager_ID INTEGER NOT NULL, " +
                                             "First_Name VARCHAR(50), " +
                                             "Last_Name VARCHAR(50), " +
                                             "Age INTEGER, " +
                                             "PRIMARY KEY (Manager_ID) );";
                 statement.executeUpdate(createManagerTable);
-                System.out.println("Manager table created.");
 
-                String createTeamTable =    "CREATE TABLE Team ( " +
+                String createTeamTable =    "CREATE TABLE IF NOT EXISTS Team ( " +
                                             "Team_ID INTEGER NOT NULL, " +
                                             "Team_Name VARCHAR(100), " +
                                             "Team_Abbreviation VARCHAR(5), " +
@@ -95,9 +96,8 @@ public class Code {
                                             "PRIMARY KEY (Team_ID), " +
                                             "FOREIGN KEY (Manager_ID) REFERENCES Manager(Manager_ID) );";
                 statement.executeUpdate(createTeamTable);
-                System.out.println("Team table created.");
 
-                String createPlayerTable =  "CREATE TABLE Player ( " +
+                String createPlayerTable =  "CREATE TABLE IF NOT EXISTS Player ( " +
                                             "Player_ID INTEGER NOT NULL, " +
                                             "First_Name VARCHAR(50), " +
                                             "Last_Name VARCHAR(50), " +
@@ -107,7 +107,6 @@ public class Code {
                                             "PRIMARY KEY (Player_ID), " +
                                             "FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID) );";
                 statement.executeUpdate(createPlayerTable);
-                System.out.println("Player table created.");
 
                 System.out.println("Tables created successfully.");
             } catch (SQLException e) {
@@ -148,7 +147,6 @@ public class Code {
         }
     }
 
-    
     public static Connection createDatabase(String databaseName) {
         String jdbcUrl = "jdbc:mysql://localhost:3306/";
 
@@ -197,7 +195,7 @@ public class Code {
             System.out.println(numColumns);
 
             // Populate arrays with data
-            for (int i = 1; i < allRows.size()-1; i++) {
+            for (int i = 1; i < allRows.size(); i++) {
                 String[] row = allRows.get(i);
                 for (int j = 0; j < numColumns; j++) {
                     dataArrays[j][i - 1] = row[j];
