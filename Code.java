@@ -147,7 +147,7 @@ public class Code {
                     statement.executeUpdate(insertPlayer);
                 }
 
-                System.out.println("Tables for database '" + databaseName + "' populated.");
+                System.out.println("Tables for database '" + databaseName + "' populated.\n");
 
             } catch (SQLException e) {
                 e.printStackTrace();
@@ -158,27 +158,29 @@ public class Code {
             try {
                 Statement statement = connection.createStatement();
 
-                String deletionA =  "DELETE * FROM Manager " +
+                String deletionA =  "DELETE FROM Manager " +
                                     "WHERE Manager_ID = 1";
 
                 try {
                     statement.executeUpdate(deletionA);
+                    System.out.println("Manager_ID = 1 has been deleted from the table 'Manager'.\n");
                 } catch (SQLException e) {
                     if (e.getErrorCode() == 1451) {
-                        System.out.println("Deletion query A failed: Foreign Key constraint violated.");
+                        System.out.println("Deletion query A failed: Foreign Key constraint violated.\n");
                     } else {
                         e.printStackTrace();
                     }
                 }
                 
-                String deletionB =  "DELETE * FROM Team " +
+                String deletionB =  "DELETE FROM Team " +
                                     "WHERE Team_ID = 1";
 
                 try {
                     statement.executeUpdate(deletionB);
+                    System.out.println("Team_ID = 1 has been deleted from the table 'Team'.\n");
                 } catch (SQLException e) {
                     if (e.getErrorCode() == 1451) {
-                        System.out.println("Deletion query B failed: Foreign Key constraint violated.");
+                        System.out.println("Deletion query B failed: Foreign Key constraint violated.\n");
                     } else {
                         e.printStackTrace();
                     }
@@ -186,7 +188,7 @@ public class Code {
 
                 String groupByA =   "SELECT First_Name, Last_Name, Shirt_Number " +
                                     "FROM Player " +
-                                    "WHERE Team.Team_ID = 1 AND Shirt_Number < 10 " +
+                                    "WHERE Team_ID = 1 AND Shirt_Number < 10 " +
                                     "GROUP BY First_Name, Last_Name, Shirt_Number";
                 
                 try (
@@ -199,7 +201,33 @@ public class Code {
                         String lastName = resultSetA.getString("Last_Name");
                         int shirtNumber = resultSetA.getInt("Shirt_Number");
                         System.out.println(firstName + " " + lastName + ", Shirt Number: " + shirtNumber);
+                    }
+
+                    System.out.println("\n");
+                } catch (SQLException e) {
+                    e.printStackTrace();
                 }
+
+                String groupByB =   "SELECT First_Name, Last_Name, Age " +
+                                    "FROM Manager " +
+                                    "WHERE Age > 50 " +
+                                    "GROUP BY First_Name, Last_Name, Age";
+
+                try (
+                    ResultSet resultSetB = statement.executeQuery(groupByB);
+                ) {
+                    System.out.println("Managers who are older than 50:");
+
+                    while (resultSetB.next()) {
+                        String firstName = resultSetB.getString("First_Name");
+                        String lastName = resultSetB.getString("Last_Name");
+                        int age = resultSetB.getInt("Age");
+                        System.out.println(firstName + " " + lastName + ", Age: " + age);
+                    }
+
+                    System.out.println("\n");
+                } catch (SQLException e) {
+                    e.printStackTrace();
                 }
             } catch (SQLException e) {
                 e.printStackTrace();
