@@ -1,248 +1,246 @@
-id,firstname,lastname,shirt_number,position,date_of_birth,country,team,team.shortname,team.foundation,Manager_First_Name,Manager_Last_Name,date_of_birth
-7,Marc,Bartra,15,Defender,1991-01-15T00:00:00+00:00,ES,Real Betis,BET,1907-09-12T00:00:00+0000,Manuel,Pellegrini,"16,11,53"
-55,Sergio,Ramos,4,Defender,1986-03-30T00:00:00+00:00,ES,Sevilla FC,SEV,1905-10-14T00:00:00+0000,Julen,Lopetegui,"28,10,66"
-58,Dani,Carvajal,2,Defender,1992-01-11T00:00:00+00:00,ES,Real Madrid,RMA,1902-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-60,José Ignacio,Fernández Iglesias,6,Defender,1990-01-18T00:00:00+00:00,ES,Real Madrid,RMA,1902-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-81,Gabriel Armando,de Abreu,4,Defender,1990-11-26T00:00:00+00:00,BR,Atlético de Madrid,ATM,1903-04-26T00:00:00+0000,Diego,Simeone,"28,04,70"
-82,Jaume,Costa,11,Defender,1988-03-18T00:00:00+00:00,ES,RCD Mallorca,MLL,1916-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-128,Alberto,Moreno,18,Defender,1992-07-05T00:00:00+00:00,ES,Villarreal CF,VIL,1923-03-10T00:00:00+0000,Marcelino,García Toral,"14,10,65"
-157,Yuri,Berchiche,17,Defender,1990-02-10T00:00:00+00:00,ES,Athletic Club,ATH,1898-12-31T00:00:00+0000,Ernesto,Valverde,"09,02,64"
-401,Óscar,De Marcos,18,Defender,1989-04-14T00:00:00+00:00,ES,Athletic Club,ATH,1898-12-31T00:00:00+0000,Ernesto,Valverde,"09,02,64"
-418,Dimitri,Foulquier,20,Defender,1993-03-23T00:00:00+00:00,GP,Valencia CF,VAL,1919-03-18T00:00:00+0000,Rubén,Baraja,"11,07,75"
-463,Juan Pedro,Ramírez López,15,Defender,1991-04-30T00:00:00+00:00,ES,Girona FC,GIR,1930-01-01T00:00:00+0000,Miguel,Ángel Sánchez Muñoz,"30,10,75"
-562,José,Giménez,2,Defender,1995-01-20T00:00:00+00:00,UY,Atlético de Madrid,ATM,1903-04-26T00:00:00+0000,Diego,Simeone,"28,04,70"
-722,José,Gayà,14,Defender,1995-05-25T00:00:00+00:00,ES,Valencia CF,VAL,1919-03-18T00:00:00+0000,Rubén,Baraja,"11,07,75"
-995,Kiko,Femenía,17,Defender,1991-02-02T00:00:00+00:00,ES,Villarreal CF,VIL,1923-03-10T00:00:00+0000,Marcelino,García Toral,"14,10,65"
-1036,Javier,Manquillo,22,Defender,1994-05-05T00:00:00+00:00,ES,RC Celta,CEL,1923-08-23T00:00:00+0000,Rafael,Benítez,"16,04,60"
-1061,Diego,Rico,16,Defender,1993-02-23T00:00:00+00:00,ES,Getafe CF,GET,1983-03-30T00:00:00+0000,José,Bordalás,"05,03,64"
-1094,Joseba,Zaldúa,2,Defender,1992-06-24T00:00:00+00:00,ES,Cádiz CF,CAD,1910-09-10T00:00:00+0000,Sergio,González,"10,11,76"
-1484,Florian,Lejeune,24,Defender,1991-05-20T00:00:00+00:00,FR,Rayo Vallecano,RAY,1924-05-20T00:00:00+0000,Iñigo,Pérez,"18,01,88"
-1585,Jesús,Vallejo,5,Defender,1997-01-05T00:00:00+00:00,ES,Granada CF,GRA,1931-01-01T00:00:00+0000,Alexander,Medina,"08,10,78"
-1630,David,García,5,Defender,1994-02-14T00:00:00+00:00,ES,CA Osasuna,OSA,1920-11-17T00:00:00+0000,Jagoba,Arrasate,"22,04,78"
-1654,Jorge,Meré,22,Defender,1997-04-17T00:00:00+00:00,ES,Cádiz CF,CAD,1910-09-10T00:00:00+0000,Sergio,González,"10,11,76"
-1664,Unai,García,4,Defender,1992-02-03T00:00:00+00:00,ES,CA Osasuna,OSA,1920-11-17T00:00:00+0000,Jagoba,Arrasate,"22,04,78"
-1672,Eric,Bailly,12,Defender,1994-04-12T00:00:00+00:00,CI,Villarreal CF,VIL,1923-03-10T00:00:00+0000,Marcelino,García Toral,"14,10,65"
-1683,Djené,Dakonam,2,Defender,1991-12-31T00:00:00+00:00,TG,Getafe CF,GET,1983-03-30T00:00:00+0000,José,Bordalás,"05,03,64"
-1714,Aritz,Elustondo,6,Defender,1994-03-28T00:00:00+00:00,ES,Real Sociedad,RSO,1909-09-07T00:00:00+0000, Imanol,Alguacil,"04,07,71"
-1741,Rubén,Duarte,3,Defender,1995-10-18T00:00:00+00:00,ES,Deportivo Alavés,ALA,1921-01-23T00:00:00+0000,Luis,García,"01,12,72"
-1823,Kevin,Vázquez,20,Defender,1993-03-23T00:00:00+00:00,ES,RC Celta,CEL,1923-08-23T00:00:00+0000,Rafael,Benítez,"16,04,60"
-1861,Antonio,Raíllo,21,Defender,1991-10-08T00:00:00+00:00,ES,RCD Mallorca,MLL,1916-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-1865,Ignasi,Miquel,14,Defender,1992-09-28T00:00:00+00:00,ES,Granada CF,GRA,1931-01-01T00:00:00+0000,Alexander,Medina,"08,10,78"
-1882,Stefan,Savic,15,Defender,1991-01-08T00:00:00+00:00,ME,Atlético de Madrid,ATM,1903-04-26T00:00:00+0000,Diego,Simeone,"28,04,70"
-1888,Íñigo,Lekue,15,Defender,1993-05-04T00:00:00+00:00,ES,Athletic Club,ATH,1898-12-31T00:00:00+0000,Ernesto,Valverde,"09,02,64"
-1902,Germán,Pezzella,6,Defender,1991-06-27T00:00:00+00:00,AR,Real Betis,BET,1907-09-12T00:00:00+0000,Manuel,Pellegrini,"16,11,53"
-1917,Iza,Carcelén,20,Defender,1993-04-23T00:00:00+00:00,ES,Cádiz CF,CAD,1910-09-10T00:00:00+0000,Sergio,González,"10,11,76"
-1943,Rafael,Jiménez Jarque,3,Defender,1993-08-12T00:00:00+00:00,ES,Cádiz CF,CAD,1910-09-10T00:00:00+0000,Sergio,González,"10,11,76"
-1956,Mario,Hermoso,22,Defender,1995-06-18T00:00:00+00:00,ES,Atlético de Madrid,ATM,1903-04-26T00:00:00+0000,Diego,Simeone,"28,04,70"
-2007,Yeray,Álvarez,5,Defender,1995-01-24T00:00:00+00:00,ES,Athletic Club,ATH,1898-12-31T00:00:00+0000,Ernesto,Valverde,"09,02,64"
-2166,Antonio,Rüdiger,22,Defender,1993-03-03T00:00:00+00:00,DE,Real Madrid,RMA,1902-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-2350,David,Alaba,4,Defender,1992-06-24T00:00:00+00:00,AT,Real Madrid,RMA,1902-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-2419,Héctor,Bellerín,2,Defender,1995-03-19T00:00:00+00:00,ES,Real Betis,BET,1907-09-12T00:00:00+0000,Manuel,Pellegrini,"16,11,53"
-2580,Pablo,Maffeo,15,Defender,1997-07-12T00:00:00+00:00,AR,RCD Mallorca,MLL,1916-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-2581,Jesús,Navas,16,Defender,1985-11-21T00:00:00+00:00,ES,Sevilla FC,SEV,1905-10-14T00:00:00+0000,Julen,Lopetegui,"28,10,66"
-2625,Daley,Blind,17,Defender,1990-03-09T00:00:00+00:00,NL,Girona FC,GIR,1930-01-01T00:00:00+0000,Miguel,Ángel Sánchez Muñoz,"30,10,75"
-3248,Daley,Sinkgraven,18,Defender,1995-07-04T00:00:00+00:00,NL,UD Las Palmas,LPA,1949-08-22T00:00:00+0000,García,Pimienta,"03,10,74"
-3256,Kieran,Tierney,17,Defender,1997-06-05T00:00:00+00:00,GB-SCT,Real Sociedad,RSO,1909-09-07T00:00:00+0000, Imanol,Alguacil,"04,07,71"
-3455,Raúl,Albiol,3,Defender,1985-09-04T00:00:00+00:00,ES,Villarreal CF,VIL,1923-03-10T00:00:00+0000,Marcelino,García Toral,"14,10,65"
-3747,Sokratis,Papastathopoulos,19,Defender,1988-06-09T00:00:00+00:00,GR,Real Betis,BET,1907-09-12T00:00:00+0000,Manuel,Pellegrini,"16,11,53"
-4083,Aridane,Hernández,5,Defender,1989-03-23T00:00:00+00:00,ES,Rayo Vallecano,RAY,1924-05-20T00:00:00+0000,Iñigo,Pérez,"18,01,88"
-4481,Álvaro,Odriozola,2,Defender,1995-12-14T00:00:00+00:00,ES,Real Sociedad,RSO,1909-09-07T00:00:00+0000, Imanol,Alguacil,"04,07,71"
-4715,Antonio,Latorre Grueso,3,Defender,1997-11-21T00:00:00+00:00,ES,RCD Mallorca,MLL,1916-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-4872,Mouctar,Diakhaby,4,Defender,1996-12-19T00:00:00+00:00,GN,Valencia CF,VAL,1919-03-18T00:00:00+0000,Rubén,Baraja,"11,07,75"
-5464,Martin,Hongla,6,Defender,1998-03-16T00:00:00+00:00,CM,Granada CF,GRA,1931-01-01T00:00:00+0000,Alexander,Medina,"08,10,78"
-5878,Eric,Curbelo,6,Defender,1994-01-14T00:00:00+00:00,ES,UD Las Palmas,LPA,1949-08-22T00:00:00+0000,García,Pimienta,"03,10,74"
-6280,Unai,Núñez,4,Defender,1997-01-30T00:00:00+00:00,ES,RC Celta,CEL,1923-08-23T00:00:00+0000,Rafael,Benítez,"16,04,60"
-6384,Marcos,Acuña,19,Defender,1991-10-28T00:00:00+00:00,AR,Sevilla FC,SEV,1905-10-14T00:00:00+0000,Julen,Lopetegui,"28,10,66"
-6943,Andoni,Gorosabel,2,Defender,1996-08-04T00:00:00+00:00,ES,Deportivo Alavés,ALA,1921-01-23T00:00:00+0000,Luis,García,"01,12,72"
-7251,Juan,Brandáriz Movilla,21,Defender,1999-03-02T00:00:00+00:00,ES,UD Almería,ALM,1989-07-17T00:00:00+0000,Gaizka,Garitano,"09,07,75"
-7604,Miguel,Rubio,4,Defender,1998-03-11T00:00:00+00:00,ES,Granada CF,GRA,1931-01-01T00:00:00+0000,Alexander,Medina,"08,10,78"
-8534,Álex,Centelles,20,Defender,1999-08-30T00:00:00+00:00,ES,UD Almería,ALM,1989-07-17T00:00:00+0000,Gaizka,Garitano,"09,07,75"
-8535,Alejandro,Catena,24,Defender,1994-10-28T00:00:00+00:00,ES,CA Osasuna,OSA,1920-11-17T00:00:00+0000,Jagoba,Arrasate,"22,04,78"
-8650,Domingos de Sousa,Coutinho Meneses Duarte,6,Defender,1995-03-10T00:00:00+00:00,PT,Getafe CF,GET,1983-03-30T00:00:00+0000,José,Bordalás,"05,03,64"
-8710,Juan Cruz,Álvaro Armada,3,Defender,1992-07-28T00:00:00+00:00,ES,CA Osasuna,OSA,1920-11-17T00:00:00+0000,Jagoba,Arrasate,"22,04,78"
-8715,Abdel,Abqar,5,Defender,1999-03-10T00:00:00+00:00,MA,Deportivo Alavés,ALA,1921-01-23T00:00:00+0000,Luis,García,"01,12,72"
-8904,Joseph,Aidoo,15,Defender,1995-09-29T00:00:00+00:00,GH,RC Celta,CEL,1923-08-23T00:00:00+0000,Rafael,Benítez,"16,04,60"
-9008,Hamari,Traoré,18,Defender,1992-01-27T00:00:00+00:00,ML,Real Sociedad,RSO,1909-09-07T00:00:00+0000, Imanol,Alguacil,"04,07,71"
-9223,Adrià,Pedrosa,3,Defender,1998-05-13T00:00:00+00:00,ES,Sevilla FC,SEV,1905-10-14T00:00:00+0000,Julen,Lopetegui,"28,10,66"
-9363,Hugo,Guillamón,6,Defender,2000-01-31T00:00:00+00:00,ES,Valencia CF,VAL,1919-03-18T00:00:00+0000,Rubén,Baraja,"11,07,75"
-9397,Valery,Fernández,11,Defender,1999-11-23T00:00:00+00:00,ES,Girona FC,GIR,1930-01-01T00:00:00+0000,Miguel,Ángel Sánchez Muñoz,"30,10,75"
-9518,Martín,Pascual,4,Defender,1999-08-04T00:00:00+00:00,ES,Rayo Vallecano,RAY,1924-05-20T00:00:00+0000,Iñigo,Pérez,"18,01,88"
-9681,Alfonso,Espino,12,Defender,1992-01-05T00:00:00+00:00,UY,Rayo Vallecano,RAY,1924-05-20T00:00:00+0000,Iñigo,Pérez,"18,01,88"
-9742,Álex,Sola,7,Defender,1999-06-09T00:00:00+00:00,ES,Deportivo Alavés,ALA,1921-01-23T00:00:00+0000,Luis,García,"01,12,72"
-11789,Sergi,Cardona,3,Defender,1999-07-08T00:00:00+00:00,ES,UD Las Palmas,LPA,1949-08-22T00:00:00+0000,García,Pimienta,"03,10,74"
-12113,Álex,Suárez,4,Defender,1993-03-18T00:00:00+00:00,ES,UD Las Palmas,LPA,1949-08-22T00:00:00+0000,García,Pimienta,"03,10,74"
-12180,Omar,Alderete,15,Defender,1996-12-26T00:00:00+00:00,PY,Getafe CF,GET,1983-03-30T00:00:00+0000,José,Bordalás,"05,03,64"
-12474,Miguel,Gutiérrez,3,Defender,2001-07-27T00:00:00+00:00,ES,Girona FC,GIR,1930-01-01T00:00:00+0000,Miguel,Ángel Sánchez Muñoz,"30,10,75"
-16832,César,Montes,22,Defender,1997-02-24T00:00:00+00:00,MX,UD Almería,ALM,1989-07-17T00:00:00+0000,Gaizka,Garitano,"09,07,75"
-18247,Houboulang,Mendes,17,Defender,1998-05-04T00:00:00+00:00,GW,CD Mirandés,MIR,1927-05-03T00:00:00+0000,Alessio,Lisci,"04,11,85"
-18822,Aleksandar,Radovanovic,16,Defender,1993-11-11T00:00:00+00:00,RS,UD Almería,ALM,1989-07-17T00:00:00+0000,Gaizka,Garitano,"09,07,75"
-21673,Alejandro,Balde,3,Defender,2003-10-18T00:00:00+00:00,ES,FC Barcelona,BAR,1899-11-29T00:00:00+0000,Xavier,Hernández Creus,"25,01,80"
-24258,César,Tárrega,34,Defender,2002-02-26T00:00:00+00:00,ES,Real Valladolid CF,VLL,1928-03-20T00:00:00+0000,Sergio,González,"10,11,76"
-27735,Kaiky,Fernandes Melo,15,Defender,2004-01-12T00:00:00+00:00,BR,Albacete BP,ALB,1940-08-01T00:00:00+0000,Rubén,Albés,"24,02,85"
-27909,Carlos,Romero,18,Defender,2001-10-29T00:00:00+00:00,ES,Villarreal B,VIL,1923-03-10T00:00:00+0000,Miguel,Álvarez,"22,03,58"
-32815,Héctor,Fort,39,Defender,2006-08-02T00:00:00+00:00,ES,FC Barcelona,BAR,1899-11-29T00:00:00+0000,Xavier,Hernández Creus,"25,01,80"
-33706,Pau,Cubarsí,33,Defender,2007-01-22T00:00:00+00:00,ES,FC Barcelona,BAR,1899-11-29T00:00:00+0000,Xavier,Hernández Creus,"25,01,80"
-33809,David,López,35,Defender,2003-02-03T00:00:00+00:00,ES,Elche CF,ELC,1923-03-01T00:00:00+0000,Sebastián,Beccacece,"17,12,80"
-71,Álvaro,Morata,19,Forward,1992-10-23T00:00:00+00:00,ES,Atlético de Madrid,ATM,1903-04-26T00:00:00+0000,Diego,Simeone,"28,04,70"
-167,José Luís,Morales,15,Forward,1987-07-23T00:00:00+00:00,ES,Villarreal CF,VIL,1923-03-10T00:00:00+0000,Marcelino,García Toral,"14,10,65"
-192,Gerard,Moreno,7,Forward,1992-04-07T00:00:00+00:00,ES,Villarreal CF,VIL,1923-03-10T00:00:00+0000,Marcelino,García Toral,"14,10,65"
-200,Abdón,Prats,9,Forward,1992-12-07T00:00:00+00:00,ES,RCD Mallorca,MLL,1916-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-362,Ayoze,Pérez,10,Forward,1993-07-29T00:00:00+00:00,ES,Real Betis,BET,1907-09-12T00:00:00+0000,Manuel,Pellegrini,"16,11,53"
-379,Kike,García,15,Forward,1989-11-25T00:00:00+00:00,ES,Deportivo Alavés,ALA,1921-01-23T00:00:00+0000,Luis,García,"01,12,72"
-407,Iker,Muniain,10,Forward,1992-12-19T00:00:00+00:00,ES,Athletic Club,ATH,1898-12-31T00:00:00+0000,Ernesto,Valverde,"09,02,64"
-532,Sandro,Ramírez,9,Forward,1995-07-09T00:00:00+00:00,ES,UD Las Palmas,LPA,1949-08-22T00:00:00+0000,García,Pimienta,"03,10,74"
-580,Leonardo Micali,Carrilho Baptistão,12,Forward,1992-08-26T00:00:00+00:00,BR,UD Almería,ALM,1989-07-17T00:00:00+0000,Gaizka,Garitano,"09,07,75"
-626,Cristhian,Stuani,7,Forward,1986-10-12T00:00:00+00:00,UY,Girona FC,GIR,1930-01-01T00:00:00+0000,Miguel,Ángel Sánchez Muñoz,"30,10,75"
-647,Juan Miguel,Jiménez López,9,Forward,1993-05-20T00:00:00+00:00,ES,Cádiz CF,CAD,1910-09-10T00:00:00+0000,Sergio,González,"10,11,76"
-668,Jonathan,Viera,8,Forward,1989-10-21T00:00:00+00:00,ES,UD Almería,ALM,1989-07-17T00:00:00+0000,Gaizka,Garitano,"09,07,75"
-699,Antoine,Griezmann,7,Forward,1991-03-21T00:00:00+00:00,FR,Atlético de Madrid,ATM,1903-04-26T00:00:00+0000,Diego,Simeone,"28,04,70"
-877,Roger,Martí,21,Forward,1991-01-03T00:00:00+00:00,ES,Cádiz CF,CAD,1910-09-10T00:00:00+0000,Sergio,González,"10,11,76"
-899,Jesús Joaquín,Fernández Sáenz de la Torre,7,Forward,1993-11-19T00:00:00+00:00,ES,Sevilla FC,SEV,1905-10-14T00:00:00+0000,Julen,Lopetegui,"28,10,66"
-972,Rubén,García,14,Forward,1993-07-14T00:00:00+00:00,ES,CA Osasuna,OSA,1920-11-17T00:00:00+0000,Jagoba,Arrasate,"22,04,78"
-990,Lucas,Vázquez,17,Forward,1991-07-01T00:00:00+00:00,ES,Real Madrid,RMA,1902-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-1070,Raúl,de Tomás,22,Forward,1994-10-17T00:00:00+00:00,ES,Rayo Vallecano,RAY,1924-05-20T00:00:00+0000,Iñigo,Pérez,"18,01,88"
-1097,Munir,El Haddadi,17,Forward,1995-09-01T00:00:00+00:00,MA,UD Las Palmas,LPA,1949-08-22T00:00:00+0000,García,Pimienta,"03,10,74"
-1176,Carlos,Fernández,9,Forward,1996-05-22T00:00:00+00:00,ES,Real Sociedad,RSO,1909-09-07T00:00:00+0000, Imanol,Alguacil,"04,07,71"
-1190,Mariano,Díaz,12,Forward,1993-08-01T00:00:00+00:00,DO,Sevilla FC,SEV,1905-10-14T00:00:00+0000,Julen,Lopetegui,"28,10,66"
-1227,Willian José,Da Silva,12,Forward,1991-11-23T00:00:00+00:00,BR,Real Betis,BET,1907-09-12T00:00:00+0000,Manuel,Pellegrini,"16,11,53"
-1441,Jaime,Mata,7,Forward,1988-10-24T00:00:00+00:00,ES,Getafe CF,GET,1983-03-30T00:00:00+0000,José,Bordalás,"05,03,64"
-1479,Iago,Aspas,10,Forward,1987-08-01T00:00:00+00:00,ES,RC Celta,CEL,1923-08-23T00:00:00+0000,Rafael,Benítez,"16,04,60"
-1495,Rubén,Peña,15,Forward,1991-07-18T00:00:00+00:00,ES,CA Osasuna,OSA,1920-11-17T00:00:00+0000,Jagoba,Arrasate,"22,04,78"
-1593,Alex,Berenguer,7,Forward,1995-07-04T00:00:00+00:00,ES,Athletic Club,ATH,1898-12-31T00:00:00+0000,Ernesto,Valverde,"09,02,64"
-1651,Álvaro,Negredo,21,Forward,1985-08-20T00:00:00+00:00,ES,Real Valladolid CF,VLL,1928-03-20T00:00:00+0000,Sergio,González,"10,11,76"
-1720,Borja,Iglesias,9,Forward,1993-01-17T00:00:00+00:00,ES,Bayer 04,LVK,1904-07-01T00:00:00+0000,Xabi,Alonso,"25,11,80"
-1819,Borja,Mayoral,19,Forward,1997-04-05T00:00:00+00:00,ES,Getafe CF,GET,1983-03-30T00:00:00+0000,José,Bordalás,"05,03,64"
-1929,Mamadou,Sylla,7,Forward,1994-03-20T00:00:00+00:00,SN,Real Valladolid CF,VLL,1928-03-20T00:00:00+0000,Sergio,González,"10,11,76"
-2075,José,Pozo,6,Forward,1996-03-15T00:00:00+00:00,ES,Rayo Vallecano,RAY,1924-05-20T00:00:00+0000,Iñigo,Pérez,"18,01,88"
-2355,Robert,Lewandowski,9,Forward,1988-08-21T00:00:00+00:00,PL,FC Barcelona,BAR,1899-11-29T00:00:00+0000,Xavier,Hernández Creus,"25,01,80"
-3448,José,Callejón,9,Forward,1987-02-11T00:00:00+00:00,ES,Granada CF,GRA,1931-01-01T00:00:00+0000,Alexander,Medina,"08,10,78"
-3861,Mikel,Oyarzabal,10,Forward,1997-04-21T00:00:00+00:00,ES,Real Sociedad,RSO,1909-09-07T00:00:00+0000, Imanol,Alguacil,"04,07,71"
-4463,Amath,Ndiaye,19,Forward,1996-07-16T00:00:00+00:00,SN,Real Valladolid CF,VLL,1928-03-20T00:00:00+0000,Sergio,González,"10,11,76"
-4703,José Luis,Sanmartín Mato,14,Forward,1990-03-27T00:00:00+00:00,ES,Real Madrid,RMA,1902-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-4773,Viktor,Tsygankov,8,Forward,1997-11-15T00:00:00+00:00,UA,Girona FC,GIR,1930-01-01T00:00:00+0000,Miguel,Ángel Sánchez Muñoz,"30,10,75"
-4795,Franco,Cervi,11,Forward,1994-05-26T00:00:00+00:00,AR,RC Celta,CEL,1923-08-23T00:00:00+0000,Rafael,Benítez,"16,04,60"
-6199,Enes,Ünal,26,Forward,1997-05-10T00:00:00+00:00,TR,Bournemouth,BOU,1899-01-01T00:00:00+0000,Andoni,Iraola,"22,06,82"
-6831,Nemanja,Radonjic,23,Forward,1996-02-15T00:00:00+00:00,RS,RCD Mallorca,MLL,1916-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-6924,Raphael,Dias Belloli,11,Forward,1996-12-14T00:00:00+00:00,BR,FC Barcelona,BAR,1899-11-29T00:00:00+0000,Xavier,Hernández Creus,"25,01,80"
-7122,Hugo,Duro,9,Forward,1999-11-10T00:00:00+00:00,ES,Valencia CF,VAL,1919-03-18T00:00:00+0000,Rubén,Baraja,"11,07,75"
-7482,Lucas,Boyé,7,Forward,1996-02-28T00:00:00+00:00,AR,Granada CF,GRA,1931-01-01T00:00:00+0000,Alexander,Medina,"08,10,78"
-8706,Miguel,de la Fuente,9,Forward,1999-09-03T00:00:00+00:00,ES,CD Leganés,LEG,1928-06-23T00:00:00+0000,Borja,Jiménez,"21,01,85"
-9304,João,Félix Sequeira,14,Forward,1999-11-10T00:00:00+00:00,PT,FC Barcelona,BAR,1899-11-29T00:00:00+0000,Xavier,Hernández Creus,"25,01,80"
-12405,Alberto,Marí,22,Forward,2001-07-11T00:00:00+00:00,ES,Valencia CF,VAL,1919-03-18T00:00:00+0000,Rubén,Baraja,"11,07,75"
-12645,Carlos,Vicente,22,Forward,1999-04-23T00:00:00+00:00,ES,Deportivo Alavés,ALA,1921-01-23T00:00:00+0000,Luis,García,"01,12,72"
-12722,Ansu,Fati,31,Forward,2002-10-31T00:00:00+00:00,ES,Brighton,BHA,1907-06-24T00:00:00+0000,Roberto,De Zerbi,"06,06,79"
-16495,Bryan,Zaragoza,17,Forward,2001-09-09T00:00:00+00:00,ES,FC Bayern,BAY,1900-02-27T00:00:00+0000,Thomas,Tuchel,"29,10,73"
-19225,Jon,Karrikaburu,9,Forward,2002-09-19T00:00:00+00:00,ES,FC Andorra,AND,1942-10-15T00:00:00+0000,Eder,Sarabia,"27,09,80"
-23026,Javier,Martón,18,Forward,1999-05-06T00:00:00+00:00,ES,CD Mirandés,MIR,1927-05-03T00:00:00+0000,Alessio,Lisci,"04,11,85"
-24274,Ilias,Akhomach,20,Forward,2004-04-16T00:00:00+00:00,MA,Villarreal B,VIL,1923-03-10T00:00:00+0000,Miguel,Álvarez,"22,03,58"
-27229,Jorge,Pascual,11,Forward,2003-04-09T00:00:00+00:00,ES,Villarreal B,VIL,1923-03-10T00:00:00+0000,Miguel,Álvarez,"22,03,58"
-77,Aitor,Fernández,13,Goalkeeper,1991-05-03T00:00:00+00:00,ES,CA Osasuna,OSA,1920-11-17T00:00:00+0000,Jagoba,Arrasate,"22,04,78"
-387,Kepa,Arrizabalaga Revuelta,25,Goalkeeper,1994-10-03T00:00:00+00:00,ES,Real Madrid,RMA,1902-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-680,Claudio,Bravo,1,Goalkeeper,1983-04-13T00:00:00+00:00,CL,Real Betis,BET,1907-09-12T00:00:00+0000,Manuel,Pellegrini,"16,11,53"
-705,Vicente,Guaita,25,Goalkeeper,1987-01-10T00:00:00+00:00,ES,RC Celta,CEL,1923-08-23T00:00:00+0000,Rafael,Benítez,"16,04,60"
-753,Juan Carlos,Martín Corral,1,Goalkeeper,1988-01-20T00:00:00+00:00,ES,Girona FC,GIR,1930-01-01T00:00:00+0000,Miguel,Ángel Sánchez Muñoz,"30,10,75"
-833,Iván,Cuéllar,25,Goalkeeper,1984-05-27T00:00:00+00:00,ES,RCD Mallorca,MLL,1916-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-1121,Jaume,Domènech,1,Goalkeeper,1990-11-05T00:00:00+00:00,ES,Valencia CF,VAL,1919-03-18T00:00:00+0000,Rubén,Baraja,"11,07,75"
-1290,Antonio,Sivera,1,Goalkeeper,1996-08-11T00:00:00+00:00,ES,Deportivo Alavés,ALA,1921-01-23T00:00:00+0000,Luis,García,"01,12,72"
-1470,Jan,Oblak,13,Goalkeeper,1993-01-07T00:00:00+00:00,SI,Atlético de Madrid,ATM,1903-04-26T00:00:00+0000,Diego,Simeone,"28,04,70"
-1669,David,Soria,13,Goalkeeper,1993-04-04T00:00:00+00:00,ES,Getafe CF,GET,1983-03-30T00:00:00+0000,José,Bordalás,"05,03,64"
-1793,Álex,Remiro,1,Goalkeeper,1995-03-24T00:00:00+00:00,ES,Real Sociedad,RSO,1909-09-07T00:00:00+0000, Imanol,Alguacil,"04,07,71"
-1988,Marko,Dmitrovic,1,Goalkeeper,1992-01-24T00:00:00+00:00,RS,Sevilla FC,SEV,1905-10-14T00:00:00+0000,Julen,Lopetegui,"28,10,66"
-2001,Unai,Simón,1,Goalkeeper,1997-06-11T00:00:00+00:00,ES,Athletic Club,ATH,1898-12-31T00:00:00+0000,Ernesto,Valverde,"09,02,64"
-3854,Pepe,Reina,1,Goalkeeper,1982-08-31T00:00:00+00:00,ES,Villarreal CF,VIL,1923-03-10T00:00:00+0000,Marcelino,García Toral,"14,10,65"
-5368,David,Gil,13,Goalkeeper,1994-01-11T00:00:00+00:00,ES,Cádiz CF,CAD,1910-09-10T00:00:00+0000,Sergio,González,"10,11,76"
-8730,Miguel Ángel,Morro,13,Goalkeeper,2000-09-11T00:00:00+00:00,ES,Villarreal B,VIL,1923-03-10T00:00:00+0000,Miguel,Álvarez,"22,03,58"
-12716,Dani,Cárdenas,13,Goalkeeper,1997-03-28T00:00:00+00:00,ES,Rayo Vallecano,RAY,1924-05-20T00:00:00+0000,Iñigo,Pérez,"18,01,88"
-18844,Iker,Álvarez,1,Goalkeeper,2001-07-25T00:00:00+00:00,AD,Villarreal B,VIL,1923-03-10T00:00:00+0000,Miguel,Álvarez,"22,03,58"
-23170,André Filipe,Magalhães Ribeiro Ferreira,13,Goalkeeper,1996-05-29T00:00:00+00:00,PT,Real Valladolid CF,VLL,1928-03-20T00:00:00+0000,Sergio,González,"10,11,76"
-33328,Bruno,Iribarne,37,Goalkeeper,2004-08-18T00:00:00+00:00,ES,UD Almería,ALM,1989-07-17T00:00:00+0000,Gaizka,Garitano,"09,07,75"
-34046,Álvaro,Killane,30,Goalkeeper,2004-12-14T00:00:00+00:00,AR,UD Las Palmas,LPA,1949-08-22T00:00:00+0000,García,Pimienta,"03,10,74"
-35260,Fran,Árbol,35,Goalkeeper,2006-06-30T00:00:00+00:00,ES,Granada CF,GRA,1931-01-01T00:00:00+0000,Alexander,Medina,"08,10,78"
-64,Luka,Modric,10,Midfielder,1985-09-09T00:00:00+00:00,HR,Real Madrid,RMA,1902-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-66,Francisco Román,Alarcón Suárez,22,Midfielder,1992-04-21T00:00:00+00:00,ES,Real Betis,BET,1907-09-12T00:00:00+0000,Manuel,Pellegrini,"16,11,53"
-89,Manu,Trigueros,14,Midfielder,1991-10-17T00:00:00+00:00,ES,Villarreal CF,VIL,1923-03-10T00:00:00+0000,Marcelino,García Toral,"14,10,65"
-92,Moi,Gómez,16,Midfielder,1994-06-23T00:00:00+00:00,ES,CA Osasuna,OSA,1920-11-17T00:00:00+0000,Jagoba,Arrasate,"22,04,78"
-163,Daniel,García Carrillo,14,Midfielder,1990-05-24T00:00:00+00:00,ES,Athletic Club,ATH,1898-12-31T00:00:00+0000,Ernesto,Valverde,"09,02,64"
-398,Ander,Herrera,21,Midfielder,1989-08-14T00:00:00+00:00,ES,Athletic Club,ATH,1898-12-31T00:00:00+0000,Ernesto,Valverde,"09,02,64"
-429,Álvaro,García,18,Midfielder,1992-10-27T00:00:00+00:00,ES,Rayo Vallecano,RAY,1924-05-20T00:00:00+0000,Iñigo,Pérez,"18,01,88"
-530,Denis,Suárez,22,Midfielder,1994-01-06T00:00:00+00:00,ES,Villarreal CF,VIL,1923-03-10T00:00:00+0000,Marcelino,García Toral,"14,10,65"
-571,Jorge,Resurrección Merodio,6,Midfielder,1992-01-08T00:00:00+00:00,ES,Atlético de Madrid,ATM,1903-04-26T00:00:00+0000,Diego,Simeone,"28,04,70"
-572,Raúl,García,22,Midfielder,1986-07-11T00:00:00+00:00,ES,Athletic Club,ATH,1898-12-31T00:00:00+0000,Ernesto,Valverde,"09,02,64"
-619,David,López,5,Midfielder,1989-10-09T00:00:00+00:00,ES,Girona FC,GIR,1930-01-01T00:00:00+0000,Miguel,Ángel Sánchez Muñoz,"30,10,75"
-620,Álex,Fernández,8,Midfielder,1992-10-15T00:00:00+00:00,ES,Cádiz CF,CAD,1910-09-10T00:00:00+0000,Sergio,González,"10,11,76"
-659,Johan,Mojica,22,Midfielder,1992-08-21T00:00:00+00:00,CO,CA Osasuna,OSA,1920-11-17T00:00:00+0000,Jagoba,Arrasate,"22,04,78"
-671,Saúl,Ñíguez,8,Midfielder,1994-11-21T00:00:00+00:00,ES,Atlético de Madrid,ATM,1903-04-26T00:00:00+0000,Diego,Simeone,"28,04,70"
-715,Dani,Parejo,10,Midfielder,1989-04-16T00:00:00+00:00,ES,Villarreal CF,VIL,1923-03-10T00:00:00+0000,Marcelino,García Toral,"14,10,65"
-819,Íñigo,Ruíz de Galarreta,16,Midfielder,1993-08-06T00:00:00+00:00,ES,Athletic Club,ATH,1898-12-31T00:00:00+0000,Ernesto,Valverde,"09,02,64"
-992,Borja,García,10,Midfielder,1990-11-02T00:00:00+00:00,ES,Girona FC,GIR,1930-01-01T00:00:00+0000,Miguel,Ángel Sánchez Muñoz,"30,10,75"
-997,Lucas,Torró,6,Midfielder,1994-07-19T00:00:00+00:00,ES,CA Osasuna,OSA,1920-11-17T00:00:00+0000,Jagoba,Arrasate,"22,04,78"
-1000,Omar,Mascarell,5,Midfielder,1993-02-02T00:00:00+00:00,GQ,RCD Mallorca,MLL,1916-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-1034,Óliver,Torres,21,Midfielder,1994-11-10T00:00:00+00:00,ES,Sevilla FC,SEV,1905-10-14T00:00:00+0000,Julen,Lopetegui,"28,10,66"
-1042,Sergi,Darder,10,Midfielder,1993-12-22T00:00:00+00:00,ES,RCD Mallorca,MLL,1916-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-1247,Cristian,Portugués Manzanera,24,Midfielder,1992-05-21T00:00:00+00:00,ES,Girona FC,GIR,1930-01-01T00:00:00+0000,Miguel,Ángel Sánchez Muñoz,"30,10,75"
-1297,Dani,Ceballos,19,Midfielder,1996-08-07T00:00:00+00:00,ES,Real Madrid,RMA,1902-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-1473,Gerard,Gumbau,23,Midfielder,1994-12-18T00:00:00+00:00,ES,Granada CF,GRA,1931-01-01T00:00:00+0000,Alexander,Medina,"08,10,78"
-1481,Rodrigo,De Paul,5,Midfielder,1994-05-24T00:00:00+00:00,AR,Atlético de Madrid,ATM,1903-04-26T00:00:00+0000,Diego,Simeone,"28,04,70"
-1487,Toni,Kroos,8,Midfielder,1990-01-04T00:00:00+00:00,DE,Real Madrid,RMA,1902-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-1590,Unai,López,17,Midfielder,1995-10-30T00:00:00+00:00,ES,Rayo Vallecano,RAY,1924-05-20T00:00:00+0000,Iñigo,Pérez,"18,01,88"
-1592,Mikel,Merino,8,Midfielder,1996-06-22T00:00:00+00:00,ES,Real Sociedad,RSO,1909-09-07T00:00:00+0000, Imanol,Alguacil,"04,07,71"
-1605,Joan,Jordán,8,Midfielder,1994-07-06T00:00:00+00:00,ES,Sevilla FC,SEV,1905-10-14T00:00:00+0000,Julen,Lopetegui,"28,10,66"
-1700,Marcos,Llorente,14,Midfielder,1995-01-30T00:00:00+00:00,ES,Atlético de Madrid,ATM,1903-04-26T00:00:00+0000,Diego,Simeone,"28,04,70"
-1733,Tiago Manuel,Dias Correia,10,Midfielder,1990-07-12T00:00:00+00:00,CV,Rayo Vallecano,RAY,1924-05-20T00:00:00+0000,Iñigo,Pérez,"18,01,88"
-1812,Javi,Muñoz,5,Midfielder,1995-02-28T00:00:00+00:00,ES,UD Las Palmas,LPA,1949-08-22T00:00:00+0000,García,Pimienta,"03,10,74"
-1829,Aleix,García,14,Midfielder,1997-06-28T00:00:00+00:00,ES,Girona FC,GIR,1930-01-01T00:00:00+0000,Miguel,Ángel Sánchez Muñoz,"30,10,75"
-1858,Rubén,Alcaraz,4,Midfielder,1991-05-01T00:00:00+00:00,ES,Cádiz CF,CAD,1910-09-10T00:00:00+0000,Sergio,González,"10,11,76"
-1893,Gonzalo,Escalante,17,Midfielder,1993-03-27T00:00:00+00:00,AR,Cádiz CF,CAD,1910-09-10T00:00:00+0000,Sergio,González,"10,11,76"
-1908,José Antonio,Rodríguez Díaz,10,Midfielder,1992-02-21T00:00:00+00:00,ES,Granada CF,GRA,1931-01-01T00:00:00+0000,Alexander,Medina,"08,10,78"
-1999,José Ángel,Gómez Campaña,21,Midfielder,1993-05-31T00:00:00+00:00,ES,UD Las Palmas,LPA,1949-08-22T00:00:00+0000,García,Pimienta,"03,10,74"
-2275,Pablo,Fornals,18,Midfielder,1996-02-22T00:00:00+00:00,ES,Real Betis,BET,1907-09-12T00:00:00+0000,Manuel,Pellegrini,"16,11,53"
-2421,Francis,Coquelin,19,Midfielder,1991-05-13T00:00:00+00:00,FR,Villarreal CF,VIL,1923-03-10T00:00:00+0000,Marcelino,García Toral,"14,10,65"
-2548,Nemanja,Maksimovic,20,Midfielder,1995-01-26T00:00:00+00:00,RS,Getafe CF,GET,1983-03-30T00:00:00+0000,José,Bordalás,"05,03,64"
-2881,Érik,Lamela,17,Midfielder,1992-03-04T00:00:00+00:00,AR,Sevilla FC,SEV,1905-10-14T00:00:00+0000,Julen,Lopetegui,"28,10,66"
-2934,William,Silva de Carvalho,14,Midfielder,1992-04-07T00:00:00+00:00,PT,Real Betis,BET,1907-09-12T00:00:00+0000,Manuel,Pellegrini,"16,11,53"
-3110,Darko,Brasanac,14,Midfielder,1992-02-12T00:00:00+00:00,RS,CD Leganés,LEG,1928-06-23T00:00:00+0000,Borja,Jiménez,"21,01,85"
-3242,Nemanja,Gudelj,6,Midfielder,1991-11-16T00:00:00+00:00,RS,Sevilla FC,SEV,1905-10-14T00:00:00+0000,Julen,Lopetegui,"28,10,66"
-3748,Ilkay,Gündogan,22,Midfielder,1990-10-24T00:00:00+00:00,DE,FC Barcelona,BAR,1899-11-29T00:00:00+0000,Xavier,Hernández Creus,"25,01,80"
-3956,Javi,Galán,25,Midfielder,1994-11-19T00:00:00+00:00,ES,Real Sociedad,RSO,1909-09-07T00:00:00+0000, Imanol,Alguacil,"04,07,71"
-4110,José Luis,García Vayá,18,Midfielder,1998-08-11T00:00:00+00:00,ES,Valencia CF,VAL,1919-03-18T00:00:00+0000,Rubén,Baraja,"11,07,75"
-4174,Jonathan,Bamba,17,Midfielder,1996-03-26T00:00:00+00:00,CI,RC Celta,CEL,1923-08-23T00:00:00+0000,Rafael,Benítez,"16,04,60"
-4319,Carles,Aleñá,11,Midfielder,1998-01-05T00:00:00+00:00,ES,Getafe CF,GET,1983-03-30T00:00:00+0000,José,Bordalás,"05,03,64"
-4468,Igor,Zubeldia,5,Midfielder,1997-03-30T00:00:00+00:00,ES,Real Sociedad,RSO,1909-09-07T00:00:00+0000, Imanol,Alguacil,"04,07,71"
-4523,Luis,Milla,5,Midfielder,1994-10-07T00:00:00+00:00,ES,Getafe CF,GET,1983-03-30T00:00:00+0000,José,Bordalás,"05,03,64"
-4562,Iván,Alejo,11,Midfielder,1995-02-10T00:00:00+00:00,ES,Cádiz CF,CAD,1910-09-10T00:00:00+0000,Sergio,González,"10,11,76"
-4624,Fran,Beltrán,8,Midfielder,1999-02-03T00:00:00+00:00,ES,RC Celta,CEL,1923-08-23T00:00:00+0000,Rafael,Benítez,"16,04,60"
-4631,Marc,Roca,21,Midfielder,1996-11-26T00:00:00+00:00,ES,Real Betis,BET,1907-09-12T00:00:00+0000,Manuel,Pellegrini,"16,11,53"
-4642,Álex,Pozo,17,Midfielder,1999-02-22T00:00:00+00:00,ES,UD Almería,ALM,1989-07-17T00:00:00+0000,Gaizka,Garitano,"09,07,75"
-5068,Renato,Tapia,5,Midfielder,1995-07-28T00:00:00+00:00,PE,RC Celta,CEL,1923-08-23T00:00:00+0000,Rafael,Benítez,"16,04,60"
-5477,Kike,Pérez,14,Midfielder,1997-02-14T00:00:00+00:00,ES,Rayo Vallecano,RAY,1924-05-20T00:00:00+0000,Iñigo,Pérez,"18,01,88"
-5610,Óscar,Melendo,21,Midfielder,1997-08-23T00:00:00+00:00,ES,Granada CF,GRA,1931-01-01T00:00:00+0000,Alexander,Medina,"08,10,78"
-5852,Sergio,Ruiz,20,Midfielder,1994-12-16T00:00:00+00:00,ES,Granada CF,GRA,1931-01-01T00:00:00+0000,Alexander,Medina,"08,10,78"
-5877,Benito,Ramírez,11,Midfielder,1995-07-11T00:00:00+00:00,ES,UD Las Palmas,LPA,1949-08-22T00:00:00+0000,García,Pimienta,"03,10,74"
-5997,Jon,Guridi,18,Midfielder,1995-02-28T00:00:00+00:00,ES,Deportivo Alavés,ALA,1921-01-23T00:00:00+0000,Luis,García,"01,12,72"
-6090,Dani,Rodríguez,14,Midfielder,1988-06-06T00:00:00+00:00,ES,RCD Mallorca,MLL,1916-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-6130,Federico,Valverde,15,Midfielder,1998-07-22T00:00:00+00:00,UY,Real Madrid,RMA,1902-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-6201,Gonzalo,Melero,11,Midfielder,1994-01-02T00:00:00+00:00,ES,UD Almería,ALM,1989-07-17T00:00:00+0000,Gaizka,Garitano,"09,07,75"
-6229,Mauro,Arambarri,8,Midfielder,1995-09-30T00:00:00+00:00,UY,Getafe CF,GET,1983-03-30T00:00:00+0000,José,Bordalás,"05,03,64"
-6266,Fabio,González,25,Midfielder,1997-02-12T00:00:00+00:00,ES,UD Las Palmas,LPA,1949-08-22T00:00:00+0000,García,Pimienta,"03,10,74"
-6270,Ander,Guevara,6,Midfielder,1997-07-07T00:00:00+00:00,ES,Deportivo Alavés,ALA,1921-01-23T00:00:00+0000,Luis,García,"01,12,72"
-6300,Brais,Méndez,23,Midfielder,1997-01-07T00:00:00+00:00,ES,Real Sociedad,RSO,1909-09-07T00:00:00+0000, Imanol,Alguacil,"04,07,71"
-7279,Ferran,Torres,7,Midfielder,2000-02-29T00:00:00+00:00,ES,FC Barcelona,BAR,1899-11-29T00:00:00+0000,Xavier,Hernández Creus,"25,01,80"
-7314,Manu,Morlanes,8,Midfielder,1999-01-12T00:00:00+00:00,ES,RCD Mallorca,MLL,1916-03-06T00:00:00+0000,Carlo,Ancelotti,"10,06,59"
-7398,Jaílson,Marques Siqueira,16,Midfielder,1995-09-07T00:00:00+00:00,BR,RC Celta,CEL,1923-08-23T00:00:00+0000,Rafael,Benítez,"16,04,60"
-8223,Juan,Cruz,11,Midfielder,2000-04-25T00:00:00+00:00,ES,CD Leganés,LEG,1928-06-23T00:00:00+0000,Borja,Jiménez,"21,01,85"
-8635,Luis,Rioja,11,Midfielder,1993-10-16T00:00:00+00:00,ES,Deportivo Alavés,ALA,1921-01-23T00:00:00+0000,Luis,García,"01,12,72"
-8727,Iddrisu,Baba,4,Midfielder,1996-01-22T00:00:00+00:00,GH,UD Almería,ALM,1989-07-17T00:00:00+0000,Gaizka,Garitano,"09,07,75"
-9430,Edgar,González,3,Midfielder,1997-04-01T00:00:00+00:00,ES,UD Almería,ALM,1989-07-17T00:00:00+0000,Gaizka,Garitano,"09,07,75"
-9743,Jon,Moncayola,7,Midfielder,1998-05-13T00:00:00+00:00,ES,CA Osasuna,OSA,1920-11-17T00:00:00+0000,Jagoba,Arrasate,"22,04,78"
-12851,Ianis,Hagi,10,Midfielder,1998-10-22T00:00:00+00:00,RO,Deportivo Alavés,ALA,1921-01-23T00:00:00+0000,Luis,García,"01,12,72"
-12895,Domingos André,Ribeiro Almeida,10,Midfielder,2000-05-30T00:00:00+00:00,PT,Valencia CF,VAL,1919-03-18T00:00:00+0000,Rubén,Baraja,"11,07,75"
-13144,Selim,Amallah,19,Midfielder,1996-11-15T00:00:00+00:00,MA,Valencia CF,VAL,1919-03-18T00:00:00+0000,Rubén,Baraja,"11,07,75"
-13306,Arnau,Puigmal,8,Midfielder,2001-01-10T00:00:00+00:00,ES,Elche CF,ELC,1923-03-01T00:00:00+0000,Sebastián,Beccacece,"17,12,80"
-13358,Pablo,Gozálbez,27,Midfielder,2001-04-30T00:00:00+00:00,ES,Valencia CF,VAL,1919-03-18T00:00:00+0000,Rubén,Baraja,"11,07,75"
-14614,Ibrahima,Kébé,6,Midfielder,2000-08-02T00:00:00+00:00,ML,CD Mirandés,MIR,1927-05-03T00:00:00+0000,Alessio,Lisci,"04,11,85"
-14615,Pau,Victor,37,Midfielder,2001-11-26T00:00:00+00:00,ES,FC Barcelona,BAR,1899-11-29T00:00:00+0000,Xavier,Hernández Creus,"25,01,80"
-25351,Unai,Hernández,35,Midfielder,2004-12-14T00:00:00+00:00,ES,FC Barcelona,BAR,1899-11-29T00:00:00+0000,Xavier,Hernández Creus,"25,01,80"
-32816,Pau,Prim,40,Midfielder,2006-02-22T00:00:00+00:00,ES,FC Barcelona,BAR,1899-11-29T00:00:00+0000,Xavier,Hernández Creus,"25,01,80"
-33699,Daniel,Luna,32,Midfielder,2003-05-07T00:00:00+00:00,CO,CD Mirandés,MIR,1927-05-03T00:00:00+0000,Alessio,Lisci,"04,11,85"
-,,,,,,,,,,,,
-,,,,,,,,,,`,,
+Team_ID,Team,Team_Short_Name,Team_Founded,Manager_ID,Player_ID,First_Name,Last_Name,Shirt_Number,Position,Date_Of_Birth,Nationality,Team_ID,Manager_ID,Manager_First_Name,Manager_Last_Name
+1,Real Betis,BET,"12,Sep,07",1,1,Marc,Bartra,15,Defender,"15,Jan,91",ES,1,1,Manuel,Pellegrini
+2,Sevilla FC,SEV,"14,Oct,05",2,2,Sergio,Ramos,4,Defender,"30,Mar,86",ES,2,2,Julen,Lopetegui
+3,Real Madrid,RMA,"06,Mar,02",3,3,Dani,Carvajal,2,Defender,"11,Jan,92",ES,3,3,Carlo,Ancelotti
+4,Athletico de Madrid,ATM,"26,Apr,03",4,4,Jos� Ignacio,Fernandez Iglesias,6,Defender,"18,Jan,90",ES,3,4,Diego,Simeone
+5,RCD Mallorca,MLL,"06,Mar,16",55,5,Gabriel Armando,de Abreu,4,Defender,"26,Nov,90",BR,4,5,Marcelino,Garc�a Toral
+6,Villarreal CF,VIL,"10,Mar,23",5,6,Jaume,Costa,11,Defender,"18,Mar,88",ES,5,6,Ernesto,Valverde
+7,Athletic Club,ATH,"31,Dec,00",6,7,Alberto,Moreno,18,Defender,"05,Jul,92",ES,6,7,Rub�n,Baraja
+8,Valencia CF,VAL,"18,Mar,19",7,8,Yuri,Berchiche,17,Defender,"10,Feb,90",ES,7,8,Miguel,�ngel S�nchez
+9,Girona FC,GIR,"01,Jan,30",8,9,�scar,De Marcos,18,Defender,"14,Apr,89",ES,7,9,Rafael,Ben�tez
+10,RC Celta,CEL,"23,Aug,23",9,10,Dimitri,Foulquier,20,Defender,"23,Mar,93",GP,8,10,Jos�,Bordal�s
+11,Getafe CF,GET,"30,Mar,83",10,11,Juan Pedro,Ramirez Lopez,15,Defender,"30,Apr,91",ES,9,11,Sergio,Gonz�lez
+12,C�diz CF,CAD,"10,Sep,10",11,12,Jos�,Gim�nez,2,Defender,"20,Jan,95",UY,4,12,I�igo,P�rez
+13,Rayo Vallecano,RAY,"20,May,24",12,13,Jos�,Gay�,14,Defender,"25,May,95",ES,8,13,Alexander,Medina
+14,Granada CF,GRA,"01,Jan,31",13,14,Kiko,Femen�a,17,Defender,"02,Feb,91",ES,6,14,Jagoba,Arrasate
+15,CA Osasuna,OSA,"17,Nov,20",14,15,Javier,Manquillo,22,Defender,"05,May,94",ES,10,15,Imanol,Alguacil
+16,Real Sociedad,RSO,"07,Sep,09",15,16,Diego,Rico,16,Defender,"23,Feb,93",ES,11,16,Luis,Garc�a
+17,Deportivo Alav�s,ALA,"23,Jan,21",16,17,Joseba,Zald�a,2,Defender,"24,Jun,92",ES,12,17,Garc�a,Pimienta
+18,UD Las Palmas,LPA,"22,Aug,49",17,18,Florian,Lejeune,24,Defender,"20,May,91",FR,13,18,Gaizka,Garitano
+19,UD Almer�a,ALM,"17,Jul,89",18,19,Jes�s,Vallejo,5,Defender,"05,Jan,97",ES,14,19,Alessio,Lisci
+20,CD Mirand�s,MIR,"03,May,27",19,20,David,Garc�a,5,Defender,"14,Feb,94",ES,15,20,Xavier,Hern�ndez Creus
+21,FC Barcelona,BAR,"29,Nov,00",20,21,Jorge,Mer�,22,Defender,"17,Apr,97",ES,12,21,Rub�n,Alb�s
+22,Real Valladolid CF,VLL,"20,Mar,28",56,22,Unai,Garc�a,4,Defender,"03,Feb,92",ES,15,22,Miguel,�lvarez
+23,Albacete BP,ALB,"01,Aug,40",21,23,Eric,Bailly,12,Defender,"12,Apr,94",CI,6,23,Sebasti�n,Beccacece
+24,Villarreal B,VIL,"10,Mar,23",22,24,Djen�,Dakonam,2,Defender,"31,Dec,91",TG,11,24,Sergio,Gonzalez
+25,Elche CF,ELC,"01,Mar,23",23,25,Aritz,Elustondo,6,Defender,"28,Mar,94",ES,16,25,Xabi,Alonso
+26,Bayer 04,LVK,"01,Jul,04",25,26,Rub�n,Duarte,3,Defender,"18,Oct,95",ES,17,26,Jos�,Bordal�s
+27,Bournemouth,BOU,"01,Jan,00",31,27,Kevin,V�zquez,20,Defender,"23,Mar,93",ES,10,27,I�igo,P�rez
+28,CD Leganés,LEG,"23,Jun,28",32,28,Antonio,Ra�llo,21,Defender,"08,Oct,91",ES,5,28,Xavier,Hern�ndez Creus
+29,Brighton,BHA,"24,Jun,07",34,29,Ignasi,Miquel,14,Defender,"28,Sep,92",ES,14,29,Miguel,�ngel S�nchez
+30,FC Bayern,BAY,"27,Feb,00",35,30,Stefan,Savic,15,Defender,"08,Jan,91",ME,4,30,Rafael,Ben�tez
+31,FC Andorra,AND,"15,Oct,42",36,31,��igo,Lekue,15,Defender,"04,May,93",ES,7,31,Andoni,Iraola
+,,,,,32,Germ�n,Pezzella,6,Defender,"27,Jun,91",AR,1,32,Borja,Jim�nez
+,,,,,33,Iza,Carcel�n,20,Defender,"23,Apr,93",ES,12,33,Luis,Garc�a
+,,,,,34,Rafael,Jim�nez Jarque,3,Defender,"12,Aug,93",ES,12,34,Roberto,De Zerbi
+,,,,,35,Mario,Hermoso,22,Defender,"18,Jun,95",ES,4,35,Thomas,Tuchel
+,,,,,36,Yeray,�lvarez,5,Defender,"24,Jan,95",ES,7,36,Eder,Sarabia
+,,,,,37,Antonio,R�diger,22,Defender,"03,Mar,93",DE,3,37,Miguel,�lvarez
+,,,,,38,David,Alaba,4,Defender,"24,Jun,92",AT,3,38,Gaizka,Ancelotti
+,,,,,39,H�ctor,Beller�n,2,Defender,"19,Mar,95",ES,1,39,Jos�,Garitano
+,,,,,40,Pablo,Maffeo,15,Defender,"12,Jul,97",AR,5,40,Garc�a,Bordal�s
+,,,,,41,Jes�s,Navas,16,Defender,"21,Nov,85",ES,2,41,Luis,Pimienta
+,,,,,42,Daley,Blind,17,Defender,"09,Mar,90",NL,9,42,Imanol,Garc�a
+,,,,,43,Daley,Sinkgraven,18,Defender,"04,Jul,95",NL,18,43,Xavier,Alguacil
+,,,,,44,Kieran,Tierney,17,Defender,"05,Jun,97",GB,16,44,Carlo,Hern�ndez Creus
+,,,,,45,Ra�l,Albiol,3,Defender,"04,Sep,85",HAR,6,45,Rafael,Ancelotti
+,,,,,46,Sokratis,Papastathopoulos,19,Defender,"09,Jun,88",GR,1,46,Borja,Ben�tez
+,,,,,47,Aridane,Hern�ndez,5,Defender,"23,Mar,89",ES,13,47,Luis,Jim�nez
+,,,,,48,�lvaro,Odriozola,2,Defender,"14,Dec,95",ES,16,48,Gaizka,Garc�a
+,,,,,49,Antonio,Latorre Grueso,3,Defender,"21,Nov,97",ES,5,49,Jagoba,Garitano
+,,,,,50,Mouctar,Diakhaby,4,Defender,"19,Dec,96",GN,8,50,Luis,Garitano
+,,,,,51,Martin,Hongla,6,Defender,"16,Mar,98",CM,14,51,Rub�n,Arrasate
+,,,,,52,Eric,Curbelo,6,Defender,"14,Jan,94",ES,18,52,Sebasti�n,Garc�a
+,,,,,53,Unai,N��ez,4,Defender,"30,Jan,97",ES,10,53,Alessio,Baraja
+,,,,,54,Marcos,Acu�a,19,Defender,"28,Oct,91",AR,2,54,Xavier,Baraja
+,,,,,55,Andoni,Gorosabel,2,Defender,"04,Aug,96",ES,17,55,Juan,Ancelotti
+,,,,,56,Juan,Brand�riz Movilla,21,Defender,"02,Mar,99",ES,19,56,Speedy,Gonzalez
+,,,,,57,Miguel,Rubio,4,Defender,"11,Mar,98",ES,14,,,
+,,,,,58,�lex,Centelles,20,Defender,"30,Aug,99",ES,19,,,
+,,,,,59,Alejandro,Catena,24,Defender,"28,Oct,94",ES,15,,,
+,,,,,60,Domingos de Sousa,Coutinho Meneses Duarte,6,Defender,"10,Mar,95",PT,11,,,
+,,,,,61,Juan Cruz,�lvaro Armada,3,Defender,"28,Jul,92",ES,15,,,
+,,,,,62,Abdel,Abqar,5,Defender,"10,Mar,99",MA,17,,,
+,,,,,63,Joseph,Aidoo,15,Defender,"29,Sep,95",GH,10,,,
+,,,,,64,Hamari,Traor�,18,Defender,"27,Jan,92",ML,16,,,
+,,,,,65,Adri�,Pedrosa,3,Defender,"13,May,98",ES,2,,,
+,,,,,66,Hugo,Guillam�n,6,Defender,"31,Jan,00",ES,8,,,
+,,,,,67,Valery,Fern�ndez,11,Defender,"23,Nov,99",ES,9,,,
+,,,,,68,Mart�n,Pascual,4,Defender,"04,Aug,99",ES,13,,,
+,,,,,69,Alfonso,Espino,12,Defender,"05,Jan,92",UY,13,,,
+,,,,,70,�lex,Sola,7,Defender,"09,Jun,99",ES,17,,,
+,,,,,71,Sergi,Cardona,3,Defender,"08,Jul,99",ES,18,,,
+,,,,,72,�lex,Su�rez,4,Defender,"18,Mar,93",ES,18,,,
+,,,,,73,Omar,Alderete,15,Defender,"26,Dec,96",PY,11,,,
+,,,,,74,Miguel,Guti�rrez,3,Defender,"27,Jul,01",ES,9,,,
+,,,,,75,C�sar,Montes,22,Defender,"24,Feb,97",MX,19,,,
+,,,,,76,Houboulang,Mendes,17,Defender,"04,May,98",GW,20,,,
+,,,,,77,Aleksandar,Radovanovic,16,Defender,"11,Nov,93",RS,19,,,
+,,,,,78,Alejandro,Balde,3,Defender,"18,Oct,03",ES,21,,,
+,,,,,79,C�sar,T�rrega,34,Defender,"26,Feb,02",ES,22,,,
+,,,,,80,Kaiky,Fernandes Melo,15,Defender,"12,Jan,04",BR,23,,,
+,,,,,81,Carlos,Romero,18,Defender,"29,Oct,01",ES,24,,,
+,,,,,82,H�ctor,Fort,39,Defender,"02,Aug,06",ES,21,,,
+,,,,,83,Pau,Cubars�,33,Defender,"22,Jan,07",ES,21,,,
+,,,,,84,David,L�pez,35,Defender,"03,Feb,03",ES,25,,,
+,,,,,85,�lvaro,Morata,19,Forward,"23,Oct,92",ES,4,,,
+,,,,,86,Jos� Luis,Morales,15,Forward,"23,Jul,87",ES,6,,,
+,,,,,87,Gerard,Moreno,7,Forward,"07,Apr,92",ES,6,,,
+,,,,,88,Abd�n,Prats,9,Forward,"07,Dec,92",ES,5,,,
+,,,,,89,Ayoze,P�rez,10,Forward,"29,Jul,93",ES,1,,,
+,,,,,90,Kike,Garc�a,15,Forward,"25,Nov,89",ES,17,,,
+,,,,,91,Iker,Muniain,10,Forward,"19,Dec,92",ES,7,,,
+,,,,,92,Sandro,Ram�rez,9,Forward,"09,Jul,95",ES,18,,,
+,,,,,93,Leonardo Micali,Carrilho Baptist�o,12,Forward,"26,Aug,92",BR,19,,,
+,,,,,94,Cristhian,Stuani,7,Forward,"12,Oct,86",UY,9,,,
+,,,,,95,Juan Miguel,Jim�nez L�pez,9,Forward,"20,May,93",ES,12,,,
+,,,,,96,Jonathan,Viera,8,Forward,"21,Oct,89",ES,19,,,
+,,,,,97,Antoine,Griezmann,7,Forward,"21,Mar,91",FR,4,,,
+,,,,,98,Roger,Mart�,21,Forward,"03,Jan,91",ES,12,,,
+,,,,,99,Jes�s Joaqu�n,Fern�ndez S�enz de la Torre,7,Forward,"19,Nov,93",ES,2,,,
+,,,,,100,Rub�n,Garc�a,14,Forward,"14,Jul,93",ES,15,,,
+,,,,,101,Lucas,V�zquez,17,Forward,"01,Jul,91",ES,3,,,
+,,,,,102,Ra�l,de Tom�s,22,Forward,"17,Oct,94",ES,13,,,
+,,,,,103,Munir,El Haddadi,17,Forward,"01,Sep,95",MA,18,,,
+,,,,,104,Carlos,Fern�ndez,9,Forward,"22,May,96",ES,16,,,
+,,,,,105,Mariano,D�az,12,Forward,"01,Aug,93",DO,2,,,
+,,,,,106,Willian Jos�,Da Silva,12,Forward,"23,Nov,91",BR,1,,,
+,,,,,107,Jaime,Mata,7,Forward,"24,Oct,88",ES,11,,,
+,,,,,108,Iago,Aspas,10,Forward,"01,Aug,87",ES,10,,,
+,,,,,109,Rub�n,Pe�a,15,Forward,"18,Jul,91",ES,15,,,
+,,,,,110,Alex,Berenguer,7,Forward,"04,Jul,95",ES,7,,,
+,,,,,111,�lvaro,Negredo,21,Forward,"20,Aug,85",ES,22,,,
+,,,,,112,Borja,Iglesias,9,Forward,"17,Jan,93",ES,26,,,
+,,,,,113,Borja,Mayoral,19,Forward,"05,Apr,97",ES,11,,,
+,,,,,114,Mamadou,Sylla,7,Forward,"20,Mar,94",SN,22,,,
+,,,,,115,Jos�,Pozo,6,Forward,"15,Mar,96",ES,13,,,
+,,,,,116,Robert,Lewandowski,9,Forward,"21,Aug,88",PL,21,,,
+,,,,,117,Jos�,Callej�n,9,Forward,"11,Feb,87",ES,14,,,
+,,,,,118,Mikel,Oyarzabal,10,Forward,"21,Apr,97",ES,16,,,
+,,,,,119,Amath,Ndiaye,19,Forward,"16,Jul,96",SN,22,,,
+,,,,,120,Jos� Luis,Sanmart�n Mato,14,Forward,"27,Mar,90",ES,3,,,
+,,,,,121,Viktor,Tsygankov,8,Forward,"15,Nov,97",UA,9,,,
+,,,,,122,Franco,Cervi,11,Forward,"26,May,94",AR,10,,,
+,,,,,123,Enes,�nal,26,Forward,"10,May,97",TR,27,,,
+,,,,,124,Nemanja,Radonjic,23,Forward,"15,Feb,96",RS,5,,,
+,,,,,125,Raphael,Dias Belloli,11,Forward,"14,Dec,96",BR,21,,,
+,,,,,126,Hugo,Duro,9,Forward,"10,Nov,99",ES,8,,,
+,,,,,127,Lucas,Boy�,7,Forward,"28,Feb,96",AR,14,,,
+,,,,,128,Miguel,de la Fuente,9,Forward,"03,Sep,99",ES,28,,,
+,,,,,129,Jo�o,F�lix Sequeira,14,Forward,"10,Nov,99",PT,21,,,
+,,,,,130,Alberto,Mar�,22,Forward,"11,Jul,01",ES,8,,,
+,,,,,131,Carlos,Vicente,22,Forward,"23,Apr,99",ES,17,,,
+,,,,,132,Ansu,Fati,31,Forward,"31,Oct,02",ES,29,,,
+,,,,,133,Bryan,Zaragoza,17,Forward,"09,Sep,01",ES,30,,,
+,,,,,134,Jon,Karrikaburu,9,Forward,"19,Sep,02",ES,31,,,
+,,,,,135,Javier,Mart�n,18,Forward,"06,May,99",ES,20,,,
+,,,,,136,Ilias,Akhomach,20,Forward,"16,Apr,04",MA,24,,,
+,,,,,137,Jorge,Pascual,11,Forward,"09,Apr,03",ES,24,,,
+,,,,,138,Aitor,Fern�ndez,13,Goalkeeper,"03,May,91",ES,15,,,
+,,,,,139,Kepa,Arrizabalaga Revuelta,25,Goalkeeper,"03,Oct,94",ES,3,,,
+,,,,,140,Claudio,Bravo,1,Goalkeeper,"13,Apr,83",CL,1,,,
+,,,,,141,Vicente,Guaita,25,Goalkeeper,"10,Jan,87",ES,10,,,
+,,,,,142,Juan Carlos,Mart�n Corral,1,Goalkeeper,"20,Jan,88",ES,9,,,
+,,,,,143,Iv�n,Cu�llar,25,Goalkeeper,"27,May,84",ES,5,,,
+,,,,,144,Jaume,Dom�nech,1,Goalkeeper,"05,Nov,90",ES,8,,,
+,,,,,145,Antonio,Sivera,1,Goalkeeper,"11,Aug,96",ES,17,,,
+,,,,,146,Jan,Oblak,13,Goalkeeper,"07,Jan,93",SI,4,,,
+,,,,,147,David,Soria,13,Goalkeeper,"04,Apr,93",ES,11,,,
+,,,,,148,�lex,Remiro,1,Goalkeeper,"24,Mar,95",ES,16,,,
+,,,,,149,Marko,Dmitrovic,1,Goalkeeper,"24,Jan,92",RS,2,,,
+,,,,,150,Unai,Sim�n,1,Goalkeeper,"11,Jun,97",ES,7,,,
+,,,,,151,Pepe,Reina,1,Goalkeeper,"31,Aug,82",ES,6,,,
+,,,,,152,David,Gil,13,Goalkeeper,"11,Jan,94",ES,12,,,
+,,,,,153,Miguel �ngel,Morro,13,Goalkeeper,"11,Sep,00",ES,24,,,
+,,,,,154,Dani,C�rdenas,13,Goalkeeper,"28,Mar,97",ES,13,,,
+,,,,,155,Iker,�lvarez,1,Goalkeeper,"25,Jul,01",AD,24,,,
+,,,,,156,Andr� Filipe,Magalh�es Ribeiro Ferreira,13,Goalkeeper,"29,May,96",PT,22,,,
+,,,,,157,Bruno,Iribarne,37,Goalkeeper,"18,Aug,04",ES,19,,,
+,,,,,158,�lvaro,Killane,30,Goalkeeper,"14,Dec,04",AR,18,,,
+,,,,,159,Fran,�rbol,35,Goalkeeper,"30,Jun,06",ES,14,,,
+,,,,,160,Luka,Modric,10,Midfielder,"09,Sep,85",HR,3,,,
+,,,,,161,Francisco Rom�n,Alarc�n Su�rez,22,Midfielder,"21,Apr,92",ES,1,,,
+,,,,,162,Manu,Trigueros,14,Midfielder,"17,Oct,91",ES,6,,,
+,,,,,163,Moi,G�mez,16,Midfielder,"23,Jun,94",ES,15,,,
+,,,,,164,Daniel,Garc�a Carrillo,14,Midfielder,"24,May,90",ES,7,,,
+,,,,,165,Ander,Herrera,21,Midfielder,"14,Aug,89",ES,7,,,
+,,,,,166,�lvaro,Garc�a,18,Midfielder,"27,Oct,92",ES,13,,,
+,,,,,167,Denis,Su�rez,22,Midfielder,"06,Jan,94",ES,6,,,
+,,,,,168,Jorge,Resurrecci�n Merodio,6,Midfielder,"08,Jan,92",ES,4,,,
+,,,,,169,Ra�l,Garc�a,22,Midfielder,"11,Jul,86",ES,7,,,
+,,,,,170,David,L�pez,5,Midfielder,"09,Oct,89",ES,9,,,
+,,,,,171,�lex,Fern�ndez,8,Midfielder,"15,Oct,92",ES,12,,,
+,,,,,172,Johan,Mojica,22,Midfielder,"21,Aug,92",CO,15,,,
+,,,,,173,Sa�l,��guez,8,Midfielder,"21,Nov,94",ES,4,,,
+,,,,,174,Dani,Parejo,10,Midfielder,"16,Apr,89",ES,6,,,
+,,,,,175,��igo,Ruiz de Galarreta,16,Midfielder,"06,Aug,93",ES,7,,,
+,,,,,176,Borja,Garc�a,10,Midfielder,"02,Nov,90",ES,9,,,
+,,,,,177,Lucas,Torr�,6,Midfielder,"19,Jul,94",ES,15,,,
+,,,,,178,Omar,Mascarell,5,Midfielder,"02,Feb,93",GQ,5,,,
+,,,,,179,�liver,Torres,21,Midfielder,"10,Nov,94",ES,2,,,
+,,,,,180,Sergi,Darder,10,Midfielder,"22,Dec,93",ES,5,,,
+,,,,,181,Cristian,Portugu�s Manzanera,24,Midfielder,"21,May,92",ES,9,,,
+,,,,,182,Dani,Ceballos,19,Midfielder,"07,Aug,96",ES,3,,,
+,,,,,183,Gerard,Gumbau,23,Midfielder,"18,Dec,94",ES,14,,,
+,,,,,184,Rodrigo,De Paul,5,Midfielder,"24,May,94",AR,4,,,
+,,,,,185,Toni,Kroos,8,Midfielder,"04,Jan,90",DE,3,,,
+,,,,,186,Unai,L�pez,17,Midfielder,"30,Oct,95",ES,13,,,
+,,,,,187,Mikel,Merino,8,Midfielder,"22,Jun,96",ES,16,,,
+,,,,,188,Joan,Jord�n,8,Midfielder,"06,Jul,94",ES,2,,,
+,,,,,189,Marcos,Llorente,14,Midfielder,"30,Jan,95",ES,4,,,
+,,,,,190,Tiago Manuel,Dias Correia,10,Midfielder,"12,Jul,90",CV,13,,,
+,,,,,191,Javi,Mu�oz,5,Midfielder,"28,Feb,95",ES,18,,,
+,,,,,192,Aleix,Garc�a,14,Midfielder,"28,Jun,97",ES,9,,,
+,,,,,193,Rub�n,Alcaraz,4,Midfielder,"01,May,91",ES,12,,,
+,,,,,194,Gonzalo,Escalante,17,Midfielder,"27,Mar,93",AR,12,,,
+,,,,,195,Jos� Antonio,Rodr�guez D�az,10,Midfielder,"21,Feb,92",ES,14,,,
+,,,,,196,Jos� �ngel,G�mez Campa�a,21,Midfielder,"31,May,93",ES,18,,,
+,,,,,197,Pablo,Fornals,18,Midfielder,"22,Feb,96",ES,1,,,
+,,,,,198,Francis,Coquelin,19,Midfielder,"13,May,91",FR,6,,,
+,,,,,199,Nemanja,Maksimovic,20,Midfielder,"26,Jan,95",RS,11,,,
+,,,,,200,�rik,Lamela,17,Midfielder,"04,Mar,92",AR,2,,,
+,,,,,201,William,Silva de Carvalho,14,Midfielder,"07,Apr,92",PT,1,,,
+,,,,,202,Darko,Brasanac,14,Midfielder,"12,Feb,92",RS,28,,,
+,,,,,203,Nemanja,Gudelj,6,Midfielder,"16,Nov,91",RS,2,,,
+,,,,,204,Ilk,G�ndogan,22,Midfielder,"24,Oct,90",DE,21,,,
+,,,,,205,Javi,Gal�n,25,Midfielder,"19,Nov,94",ES,16,,,
+,,,,,206,José Luis,Garc�a Vay�,18,Midfielder,"11,Aug,98",ES,8,,,
+,,,,,207,Jonathan,Bamba,17,Midfielder,"26,Mar,96",CI,10,,,
+,,,,,208,Carles,Ale��,11,Midfielder,"05,Jan,98",ES,11,,,
+,,,,,209,Igor,Zubeldia,5,Midfielder,"30,Mar,97",ES,16,,,
+,,,,,210,Luis,Milla,5,Midfielder,"07,Oct,94",ES,11,,,
+,,,,,211,Iván,Alejo,11,Midfielder,"10,Feb,95",ES,12,,,
+,,,,,212,Fran,Beltr�n,8,Midfielder,"03,Feb,99",ES,10,,,
+,,,,,213,Marc,Roca,21,Midfielder,"26,Nov,96",ES,1,,,
+,,,,,214,Álex,Pozo,17,Midfielder,"22,Feb,99",ES,19,,,
+,,,,,215,Renato,Tapia,5,Midfielder,"28,Jul,95",PE,10,,,
+,,,,,216,Kike,P�rez,14,Midfielder,"14,Feb,97",ES,13,,,
+,,,,,217,Óscar,Melendo,21,Midfielder,"23,Aug,97",ES,14,,,
+,,,,,218,Sergio,Ruiz,20,Midfielder,"16,Dec,94",ES,14,,,
+,,,,,219,Benito,Ram�rez,11,Midfielder,"11,Jul,95",ES,18,,,
+,,,,,220,Jon,Guridi,18,Midfielder,"28,Feb,95",ES,17,,,
+,,,,,221,Dani,Rodr�guez,14,Midfielder,"06,Jun,88",ES,5,,,
+,,,,,222,Federico,Valverde,15,Midfielder,"22,Jul,98",UY,3,,,
+,,,,,223,Gonzalo,Melero,11,Midfielder,"02,Jan,94",ES,19,,,
+,,,,,224,Mauro,Arambarri,8,Midfielder,"30,Sep,95",UY,11,,,
+,,,,,225,Fabio,Gonzalez,25,Midfielder,"12,Feb,97",ES,18,,,
+,,,,,226,Ander,Guevara,6,Midfielder,"07,Jul,97",ES,17,,,
+,,,,,227,Brais,M�ndez,23,Midfielder,"07,Jan,97",ES,16,,,
+,,,,,228,Ferran,Torres,7,Midfielder,"29,Feb,00",ES,21,,,
+,,,,,229,Manu,Morlanes,8,Midfielder,"12,Jan,99",ES,5,,,
+,,,,,230,Jaílson,Marques Siqueira,16,Midfielder,"07,Sep,95",BR,10,,,
+,,,,,231,Juan,Cruz,11,Midfielder,"25,Apr,00",ES,28,,,
+,,,,,232,Luis,Rioja,11,Midfielder,"16,Oct,93",ES,17,,,
+,,,,,233,Iddrisu,Baba,4,Midfielder,"22,Jan,96",GH,19,,,
+,,,,,234,Edgar,Gonzalez,3,Midfielder,"01,Apr,97",ES,19,,,
+,,,,,235,Jon,Moncayola,7,Midfielder,"13,May,98",ES,15,,,
+,,,,,236,Ianis,Hagi,10,Midfielder,"22,Oct,98",RO,17,,,
+,,,,,237,Domingos André,Ribeiro Almeida,10,Midfielder,"30,May,00",PT,8,,,
+,,,,,238,Selim,Amallah,19,Midfielder,"15,Nov,96",MA,8,,,
+,,,,,239,Arnau,Puigmal,8,Midfielder,"10,Jan,01",ES,25,,,
+,,,,,240,Pablo,Goz�lbez,27,Midfielder,"30,Apr,01",ES,8,,,
+,,,,,241,Ibrahima,K�b�,6,Midfielder,"02,Aug,00",ML,20,,,
+,,,,,242,Pau,Victor,37,Midfielder,"26,Nov,01",ES,21,,,
+,,,,,243,Unai,Hern�ndez,35,Midfielder,"14,Dec,04",ES,21,,,
+,,,,,244,Pau,Prim,40,Midfielder,"22,Feb,06",ES,21,,,
+,,,,,245,Daniel,Luna,32,Midfielder,"07,May,03",CO,20,,,
