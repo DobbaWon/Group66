@@ -158,7 +158,7 @@ public class Code {
             try {
                 Statement statement = connection.createStatement();
 
-                String deletionA =  "DELETE FROM Manager " +
+                String deletionA =  "DELETE * FROM Manager " +
                                     "WHERE Manager_ID = 1";
 
                 try {
@@ -171,7 +171,7 @@ public class Code {
                     }
                 }
                 
-                String deletionB =  "DELETE FROM Team " +
+                String deletionB =  "DELETE * FROM Team " +
                                     "WHERE Team_ID = 1";
 
                 try {
