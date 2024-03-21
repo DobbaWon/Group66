@@ -107,9 +107,9 @@ public class Code {
             
             String managersByAge = "SELECT Manager.Age, Team.Manager_ID, Manager.First_Name, Manager.Last_Name FROM Manager, Team WHERE Team.Manager_ID = Manager.Manager_ID GROUP BY Manager.Age, Team.Manager_ID ORDER BY Manager.Age";
             
-            String deleteArsenalManager = "DELETE FROM Manager WHERE Manager.Manager_ID = 1";
+            String deleteArsenalManager = "DELETE FROM Manager WHERE Manager_ID = 1";
 
-            String deleteArsenal = "DELETE FROM Team WHERE Team.Team_ID = 1";
+            String deleteArsenal = "DELETE FROM Team WHERE Team_ID = 1";
 
             try {
                 Statement statement = connection.createStatement();
