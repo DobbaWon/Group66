@@ -96,7 +96,7 @@ public class Code {
                                             "Team_ID INTEGER NOT NULL, " +
                                             "Team_Name VARCHAR(100), " +
                                             "Team_Abbreviation VARCHAR(5), " +
-                                            "Manager_ID INTEGER NOT NULL, " +
+                                            "Manager_ID INTEGER NOT NULL UNIQUE, " +
                                             "Year_Founded INTEGER, " +
                                             "PRIMARY KEY (Team_ID), " +
                                             "FOREIGN KEY (Manager_ID) REFERENCES Manager(Manager_ID) );";
