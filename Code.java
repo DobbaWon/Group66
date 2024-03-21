@@ -296,8 +296,90 @@ public class Code {
     private static class KaweeshaReader {
         public KaweeshaReader() {
             String databaseName = "KaweeshaDB";
+            String csvName = "39166236.csv";
             Connection connection = createDatabase(databaseName);
+
+            createTables(connection);
+            String[][] data = extractCSV(csvName);
+            populateTables(data, connection, databaseName);
         }
+        private void createTables(Connection connection) {
+            try {
+                Statement statement = connection.createStatement();
+
+                String createManagerTable = "CREATE TABLE IF NOT EXISTS Manager ( " +
+                                            "Manager_ID INTEGER NOT NULL, " +
+                                            "First_Name VARCHAR(50), " +
+                                            "Last_Name VARCHAR(50), " +
+                                            "PRIMARY KEY (Manager_ID) );";
+                statement.executeUpdate(createManagerTable);
+
+                String createTeamTable =    "CREATE TABLE IF NOT EXISTS Team ( " +
+                                            "Team_ID INTEGER NOT NULL, " +
+                                            "Team_Name VARCHAR(100), " +
+                                            "Team_Abbreviation VARCHAR(5), " +
+                                            "Year_Founded DATE, " +
+                                            "Manager_ID INTEGER NOT NULL, " +
+                                            "PRIMARY KEY (Team_ID), " +
+                                            "FOREIGN KEY (Manager_ID) REFERENCES Manager(Manager_ID) )" +
+                                            "CONSTRAINT fk_Team_Manager FOREIGN KEY (Manager_ID) REFERENCES Manager (Manager_ID) ON DELETE RESTRICT "
+                                            ;
+                statement.executeUpdate(createTeamTable);
+
+                String createPlayerTable =  "CREATE TABLE IF NOT EXISTS Player ( " +
+                                            "Player_ID INTEGER NOT NULL, " +
+                                            "First_Name VARCHAR(50), " +
+                                            "Last_Name VARCHAR(50), " +
+                                            "Shirt_Number INTEGER, " +
+                                            "Position VARCHAR(50)," +
+                                            "Date_Of_Birth DATE, " +
+                                            "Nationality VARCHAR(2)," +
+                                            "Team_ID INTEGER NOT NULL, " +
+                                            "PRIMARY KEY (Player_ID), " +
+                                            "CONSTRAINT fk_Player_Team FOREIGN KEY (Team_ID) REFERENCES Team (Team_ID) " +
+                                            "ON DELETE RESTRICT;";
+                statement.executeUpdate(createPlayerTable);
+
+                System.out.println("Kaw Tables created successfully.");
+
+            } catch(SQLException e) {
+                e.printStackTrace();
+            }
+        }             
+        private void populateTables(String[][] csv, Connection connection, String databaseName) {
+            try {
+                Statement statement = connection.createStatement();
+
+                for (int i = 0; i <csv[0].length;i++) {
+                    String insertTeam = "INSERT IGNORE INTO Team (" +
+                                        "Team_ID, Team_Name, Team_Abbreviation, Year_Founded, Manager_ID)" +
+                                        "VALUES (" +
+                                            csv[0][i] + ", '" + csv[1][i] + "', '" + csv[2][i] + "', " + csv[3][i] + ", " + csv[4][i] + ")";
+
+
+                }
+
+                for (int i = 0; i < csv[13].length; i++) {
+                    String insertManager =  "INSERT IGNORE INTO Manager (" +
+                                            "Manager_ID, First_Name, Last_Name)" +
+                                            "VALUES (" +
+                                            csv[13][i] + ", '" + csv[14][i] + "', '" + csv[15][i] + ")";
+                    statement.executeUpdate(insertManager);
+
+                }
+                for (int i = 0; i < csv[5].length; i++) {
+                    String insertPlayer =  "INSERT IGNORE INTO Player (" +
+                                            "Player_ID, First_Name, Last_Name,Shirt_Number, Nationality, Position, Date_Of_Birth, Team_ID)" +
+                                            "VALUES (" +
+                                            csv[5][i] + ", '" + csv[6][i] + "', '" + csv[7][i] + "', " + csv[8][i] + ", " + csv[9][i] + ", " + csv[10][i] + ", " + csv[11][i] + ", " + csv[12][i] + ")";
+                    statement.executeUpdate(insertPlayer);
+                }
+                System.out.println("Tables for database '" + databaseName + "' populated.");
+                } catch(SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+
 
         private Connection createDatabase(String databaseName) {
             String jdbcUrl = "jdbc:mysql://localhost:3306/";
@@ -396,6 +478,6 @@ public class Code {
     public static void main(String[] args) {
         CharlieReader charlie = new CharlieReader();
         // JoeReader joe = new JoeReader();
-        // KaweeshaReader kaweesha = new KaweeshaReader();
+         KaweeshaReader kaweesha = new KaweeshaReader();
     }
 }
