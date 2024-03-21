@@ -1,6 +1,7 @@
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -31,7 +32,7 @@ public class Code {
 
                 String createManagerTable = "CREATE TABLE IF NOT EXISTS Manager(Manager_ID INTEGER NOT NULL, First_Name VARCHAR(50), Last_Name VARCHAR(50), Age INTEGER, PRIMARY KEY (Manager_ID))";
                 statement.executeUpdate(createManagerTable);
-                String createTeamTable = "CREATE TABLE IF NOT EXISTS Team(Team_ID INTEGER NOT NULL, Team_Name VARCHAR(100), Team_Abbreviation VARCHAR(5), Year_Founded INTEGER, Manager_ID INTEGER NOT NULL UNIQUE, PRIMARY KEY(Team_ID)), FOREIGN KEY(Manager_ID) REFERENCES Manager(Manager_ID))";
+                String createTeamTable = "CREATE TABLE IF NOT EXISTS Team(Team_ID INTEGER NOT NULL, Team_Name VARCHAR(100), Team_Abbreviation VARCHAR(5), Year_Founded INTEGER, Manager_ID INTEGER NOT NULL UNIQUE, PRIMARY KEY(Team_ID), FOREIGN KEY(Manager_ID) REFERENCES Manager(Manager_ID))";
                 statement.executeUpdate(createTeamTable);
                 String createPlayerTable = "CREATE TABLE IF NOT EXISTS Player(Player_ID INTEGER NOT NULL, First_Name VARCHAR(50), Last_Name VARCHAR(50), Shirt_Number INTEGER, Age INTEGER, Team_ID INTEGER, PRIMARY KEY(Player_ID), FOREIGN KEY(Team_ID) REFERENCES Team(Team_ID))";
                 statement.executeUpdate(createPlayerTable);
@@ -46,26 +47,51 @@ public class Code {
         
         private void populateTables(String[][] csv, Connection connection){
             try{
-                Statement statement = connection.createStatement();
                 // Team table is column 0-4
                 // Manager table is column 5-8
                 // Player table is column 9-14
                 // Add one to the y index as we skip column headers
 
+                String insertTeam = "INSERT IGNORE INTO Team (Team_ID, Team_Name, Team_Abbreviation, Year_Founded, Manager_ID) VALUES (?, ?, ?, ?, ?)";
+                String insertManager = "INSERT IGNORE INTO Manager (Manager_ID, First_Name, Last_Name, Age) VALUES (?, ?, ?, ?)";
+                String insertPlayer = "INSERT IGNORE INTO Player (Player_ID, First_Name, Last_Name, Shirt_Number, Age, Team_ID) VALUES (?, ?, ?, ?, ?, ?)";
+
+                PreparedStatement teamStatement = connection.prepareStatement(insertTeam);
+                PreparedStatement managerStatement = connection.prepareStatement(insertManager);
+                PreparedStatement playerStatement = connection.prepareStatement(insertPlayer);
+
                 for (int i = 1; i < 21; i++){
                     // Filling the team and manager tables:
-
-                    String insertTeam =     "INSERT IGNORE INTO Team (Team_ID, Team_Name, Team_Abbreviation, Year_Founded, Manager_ID) VALUES (" +csv[0][i] + ", '" + csv[1][i] + "', '" + csv[2][i] + "', " + csv[3][i] + ", " + csv[4][i] + ")";
-                    statement.executeUpdate(insertTeam);
-                    
-                    String insertManager = "INSERT IGNORE INTO Manager (Manager_ID, First_Name, Last_Name, Age) VALUES (" + csv[5][i] + ", '" + csv[6][i] + "', '" + csv[7][i] + "', " + csv[8][i] + ")";
-                    statement.executeUpdate(insertManager);
+                    try {
+                        teamStatement.setInt(1, Integer.parseInt(csv[0][i]));
+                        teamStatement.setString(2, csv[1][i]);
+                        teamStatement.setString(3, csv[2][i]);
+                        teamStatement.setInt(4, Integer.parseInt(csv[3][i]));
+                        teamStatement.setInt(5, Integer.parseInt(csv[4][i]));
+                        teamStatement.executeUpdate();
+                
+                        managerStatement.setInt(1, Integer.parseInt(csv[5][i]));
+                        managerStatement.setString(2, csv[6][i]);
+                        managerStatement.setString(3, csv[7][i]);
+                        managerStatement.setInt(4, Integer.parseInt(csv[8][i]));
+                        managerStatement.executeUpdate();
+                    } catch (NumberFormatException | NullPointerException e){
+                    }
                 }
 
                 for (int i = 1; i < 201; i++){
                     // Filling the player tables:
-                    String insertPlayer =  "INSERT IGNORE INTO Player (Player_ID, First_Name, Last_Name, Shirt_Number, Age, Team_ID) " "VALUES (" + csv[9][i] + ", '" + csv[10][i] + "', '" + csv[11][i] + "', " + csv[12][i] + ", " + csv[13][i] + ", " + csv[14][i] + ")";
-                    statement.executeUpdate(insertPlayer);
+                    try{
+                        playerStatement.setInt(1, Integer.parseInt(csv[9][i]));
+                        playerStatement.setString(2, csv[10][i]);
+                        playerStatement.setString(3, csv[11][i]);
+                        playerStatement.setInt(4, Integer.parseInt(csv[12][i]));
+                        playerStatement.setInt(5, Integer.parseInt(csv[13][i]));
+                        playerStatement.setInt(6, Integer.parseInt(csv[14][i]));
+                        playerStatement.executeUpdate();
+                    } catch (NumberFormatException | NullPointerException e){
+
+                    }
                 }
 
                 System.out.println("Populated Tables");
@@ -81,16 +107,16 @@ public class Code {
             
             String managersByAge = "SELECT Manager.Age, Team.Manager_ID, Manager.First_Name, Manager.Last_Name FROM Manager, Team WHERE Team.Manager_ID = Manager.Manager_ID GROUP BY Manager.Age, Team.Manager_ID ORDER BY Manager.Age";
             
-            String deleteArsenalManager = "DELETE Manager_ID FROM Manager WHERE Manager_ID = 1";
+            String deleteArsenalManager = "DELETE FROM Manager WHERE Manager_ID = 1";
 
-            String deleteArsenal = "DELETE Team_ID FROM Team WHERE Team_ID = 1";
+            String deleteArsenal = "DELETE FROM Team WHERE Team_ID = 1";
 
             try {
                 Statement statement = connection.createStatement();
                 statement.executeQuery(averageAge);
                 statement.executeQuery(managersByAge);
                 try{
-                    statement.executeQuery(deleteArsenalManager);
+                    statement.executeUpdate(deleteArsenalManager);
                     System.out.println("Deleted Arsenal's Manager Successfully");
 
                 } catch (SQLException e){
@@ -101,7 +127,7 @@ public class Code {
                     }
                 }
                 try{
-                    statement.executeQuery(deleteArsenal);
+                    statement.executeUpdate(deleteArsenal);
                     System.out.println("Deleted Arsenal Successfully");
 
                 } catch (SQLException e){
