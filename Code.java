@@ -81,18 +81,38 @@ public class Code {
             
             String managersByAge = "SELECT Manager.Age, Team.Manager_ID, Manager.First_Name, Manager.Last_Name FROM Manager, Team WHERE Team.Manager_ID = Manager.Manager_ID GROUP BY Manager.Age, Team.Manager_ID ORDER BY Manager.Age";
             
-            String deleteArsenalManager = "DELETE Manager.ID FROM Team WHERE Team_ID = 1";
+            String deleteArsenalManager = "DELETE Manager_ID FROM Manager WHERE Manager_ID = 1";
 
-            String youngestTwenty = "SELECT Team.Team_Name, Youngest_Players.First_Name, Youngest_Players.Last_Name, Youngest_Players.Age FROM (SELECT * FROM Player ORDER BY Age ASC LIMIT 20) AS Youngest_Players, Team	WHERE Youngest_Players.Team_ID = Team.Team_ID GROUP BY Team.Team_Name"; 
-           
+            String deleteArsenal = "DELETE Team_ID FROM Team WHERE Team_ID = 1";
+
             try {
                 Statement statement = connection.createStatement();
                 statement.executeQuery(averageAge);
                 statement.executeQuery(managersByAge);
-                statement.executeQuery(deleteArsenalManager);
-                statement.executeQuery(youngestTwenty);
+                try{
+                    statement.executeQuery(deleteArsenalManager);
+                    System.out.println("Deleted Arsenal's Manager Successfully");
+
+                } catch (SQLException e){
+                    if (e.getErrorCode() == 1451) {
+                        System.out.println("Deleting Arsenal's Manager failed: Foreign Key constraint violated.\n");
+                    } else {
+                        e.printStackTrace();
+                    }
+                }
+                try{
+                    statement.executeQuery(deleteArsenal);
+                    System.out.println("Deleted Arsenal Successfully");
+
+                } catch (SQLException e){
+                    if (e.getErrorCode() == 1451) {
+                        System.out.println("Deleting Arsenal failed: Foreign Key constraint violated.\n");
+                    } else {
+                        e.printStackTrace();
+                    }
+                }
             }
-            catch (Exception e) {
+            catch (SQLException e) {
                 e.printStackTrace();
             }
         }
