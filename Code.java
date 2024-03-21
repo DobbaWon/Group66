@@ -62,29 +62,36 @@ public class Code {
 
                 for (int i = 1; i < 21; i++){
                     // Filling the team and manager tables:
-                    teamStatement.setInt(1, Integer.parseInt(csv[0][i]));
-                    teamStatement.setString(2, csv[1][i]);
-                    teamStatement.setString(3, csv[2][i]);
-                    teamStatement.setInt(4, Integer.parseInt(csv[3][i]));
-                    teamStatement.setInt(5, Integer.parseInt(csv[4][i]));
-                    teamStatement.executeUpdate();
-            
-                    managerStatement.setInt(1, Integer.parseInt(csv[5][i]));
-                    managerStatement.setString(2, csv[6][i]);
-                    managerStatement.setString(3, csv[7][i]);
-                    managerStatement.setInt(4, Integer.parseInt(csv[8][i]));
-                    managerStatement.executeUpdate();
+                    try {
+                        teamStatement.setInt(1, Integer.parseInt(csv[0][i]));
+                        teamStatement.setString(2, csv[1][i]);
+                        teamStatement.setString(3, csv[2][i]);
+                        teamStatement.setInt(4, Integer.parseInt(csv[3][i]));
+                        teamStatement.setInt(5, Integer.parseInt(csv[4][i]));
+                        teamStatement.executeUpdate();
+                
+                        managerStatement.setInt(1, Integer.parseInt(csv[5][i]));
+                        managerStatement.setString(2, csv[6][i]);
+                        managerStatement.setString(3, csv[7][i]);
+                        managerStatement.setInt(4, Integer.parseInt(csv[8][i]));
+                        managerStatement.executeUpdate();
+                    } catch (NumberFormatException | NullPointerException e){
+                    }
                 }
 
                 for (int i = 1; i < 201; i++){
                     // Filling the player tables:
-                    playerStatement.setInt(1, Integer.parseInt(csv[9][i]));
-                    playerStatement.setString(2, csv[10][i]);
-                    playerStatement.setString(3, csv[11][i]);
-                    playerStatement.setInt(4, Integer.parseInt(csv[12][i]));
-                    playerStatement.setInt(5, Integer.parseInt(csv[13][i]));
-                    playerStatement.setInt(6, Integer.parseInt(csv[14][i]));
-                    playerStatement.executeUpdate();
+                    try{
+                        playerStatement.setInt(1, Integer.parseInt(csv[9][i]));
+                        playerStatement.setString(2, csv[10][i]);
+                        playerStatement.setString(3, csv[11][i]);
+                        playerStatement.setInt(4, Integer.parseInt(csv[12][i]));
+                        playerStatement.setInt(5, Integer.parseInt(csv[13][i]));
+                        playerStatement.setInt(6, Integer.parseInt(csv[14][i]));
+                        playerStatement.executeUpdate();
+                    } catch (NumberFormatException | NullPointerException e){
+
+                    }
                 }
 
                 System.out.println("Populated Tables");
@@ -100,16 +107,16 @@ public class Code {
             
             String managersByAge = "SELECT Manager.Age, Team.Manager_ID, Manager.First_Name, Manager.Last_Name FROM Manager, Team WHERE Team.Manager_ID = Manager.Manager_ID GROUP BY Manager.Age, Team.Manager_ID ORDER BY Manager.Age";
             
-            String deleteArsenalManager = "DELETE Manager_ID FROM Manager WHERE Manager_ID = 1";
+            String deleteArsenalManager = "DELETE FROM Manager WHERE Manager.Manager_ID = 1";
 
-            String deleteArsenal = "DELETE Team_ID FROM Team WHERE Team_ID = 1";
+            String deleteArsenal = "DELETE FROM Team WHERE Team.Team_ID = 1";
 
             try {
                 Statement statement = connection.createStatement();
                 statement.executeQuery(averageAge);
                 statement.executeQuery(managersByAge);
                 try{
-                    statement.executeQuery(deleteArsenalManager);
+                    statement.executeUpdate(deleteArsenalManager);
                     System.out.println("Deleted Arsenal's Manager Successfully");
 
                 } catch (SQLException e){
@@ -120,7 +127,7 @@ public class Code {
                     }
                 }
                 try{
-                    statement.executeQuery(deleteArsenal);
+                    statement.executeUpdate(deleteArsenal);
                     System.out.println("Deleted Arsenal Successfully");
 
                 } catch (SQLException e){
