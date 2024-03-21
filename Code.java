@@ -1,6 +1,7 @@
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -46,26 +47,44 @@ public class Code {
         
         private void populateTables(String[][] csv, Connection connection){
             try{
-                Statement statement = connection.createStatement();
                 // Team table is column 0-4
                 // Manager table is column 5-8
                 // Player table is column 9-14
                 // Add one to the y index as we skip column headers
 
+                String insertTeam = "INSERT IGNORE INTO Team (Team_ID, Team_Name, Team_Abbreviation, Year_Founded, Manager_ID) VALUES (?, ?, ?, ?, ?)";
+                String insertManager = "INSERT IGNORE INTO Manager (Manager_ID, First_Name, Last_Name, Age) VALUES (?, ?, ?, ?)";
+                String insertPlayer = "INSERT IGNORE INTO Player (Player_ID, First_Name, Last_Name, Shirt_Number, Age, Team_ID) VALUES (?, ?, ?, ?, ?, ?)";
+
+                PreparedStatement teamStatement = connection.prepareStatement(insertTeam);
+                PreparedStatement managerStatement = connection.prepareStatement(insertManager);
+                PreparedStatement playerStatement = connection.prepareStatement(insertPlayer);
+
                 for (int i = 1; i < 21; i++){
                     // Filling the team and manager tables:
-
-                    String insertTeam =     "INSERT IGNORE INTO Team (Team_ID, Team_Name, Team_Abbreviation, Year_Founded, Manager_ID) VALUES (" +csv[0][i] + ", '" + csv[1][i] + "', '" + csv[2][i] + "', " + csv[3][i] + ", " + csv[4][i] + ")";
-                    statement.executeUpdate(insertTeam);
-                    
-                    String insertManager = "INSERT IGNORE INTO Manager (Manager_ID, First_Name, Last_Name, Age) VALUES (" + csv[5][i] + ", '" + csv[6][i] + "', '" + csv[7][i] + "', " + csv[8][i] + ")";
-                    statement.executeUpdate(insertManager);
+                    teamStatement.setInt(1, Integer.parseInt(csv[0][i]));
+                    teamStatement.setString(2, csv[1][i]);
+                    teamStatement.setString(3, csv[2][i]);
+                    teamStatement.setInt(4, Integer.parseInt(csv[3][i]));
+                    teamStatement.setInt(5, Integer.parseInt(csv[4][i]));
+                    teamStatement.executeUpdate();
+            
+                    managerStatement.setInt(1, Integer.parseInt(csv[5][i]));
+                    managerStatement.setString(2, csv[6][i]);
+                    managerStatement.setString(3, csv[7][i]);
+                    managerStatement.setInt(4, Integer.parseInt(csv[8][i]));
+                    managerStatement.executeUpdate();
                 }
 
                 for (int i = 1; i < 201; i++){
                     // Filling the player tables:
-                    String insertPlayer =  "INSERT IGNORE INTO Player (Player_ID, First_Name, Last_Name, Shirt_Number, Age, Team_ID) " "VALUES (" + csv[9][i] + ", '" + csv[10][i] + "', '" + csv[11][i] + "', " + csv[12][i] + ", " + csv[13][i] + ", " + csv[14][i] + ")";
-                    statement.executeUpdate(insertPlayer);
+                    playerStatement.setInt(1, Integer.parseInt(csv[9][i]));
+                    playerStatement.setString(2, csv[10][i]);
+                    playerStatement.setString(3, csv[11][i]);
+                    playerStatement.setInt(4, Integer.parseInt(csv[12][i]));
+                    playerStatement.setInt(5, Integer.parseInt(csv[13][i]));
+                    playerStatement.setInt(6, Integer.parseInt(csv[14][i]));
+                    playerStatement.executeUpdate();
                 }
 
                 System.out.println("Populated Tables");
