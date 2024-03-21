@@ -32,7 +32,7 @@ public class Code {
 
                 String createManagerTable = "CREATE TABLE IF NOT EXISTS Manager(Manager_ID INTEGER NOT NULL, First_Name VARCHAR(50), Last_Name VARCHAR(50), Age INTEGER, PRIMARY KEY (Manager_ID))";
                 statement.executeUpdate(createManagerTable);
-                String createTeamTable = "CREATE TABLE IF NOT EXISTS Team(Team_ID INTEGER NOT NULL, Team_Name VARCHAR(100), Team_Abbreviation VARCHAR(5), Year_Founded INTEGER, Manager_ID INTEGER NOT NULL UNIQUE, PRIMARY KEY(Team_ID)), FOREIGN KEY(Manager_ID) REFERENCES Manager(Manager_ID))";
+                String createTeamTable = "CREATE TABLE IF NOT EXISTS Team(Team_ID INTEGER NOT NULL, Team_Name VARCHAR(100), Team_Abbreviation VARCHAR(5), Year_Founded INTEGER, Manager_ID INTEGER NOT NULL UNIQUE, PRIMARY KEY(Team_ID), FOREIGN KEY(Manager_ID) REFERENCES Manager(Manager_ID))";
                 statement.executeUpdate(createTeamTable);
                 String createPlayerTable = "CREATE TABLE IF NOT EXISTS Player(Player_ID INTEGER NOT NULL, First_Name VARCHAR(50), Last_Name VARCHAR(50), Shirt_Number INTEGER, Age INTEGER, Team_ID INTEGER, PRIMARY KEY(Player_ID), FOREIGN KEY(Team_ID) REFERENCES Team(Team_ID))";
                 statement.executeUpdate(createPlayerTable);
