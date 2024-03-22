@@ -614,7 +614,7 @@ public class Code {
 
     public static void main(String[] args) {
         CharlieReader charlie = new CharlieReader();
-        //JoeReader joe = new JoeReader();
-        //KaweeshaReader kaweesha = new KaweeshaReader();
+        JoeReader joe = new JoeReader();
+        KaweeshaReader kaweesha = new KaweeshaReader();
     }
 }
