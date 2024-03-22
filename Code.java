@@ -230,20 +230,20 @@ public class Code {
             try {
                 Statement statement = connection.createStatement();
 
-                for (int i = 0; i < csv[0].length; i++) {
-                    String insertTeam =     "INSERT IGNORE INTO Team (" +
-                                            "Team_ID, Team_Name, Team_Abbreviation, Manager_ID, Year_Founded) " +
-                                            "VALUES (" +
-                                            csv[0][i] + ", '" + csv[1][i] + "', '" + csv[2][i] + "', " + csv[3][i] + ", " + csv[4][i] + ")";
-                    statement.executeUpdate(insertTeam);
-                }
-
                 for (int i = 0; i < csv[5].length; i++) {
                     String insertManager =  "INSERT IGNORE INTO Manager (" +
                                             "Manager_ID, First_Name, Last_Name, Age) " +
                                             "VALUES (" +
                                             csv[5][i] + ", '" + csv[6][i] + "', '" + csv[7][i] + "', " + csv[8][i] + ")";
                     statement.executeUpdate(insertManager);
+                }
+
+                for (int i = 0; i < csv[0].length; i++) {
+                    String insertTeam =     "INSERT IGNORE INTO Team (" +
+                                            "Team_ID, Team_Name, Team_Abbreviation, Manager_ID, Year_Founded) " +
+                                            "VALUES (" +
+                                            csv[0][i] + ", '" + csv[1][i] + "', '" + csv[2][i] + "', " + csv[3][i] + ", " + csv[4][i] + ")";
+                    statement.executeUpdate(insertTeam);
                 }
 
                 for (int i = 0; i < csv[9].length; i++) {
