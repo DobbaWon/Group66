@@ -113,25 +113,31 @@ public class Code {
 
             try {
                 Statement statement = connection.createStatement();
+                Statement otherStatement = connection.createStatement();
 
                 ResultSet resultsAvg = statement.executeQuery(averageAge);
-                ResultSet resultsAge = statement.executeQuery(managersByAge);
+                ResultSet resultsAge = otherStatement.executeQuery(managersByAge);
 
                 System.out.println("Average Age:");
                 while (resultsAvg.next()) {
-                    System.out.println("Age: " + averageAgeResult.getInt("Age") +
-                                   ", Manager_ID: " + averageAgeResult.getInt("Manager_ID") +
-                                   ", First Name: " + averageAgeResult.getString("First_Name") +
-                                   ", Last Name: " + averageAgeResult.getString("Last_Name"));
+                    System.out.println("Age: " + resultsAvg.getInt("Age") +
+                                   ", Manager_ID: " + resultsAvg.getInt("Manager_ID") +
+                                   ", First Name: " + resultsAvg.getString("First_Name") +
+                                   ", Last Name: " + resultsAvg.getString("Last_Name"));
                 }
+                resultsAvg.close();
+                statement.close();
 
                 System.out.println("\nManagers by Age:");
                 while (resultsAge.next()) {
-                    System.out.println("Age: " + managersByAgeResult.getInt("Age") +
-                                   ", Manager_ID: " + managersByAgeResult.getInt("Manager_ID") +
-                                   ", First Name: " + managersByAgeResult.getString("First_Name") +
-                                   ", Last Name: " + managersByAgeResult.getString("Last_Name"));
+                    System.out.println("Age: " + resultsAge.getInt("Age") +
+                                   ", Manager_ID: " + resultsAge.getInt("Manager_ID") +
+                                   ", First Name: " + resultsAge.getString("First_Name") +
+                                   ", Last Name: " + resultsAge.getString("Last_Name"));
                 }
+                resultsAge.close();
+                otherStatement.close();
+                statement = connection.createStatement();
                 try{
                     statement.executeUpdate(deleteArsenalManager);
                     System.out.println("Deleted Arsenal's Manager Successfully");
