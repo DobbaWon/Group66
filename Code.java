@@ -113,8 +113,25 @@ public class Code {
 
             try {
                 Statement statement = connection.createStatement();
-                statement.executeQuery(averageAge);
-                statement.executeQuery(managersByAge);
+
+                ResultSet resultsAvg = statement.executeQuery(averageAge);
+                ResultSet resultsAge = statement.executeQuery(managersByAge);
+
+                System.out.println("Average Age:");
+                while (resultsAvg.next()) {
+                    System.out.println("Age: " + averageAgeResult.getInt("Age") +
+                                   ", Manager_ID: " + averageAgeResult.getInt("Manager_ID") +
+                                   ", First Name: " + averageAgeResult.getString("First_Name") +
+                                   ", Last Name: " + averageAgeResult.getString("Last_Name"));
+                }
+
+                System.out.println("\nManagers by Age:");
+                while (resultsAge.next()) {
+                    System.out.println("Age: " + managersByAgeResult.getInt("Age") +
+                                   ", Manager_ID: " + managersByAgeResult.getInt("Manager_ID") +
+                                   ", First Name: " + managersByAgeResult.getString("First_Name") +
+                                   ", Last Name: " + managersByAgeResult.getString("Last_Name"));
+                }
                 try{
                     statement.executeUpdate(deleteArsenalManager);
                     System.out.println("Deleted Arsenal's Manager Successfully");
@@ -591,7 +608,7 @@ public class Code {
 
     public static void main(String[] args) {
         CharlieReader charlie = new CharlieReader();
-        JoeReader joe = new JoeReader();
-        KaweeshaReader kaweesha = new KaweeshaReader();
+        //JoeReader joe = new JoeReader();
+        //KaweeshaReader kaweesha = new KaweeshaReader();
     }
 }
