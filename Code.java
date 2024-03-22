@@ -567,8 +567,6 @@ public class Code {
             for (int i = 0; i < numColumns; i++) {
                 dataArrays[i] = new String[allRows.size()];
             }
-            // System.out.println(allRows.size());
-            // System.out.println(numColumns);
 
             // Populate arrays with data
             for (int i = 1; i < allRows.size(); i++) {
@@ -592,8 +590,8 @@ public class Code {
 
 
     public static void main(String[] args) {
-        //CharlieReader charlie = new CharlieReader();
-        // JoeReader joe = new JoeReader();
-         KaweeshaReader kaweesha = new KaweeshaReader();
+        CharlieReader charlie = new CharlieReader();
+        JoeReader joe = new JoeReader();
+        KaweeshaReader kaweesha = new KaweeshaReader();
     }
 }
