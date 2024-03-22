@@ -327,7 +327,8 @@ public class Code {
 
             createTables(connection);
             String[][] data = extractCSV(csvName);
-            populateTables(data, connection, databaseName);
+            populateTables(data, connection);
+            dmlQueries(connection);
         }
         private void createTables(Connection connection) {
             try {
@@ -344,11 +345,10 @@ public class Code {
                                             "Team_ID INTEGER NOT NULL, " +
                                             "Team_Name VARCHAR(100), " +
                                             "Team_Abbreviation VARCHAR(5), " +
-                                            "Year_Founded DATE, " +
+                                            "Years_Since_Foundation INTEGER, " +
                                             "Manager_ID INTEGER NOT NULL, " +
                                             "PRIMARY KEY (Team_ID), " +
-                                            "FOREIGN KEY (Manager_ID) REFERENCES Manager(Manager_ID) )" +
-                                            "CONSTRAINT fk_Team_Manager FOREIGN KEY (Manager_ID) REFERENCES Manager (Manager_ID) ON DELETE RESTRICT "
+                                            "FOREIGN KEY (Manager_ID) REFERENCES Manager(Manager_ID) );"
                                             ;
                 statement.executeUpdate(createTeamTable);
 
@@ -358,12 +358,11 @@ public class Code {
                                             "Last_Name VARCHAR(50), " +
                                             "Shirt_Number INTEGER, " +
                                             "Position VARCHAR(50)," +
-                                            "Date_Of_Birth DATE, " +
-                                            "Nationality VARCHAR(2)," +
+                                            "Age INTEGER, " +
+                                            "Nationality VARCHAR(50)," +
                                             "Team_ID INTEGER NOT NULL, " +
                                             "PRIMARY KEY (Player_ID), " +
-                                            "CONSTRAINT fk_Player_Team FOREIGN KEY (Team_ID) REFERENCES Team (Team_ID) " +
-                                            "ON DELETE RESTRICT;";
+                                            "FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID) );";
                 statement.executeUpdate(createPlayerTable);
 
                 System.out.println("Kaw Tables created successfully.");
@@ -372,66 +371,157 @@ public class Code {
                 e.printStackTrace();
             }
         }             
-        private void populateTables(String[][] csv, Connection connection, String databaseName) {
+        private void populateTables(String[][] csv, Connection connection) {
             try {
-                Statement statement = connection.createStatement();
+                //Team table is column 0-4
+                //Player columns are 5-12
+                //Manager table is column 13-15
 
-                for (int i = 0; i <csv[0].length;i++) {
-                    String insertTeam = "INSERT IGNORE INTO Team (" +
-                                        "Team_ID, Team_Name, Team_Abbreviation, Year_Founded, Manager_ID)" +
-                                        "VALUES (" +
-                                            csv[0][i] + ", '" + csv[1][i] + "', '" + csv[2][i] + "', " + csv[3][i] + ", " + csv[4][i] + ")";
+                String insertManager = "INSERT INTO Manager (Manager_ID, First_Name, Last_Name) VALUES (?, ?, ?)";
+                String insertTeam = "INSERT INTO Team (Team_ID, Team_Name, Team_Abbreviation, Years_Since_Foundation, Manager_ID) VALUES (?, ?, ?, ?, ?)";
+                String insertPlayer = "INSERT  INTO Player (Player_ID, First_Name, Last_Name, Shirt_Number, Position, Age, Nationality, Team_ID) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+                
+                PreparedStatement teamStatement = connection.prepareStatement(insertTeam);
+                PreparedStatement managerStatement = connection.prepareStatement(insertManager);
+                PreparedStatement playerStatement = connection.prepareStatement(insertPlayer);
 
 
+                for (int i = 0; i < 57; i++){
+                    // Filling the team tables:
+                    try {
+                        managerStatement.setInt(1, Integer.parseInt(csv[4][i]));
+                        managerStatement.setString(2, csv[5][i]);
+                        managerStatement.setString(3, csv[6][i]);
+                        managerStatement.executeUpdate();
+                
+                    } catch (NumberFormatException | NullPointerException e){
+                       // System.out.println(e.getMessage());
+                    }
                 }
 
-                for (int i = 0; i < csv[13].length; i++) {
-                    String insertManager =  "INSERT IGNORE INTO Manager (" +
-                                            "Manager_ID, First_Name, Last_Name)" +
-                                            "VALUES (" +
-                                            csv[13][i] + ", '" + csv[14][i] + "', '" + csv[15][i] + ")";
-                    statement.executeUpdate(insertManager);
+                for (int i = 0; i < 33; i++){
+                    // Filling the team tables:
+                    try {
+                        teamStatement.setInt(1, Integer.parseInt(csv[0][i]));
+                        teamStatement.setString(2, csv[1][i]);
+                        teamStatement.setString(3, csv[2][i]);
+                        teamStatement.setInt(4, Integer.parseInt(csv[3][i]));
+                        teamStatement.setInt(5, Integer.parseInt(csv[4][i]));
+                        teamStatement.executeUpdate();
+                
+                    } catch (NumberFormatException | NullPointerException e){
+                     //   System.out.println(e.getMessage());
+                    }
+                }
 
+                
+                for (int i = 0; i < 246; i++){
+                    // Filling the player tables:
+                    try{
+                        playerStatement.setInt(1, Integer.parseInt(csv[7][i]));
+                        playerStatement.setString(2, csv[8][i]);
+                        playerStatement.setString(3, csv[9][i]);
+                        playerStatement.setInt(4, Integer.parseInt(csv[10][i]));
+                        playerStatement.setString(5, csv[11][i]);
+                        playerStatement.setInt(6, Integer.parseInt(csv[12][i]));
+                        playerStatement.setString(7, csv[13][i]);
+                        playerStatement.setInt(8, Integer.parseInt(csv[0][i]));
+                        playerStatement.executeUpdate();
+                    } catch (NumberFormatException | NullPointerException e){
+                        //System.out.println(e.getMessage());
+                    }
                 }
-                for (int i = 0; i < csv[5].length; i++) {
-                    String insertPlayer =  "INSERT IGNORE INTO Player (" +
-                                            "Player_ID, First_Name, Last_Name,Shirt_Number, Nationality, Position, Date_Of_Birth, Team_ID)" +
-                                            "VALUES (" +
-                                            csv[5][i] + ", '" + csv[6][i] + "', '" + csv[7][i] + "', " + csv[8][i] + ", " + csv[9][i] + ", " + csv[10][i] + ", " + csv[11][i] + ", " + csv[12][i] + ")";
-                    statement.executeUpdate(insertPlayer);
-                }
-                System.out.println("Tables for database '" + databaseName + "' populated.");
-                } catch(SQLException e) {
+            
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+
+            System.out.println("Populated Tables");
+            
+            }
+
+
+            private void dmlQueries(Connection connection) {
+                try {
+                    Statement statement = connection.createStatement();
+    
+                    String deletionA =  "DELETE FROM Manager " +
+                                        "WHERE Manager_ID = 2";
+    
+                    try {
+                        statement.executeUpdate(deletionA);
+                        System.out.println("Manager_ID = 2 has been deleted from the table 'Manager'.\n");
+                    } catch (SQLException e) {
+                        if (e.getErrorCode() == 1451) {
+                            System.out.println("Deletion query A failed: Foreign Key constraint violated.\n");
+                        } else {
+                            e.printStackTrace();
+                        }
+                    }
+                    
+                    String deletionB =  "DELETE FROM Team " +
+                                        "WHERE Team_ID = 2";
+    
+                    try {
+                        statement.executeUpdate(deletionB);
+                        System.out.println("Team_ID = 2 has been deleted from the table 'Team'.\n");
+                    } catch (SQLException e) {
+                        if (e.getErrorCode() == 1451) {
+                            System.out.println("Deletion query B failed: Foreign Key constraint violated.\n");
+                        } else {
+                            e.printStackTrace();
+                        }
+                    }
+    
+                    String groupByA =   "SELECT Nationality, Count(Nationality) " +
+                                                            "FROM Player " +
+                                                            "WHERE Team_ID = 1 " +
+                                                            "GROUP BY Nationality";
+                    
+                    try (
+                        ResultSet resultSetA = statement.executeQuery(groupByA);
+                    ) {
+                        System.out.println("Count of Nationalities in Team_ID of 1:");
+    
+                        while (resultSetA.next()) {
+                            String nationality = resultSetA.getString("Nationality");
+                            int count = resultSetA.getInt("Count(Nationality)");
+                            System.out.println("Nationality: " + nationality + ", Count: " + count);
+                        }
+    
+                        System.out.println("\n");
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+    
+                    String groupByB =   "SELECT Position, AVG(Age) AS Average_Age " +
+                                        "FROM Player " +
+                                        "WHERE Team_ID = 2 " +
+                                        "GROUP BY Position";
+    
+                    try (
+                        ResultSet resultSetB = statement.executeQuery(groupByB);
+                    ) {
+                        System.out.println("Average age of players in each position for Team_ID 2:");
+    
+                        while (resultSetB.next()) {
+                            String position = resultSetB.getString("Position");
+                            double averageAge = resultSetB.getDouble("Average_Age");
+                            System.out.println("Position: " + position + ", Average Age: " + averageAge);
+                        }
+    
+                        System.out.println("\n");
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                } catch (SQLException e) {
                     e.printStackTrace();
                 }
             }
-
-
-        private Connection createDatabase(String databaseName) {
-            String jdbcUrl = "jdbc:mysql://localhost:3306/";
-    
-            try (
-                Connection connection = DriverManager.getConnection(jdbcUrl);
-                Statement statement = connection.createStatement()
-            ) {
-                String createDatabase = "CREATE DATABASE IF NOT EXISTS " + databaseName;
-                statement.executeUpdate(createDatabase);
-                System.out.println("Database '" + databaseName + "' created successfully.");
-    
-                String useDatabase = "USE " + databaseName;
-                statement.executeUpdate(useDatabase);
-                System.out.println("Database '" + databaseName + "' is now in use.");
-                return connection;
-            } catch (SQLException e) {
-                e.printStackTrace();
-                return null;
-            }
         }
+        
+ 
 
-        private void createTables() {
-
-        }
-    }
 
     public static Connection createDatabase(String databaseName) {
         String jdbcUrl = "jdbc:mysql://localhost:3306/";
@@ -502,7 +592,7 @@ public class Code {
 
 
     public static void main(String[] args) {
-        CharlieReader charlie = new CharlieReader();
+        //CharlieReader charlie = new CharlieReader();
         // JoeReader joe = new JoeReader();
          KaweeshaReader kaweesha = new KaweeshaReader();
     }
