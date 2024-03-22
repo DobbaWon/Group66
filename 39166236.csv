@@ -1,246 +1,246 @@
-Team_ID,Team,Team_Short_Name,Team_Founded,Manager_ID,Player_ID,First_Name,Last_Name,Shirt_Number,Position,Date_Of_Birth,Nationality,Team_ID,Manager_ID,Manager_First_Name,Manager_Last_Name
-1,Real Betis,BET,"12,Sep,07",1,1,Marc,Bartra,15,Defender,"15,Jan,91",ES,1,1,Manuel,Pellegrini
-2,Sevilla FC,SEV,"14,Oct,05",2,2,Sergio,Ramos,4,Defender,"30,Mar,86",ES,2,2,Julen,Lopetegui
-3,Real Madrid,RMA,"06,Mar,02",3,3,Dani,Carvajal,2,Defender,"11,Jan,92",ES,3,3,Carlo,Ancelotti
-4,Athletico de Madrid,ATM,"26,Apr,03",4,4,Jos� Ignacio,Fernandez Iglesias,6,Defender,"18,Jan,90",ES,3,4,Diego,Simeone
-5,RCD Mallorca,MLL,"06,Mar,16",55,5,Gabriel Armando,de Abreu,4,Defender,"26,Nov,90",BR,4,5,Marcelino,Garc�a Toral
-6,Villarreal CF,VIL,"10,Mar,23",5,6,Jaume,Costa,11,Defender,"18,Mar,88",ES,5,6,Ernesto,Valverde
-7,Athletic Club,ATH,"31,Dec,00",6,7,Alberto,Moreno,18,Defender,"05,Jul,92",ES,6,7,Rub�n,Baraja
-8,Valencia CF,VAL,"18,Mar,19",7,8,Yuri,Berchiche,17,Defender,"10,Feb,90",ES,7,8,Miguel,�ngel S�nchez
-9,Girona FC,GIR,"01,Jan,30",8,9,�scar,De Marcos,18,Defender,"14,Apr,89",ES,7,9,Rafael,Ben�tez
-10,RC Celta,CEL,"23,Aug,23",9,10,Dimitri,Foulquier,20,Defender,"23,Mar,93",GP,8,10,Jos�,Bordal�s
-11,Getafe CF,GET,"30,Mar,83",10,11,Juan Pedro,Ramirez Lopez,15,Defender,"30,Apr,91",ES,9,11,Sergio,Gonz�lez
-12,C�diz CF,CAD,"10,Sep,10",11,12,Jos�,Gim�nez,2,Defender,"20,Jan,95",UY,4,12,I�igo,P�rez
-13,Rayo Vallecano,RAY,"20,May,24",12,13,Jos�,Gay�,14,Defender,"25,May,95",ES,8,13,Alexander,Medina
-14,Granada CF,GRA,"01,Jan,31",13,14,Kiko,Femen�a,17,Defender,"02,Feb,91",ES,6,14,Jagoba,Arrasate
-15,CA Osasuna,OSA,"17,Nov,20",14,15,Javier,Manquillo,22,Defender,"05,May,94",ES,10,15,Imanol,Alguacil
-16,Real Sociedad,RSO,"07,Sep,09",15,16,Diego,Rico,16,Defender,"23,Feb,93",ES,11,16,Luis,Garc�a
-17,Deportivo Alav�s,ALA,"23,Jan,21",16,17,Joseba,Zald�a,2,Defender,"24,Jun,92",ES,12,17,Garc�a,Pimienta
-18,UD Las Palmas,LPA,"22,Aug,49",17,18,Florian,Lejeune,24,Defender,"20,May,91",FR,13,18,Gaizka,Garitano
-19,UD Almer�a,ALM,"17,Jul,89",18,19,Jes�s,Vallejo,5,Defender,"05,Jan,97",ES,14,19,Alessio,Lisci
-20,CD Mirand�s,MIR,"03,May,27",19,20,David,Garc�a,5,Defender,"14,Feb,94",ES,15,20,Xavier,Hern�ndez Creus
-21,FC Barcelona,BAR,"29,Nov,00",20,21,Jorge,Mer�,22,Defender,"17,Apr,97",ES,12,21,Rub�n,Alb�s
-22,Real Valladolid CF,VLL,"20,Mar,28",56,22,Unai,Garc�a,4,Defender,"03,Feb,92",ES,15,22,Miguel,�lvarez
-23,Albacete BP,ALB,"01,Aug,40",21,23,Eric,Bailly,12,Defender,"12,Apr,94",CI,6,23,Sebasti�n,Beccacece
-24,Villarreal B,VIL,"10,Mar,23",22,24,Djen�,Dakonam,2,Defender,"31,Dec,91",TG,11,24,Sergio,Gonzalez
-25,Elche CF,ELC,"01,Mar,23",23,25,Aritz,Elustondo,6,Defender,"28,Mar,94",ES,16,25,Xabi,Alonso
-26,Bayer 04,LVK,"01,Jul,04",25,26,Rub�n,Duarte,3,Defender,"18,Oct,95",ES,17,26,Jos�,Bordal�s
-27,Bournemouth,BOU,"01,Jan,00",31,27,Kevin,V�zquez,20,Defender,"23,Mar,93",ES,10,27,I�igo,P�rez
-28,CD Leganés,LEG,"23,Jun,28",32,28,Antonio,Ra�llo,21,Defender,"08,Oct,91",ES,5,28,Xavier,Hern�ndez Creus
-29,Brighton,BHA,"24,Jun,07",34,29,Ignasi,Miquel,14,Defender,"28,Sep,92",ES,14,29,Miguel,�ngel S�nchez
-30,FC Bayern,BAY,"27,Feb,00",35,30,Stefan,Savic,15,Defender,"08,Jan,91",ME,4,30,Rafael,Ben�tez
-31,FC Andorra,AND,"15,Oct,42",36,31,��igo,Lekue,15,Defender,"04,May,93",ES,7,31,Andoni,Iraola
-,,,,,32,Germ�n,Pezzella,6,Defender,"27,Jun,91",AR,1,32,Borja,Jim�nez
-,,,,,33,Iza,Carcel�n,20,Defender,"23,Apr,93",ES,12,33,Luis,Garc�a
-,,,,,34,Rafael,Jim�nez Jarque,3,Defender,"12,Aug,93",ES,12,34,Roberto,De Zerbi
-,,,,,35,Mario,Hermoso,22,Defender,"18,Jun,95",ES,4,35,Thomas,Tuchel
-,,,,,36,Yeray,�lvarez,5,Defender,"24,Jan,95",ES,7,36,Eder,Sarabia
-,,,,,37,Antonio,R�diger,22,Defender,"03,Mar,93",DE,3,37,Miguel,�lvarez
-,,,,,38,David,Alaba,4,Defender,"24,Jun,92",AT,3,38,Gaizka,Ancelotti
-,,,,,39,H�ctor,Beller�n,2,Defender,"19,Mar,95",ES,1,39,Jos�,Garitano
-,,,,,40,Pablo,Maffeo,15,Defender,"12,Jul,97",AR,5,40,Garc�a,Bordal�s
-,,,,,41,Jes�s,Navas,16,Defender,"21,Nov,85",ES,2,41,Luis,Pimienta
-,,,,,42,Daley,Blind,17,Defender,"09,Mar,90",NL,9,42,Imanol,Garc�a
-,,,,,43,Daley,Sinkgraven,18,Defender,"04,Jul,95",NL,18,43,Xavier,Alguacil
-,,,,,44,Kieran,Tierney,17,Defender,"05,Jun,97",GB,16,44,Carlo,Hern�ndez Creus
-,,,,,45,Ra�l,Albiol,3,Defender,"04,Sep,85",HAR,6,45,Rafael,Ancelotti
-,,,,,46,Sokratis,Papastathopoulos,19,Defender,"09,Jun,88",GR,1,46,Borja,Ben�tez
-,,,,,47,Aridane,Hern�ndez,5,Defender,"23,Mar,89",ES,13,47,Luis,Jim�nez
-,,,,,48,�lvaro,Odriozola,2,Defender,"14,Dec,95",ES,16,48,Gaizka,Garc�a
-,,,,,49,Antonio,Latorre Grueso,3,Defender,"21,Nov,97",ES,5,49,Jagoba,Garitano
-,,,,,50,Mouctar,Diakhaby,4,Defender,"19,Dec,96",GN,8,50,Luis,Garitano
-,,,,,51,Martin,Hongla,6,Defender,"16,Mar,98",CM,14,51,Rub�n,Arrasate
-,,,,,52,Eric,Curbelo,6,Defender,"14,Jan,94",ES,18,52,Sebasti�n,Garc�a
-,,,,,53,Unai,N��ez,4,Defender,"30,Jan,97",ES,10,53,Alessio,Baraja
-,,,,,54,Marcos,Acu�a,19,Defender,"28,Oct,91",AR,2,54,Xavier,Baraja
-,,,,,55,Andoni,Gorosabel,2,Defender,"04,Aug,96",ES,17,55,Juan,Ancelotti
-,,,,,56,Juan,Brand�riz Movilla,21,Defender,"02,Mar,99",ES,19,56,Speedy,Gonzalez
-,,,,,57,Miguel,Rubio,4,Defender,"11,Mar,98",ES,14,,,
-,,,,,58,�lex,Centelles,20,Defender,"30,Aug,99",ES,19,,,
-,,,,,59,Alejandro,Catena,24,Defender,"28,Oct,94",ES,15,,,
-,,,,,60,Domingos de Sousa,Coutinho Meneses Duarte,6,Defender,"10,Mar,95",PT,11,,,
-,,,,,61,Juan Cruz,�lvaro Armada,3,Defender,"28,Jul,92",ES,15,,,
-,,,,,62,Abdel,Abqar,5,Defender,"10,Mar,99",MA,17,,,
-,,,,,63,Joseph,Aidoo,15,Defender,"29,Sep,95",GH,10,,,
-,,,,,64,Hamari,Traor�,18,Defender,"27,Jan,92",ML,16,,,
-,,,,,65,Adri�,Pedrosa,3,Defender,"13,May,98",ES,2,,,
-,,,,,66,Hugo,Guillam�n,6,Defender,"31,Jan,00",ES,8,,,
-,,,,,67,Valery,Fern�ndez,11,Defender,"23,Nov,99",ES,9,,,
-,,,,,68,Mart�n,Pascual,4,Defender,"04,Aug,99",ES,13,,,
-,,,,,69,Alfonso,Espino,12,Defender,"05,Jan,92",UY,13,,,
-,,,,,70,�lex,Sola,7,Defender,"09,Jun,99",ES,17,,,
-,,,,,71,Sergi,Cardona,3,Defender,"08,Jul,99",ES,18,,,
-,,,,,72,�lex,Su�rez,4,Defender,"18,Mar,93",ES,18,,,
-,,,,,73,Omar,Alderete,15,Defender,"26,Dec,96",PY,11,,,
-,,,,,74,Miguel,Guti�rrez,3,Defender,"27,Jul,01",ES,9,,,
-,,,,,75,C�sar,Montes,22,Defender,"24,Feb,97",MX,19,,,
-,,,,,76,Houboulang,Mendes,17,Defender,"04,May,98",GW,20,,,
-,,,,,77,Aleksandar,Radovanovic,16,Defender,"11,Nov,93",RS,19,,,
-,,,,,78,Alejandro,Balde,3,Defender,"18,Oct,03",ES,21,,,
-,,,,,79,C�sar,T�rrega,34,Defender,"26,Feb,02",ES,22,,,
-,,,,,80,Kaiky,Fernandes Melo,15,Defender,"12,Jan,04",BR,23,,,
-,,,,,81,Carlos,Romero,18,Defender,"29,Oct,01",ES,24,,,
-,,,,,82,H�ctor,Fort,39,Defender,"02,Aug,06",ES,21,,,
-,,,,,83,Pau,Cubars�,33,Defender,"22,Jan,07",ES,21,,,
-,,,,,84,David,L�pez,35,Defender,"03,Feb,03",ES,25,,,
-,,,,,85,�lvaro,Morata,19,Forward,"23,Oct,92",ES,4,,,
-,,,,,86,Jos� Luis,Morales,15,Forward,"23,Jul,87",ES,6,,,
-,,,,,87,Gerard,Moreno,7,Forward,"07,Apr,92",ES,6,,,
-,,,,,88,Abd�n,Prats,9,Forward,"07,Dec,92",ES,5,,,
-,,,,,89,Ayoze,P�rez,10,Forward,"29,Jul,93",ES,1,,,
-,,,,,90,Kike,Garc�a,15,Forward,"25,Nov,89",ES,17,,,
-,,,,,91,Iker,Muniain,10,Forward,"19,Dec,92",ES,7,,,
-,,,,,92,Sandro,Ram�rez,9,Forward,"09,Jul,95",ES,18,,,
-,,,,,93,Leonardo Micali,Carrilho Baptist�o,12,Forward,"26,Aug,92",BR,19,,,
-,,,,,94,Cristhian,Stuani,7,Forward,"12,Oct,86",UY,9,,,
-,,,,,95,Juan Miguel,Jim�nez L�pez,9,Forward,"20,May,93",ES,12,,,
-,,,,,96,Jonathan,Viera,8,Forward,"21,Oct,89",ES,19,,,
-,,,,,97,Antoine,Griezmann,7,Forward,"21,Mar,91",FR,4,,,
-,,,,,98,Roger,Mart�,21,Forward,"03,Jan,91",ES,12,,,
-,,,,,99,Jes�s Joaqu�n,Fern�ndez S�enz de la Torre,7,Forward,"19,Nov,93",ES,2,,,
-,,,,,100,Rub�n,Garc�a,14,Forward,"14,Jul,93",ES,15,,,
-,,,,,101,Lucas,V�zquez,17,Forward,"01,Jul,91",ES,3,,,
-,,,,,102,Ra�l,de Tom�s,22,Forward,"17,Oct,94",ES,13,,,
-,,,,,103,Munir,El Haddadi,17,Forward,"01,Sep,95",MA,18,,,
-,,,,,104,Carlos,Fern�ndez,9,Forward,"22,May,96",ES,16,,,
-,,,,,105,Mariano,D�az,12,Forward,"01,Aug,93",DO,2,,,
-,,,,,106,Willian Jos�,Da Silva,12,Forward,"23,Nov,91",BR,1,,,
-,,,,,107,Jaime,Mata,7,Forward,"24,Oct,88",ES,11,,,
-,,,,,108,Iago,Aspas,10,Forward,"01,Aug,87",ES,10,,,
-,,,,,109,Rub�n,Pe�a,15,Forward,"18,Jul,91",ES,15,,,
-,,,,,110,Alex,Berenguer,7,Forward,"04,Jul,95",ES,7,,,
-,,,,,111,�lvaro,Negredo,21,Forward,"20,Aug,85",ES,22,,,
-,,,,,112,Borja,Iglesias,9,Forward,"17,Jan,93",ES,26,,,
-,,,,,113,Borja,Mayoral,19,Forward,"05,Apr,97",ES,11,,,
-,,,,,114,Mamadou,Sylla,7,Forward,"20,Mar,94",SN,22,,,
-,,,,,115,Jos�,Pozo,6,Forward,"15,Mar,96",ES,13,,,
-,,,,,116,Robert,Lewandowski,9,Forward,"21,Aug,88",PL,21,,,
-,,,,,117,Jos�,Callej�n,9,Forward,"11,Feb,87",ES,14,,,
-,,,,,118,Mikel,Oyarzabal,10,Forward,"21,Apr,97",ES,16,,,
-,,,,,119,Amath,Ndiaye,19,Forward,"16,Jul,96",SN,22,,,
-,,,,,120,Jos� Luis,Sanmart�n Mato,14,Forward,"27,Mar,90",ES,3,,,
-,,,,,121,Viktor,Tsygankov,8,Forward,"15,Nov,97",UA,9,,,
-,,,,,122,Franco,Cervi,11,Forward,"26,May,94",AR,10,,,
-,,,,,123,Enes,�nal,26,Forward,"10,May,97",TR,27,,,
-,,,,,124,Nemanja,Radonjic,23,Forward,"15,Feb,96",RS,5,,,
-,,,,,125,Raphael,Dias Belloli,11,Forward,"14,Dec,96",BR,21,,,
-,,,,,126,Hugo,Duro,9,Forward,"10,Nov,99",ES,8,,,
-,,,,,127,Lucas,Boy�,7,Forward,"28,Feb,96",AR,14,,,
-,,,,,128,Miguel,de la Fuente,9,Forward,"03,Sep,99",ES,28,,,
-,,,,,129,Jo�o,F�lix Sequeira,14,Forward,"10,Nov,99",PT,21,,,
-,,,,,130,Alberto,Mar�,22,Forward,"11,Jul,01",ES,8,,,
-,,,,,131,Carlos,Vicente,22,Forward,"23,Apr,99",ES,17,,,
-,,,,,132,Ansu,Fati,31,Forward,"31,Oct,02",ES,29,,,
-,,,,,133,Bryan,Zaragoza,17,Forward,"09,Sep,01",ES,30,,,
-,,,,,134,Jon,Karrikaburu,9,Forward,"19,Sep,02",ES,31,,,
-,,,,,135,Javier,Mart�n,18,Forward,"06,May,99",ES,20,,,
-,,,,,136,Ilias,Akhomach,20,Forward,"16,Apr,04",MA,24,,,
-,,,,,137,Jorge,Pascual,11,Forward,"09,Apr,03",ES,24,,,
-,,,,,138,Aitor,Fern�ndez,13,Goalkeeper,"03,May,91",ES,15,,,
-,,,,,139,Kepa,Arrizabalaga Revuelta,25,Goalkeeper,"03,Oct,94",ES,3,,,
-,,,,,140,Claudio,Bravo,1,Goalkeeper,"13,Apr,83",CL,1,,,
-,,,,,141,Vicente,Guaita,25,Goalkeeper,"10,Jan,87",ES,10,,,
-,,,,,142,Juan Carlos,Mart�n Corral,1,Goalkeeper,"20,Jan,88",ES,9,,,
-,,,,,143,Iv�n,Cu�llar,25,Goalkeeper,"27,May,84",ES,5,,,
-,,,,,144,Jaume,Dom�nech,1,Goalkeeper,"05,Nov,90",ES,8,,,
-,,,,,145,Antonio,Sivera,1,Goalkeeper,"11,Aug,96",ES,17,,,
-,,,,,146,Jan,Oblak,13,Goalkeeper,"07,Jan,93",SI,4,,,
-,,,,,147,David,Soria,13,Goalkeeper,"04,Apr,93",ES,11,,,
-,,,,,148,�lex,Remiro,1,Goalkeeper,"24,Mar,95",ES,16,,,
-,,,,,149,Marko,Dmitrovic,1,Goalkeeper,"24,Jan,92",RS,2,,,
-,,,,,150,Unai,Sim�n,1,Goalkeeper,"11,Jun,97",ES,7,,,
-,,,,,151,Pepe,Reina,1,Goalkeeper,"31,Aug,82",ES,6,,,
-,,,,,152,David,Gil,13,Goalkeeper,"11,Jan,94",ES,12,,,
-,,,,,153,Miguel �ngel,Morro,13,Goalkeeper,"11,Sep,00",ES,24,,,
-,,,,,154,Dani,C�rdenas,13,Goalkeeper,"28,Mar,97",ES,13,,,
-,,,,,155,Iker,�lvarez,1,Goalkeeper,"25,Jul,01",AD,24,,,
-,,,,,156,Andr� Filipe,Magalh�es Ribeiro Ferreira,13,Goalkeeper,"29,May,96",PT,22,,,
-,,,,,157,Bruno,Iribarne,37,Goalkeeper,"18,Aug,04",ES,19,,,
-,,,,,158,�lvaro,Killane,30,Goalkeeper,"14,Dec,04",AR,18,,,
-,,,,,159,Fran,�rbol,35,Goalkeeper,"30,Jun,06",ES,14,,,
-,,,,,160,Luka,Modric,10,Midfielder,"09,Sep,85",HR,3,,,
-,,,,,161,Francisco Rom�n,Alarc�n Su�rez,22,Midfielder,"21,Apr,92",ES,1,,,
-,,,,,162,Manu,Trigueros,14,Midfielder,"17,Oct,91",ES,6,,,
-,,,,,163,Moi,G�mez,16,Midfielder,"23,Jun,94",ES,15,,,
-,,,,,164,Daniel,Garc�a Carrillo,14,Midfielder,"24,May,90",ES,7,,,
-,,,,,165,Ander,Herrera,21,Midfielder,"14,Aug,89",ES,7,,,
-,,,,,166,�lvaro,Garc�a,18,Midfielder,"27,Oct,92",ES,13,,,
-,,,,,167,Denis,Su�rez,22,Midfielder,"06,Jan,94",ES,6,,,
-,,,,,168,Jorge,Resurrecci�n Merodio,6,Midfielder,"08,Jan,92",ES,4,,,
-,,,,,169,Ra�l,Garc�a,22,Midfielder,"11,Jul,86",ES,7,,,
-,,,,,170,David,L�pez,5,Midfielder,"09,Oct,89",ES,9,,,
-,,,,,171,�lex,Fern�ndez,8,Midfielder,"15,Oct,92",ES,12,,,
-,,,,,172,Johan,Mojica,22,Midfielder,"21,Aug,92",CO,15,,,
-,,,,,173,Sa�l,��guez,8,Midfielder,"21,Nov,94",ES,4,,,
-,,,,,174,Dani,Parejo,10,Midfielder,"16,Apr,89",ES,6,,,
-,,,,,175,��igo,Ruiz de Galarreta,16,Midfielder,"06,Aug,93",ES,7,,,
-,,,,,176,Borja,Garc�a,10,Midfielder,"02,Nov,90",ES,9,,,
-,,,,,177,Lucas,Torr�,6,Midfielder,"19,Jul,94",ES,15,,,
-,,,,,178,Omar,Mascarell,5,Midfielder,"02,Feb,93",GQ,5,,,
-,,,,,179,�liver,Torres,21,Midfielder,"10,Nov,94",ES,2,,,
-,,,,,180,Sergi,Darder,10,Midfielder,"22,Dec,93",ES,5,,,
-,,,,,181,Cristian,Portugu�s Manzanera,24,Midfielder,"21,May,92",ES,9,,,
-,,,,,182,Dani,Ceballos,19,Midfielder,"07,Aug,96",ES,3,,,
-,,,,,183,Gerard,Gumbau,23,Midfielder,"18,Dec,94",ES,14,,,
-,,,,,184,Rodrigo,De Paul,5,Midfielder,"24,May,94",AR,4,,,
-,,,,,185,Toni,Kroos,8,Midfielder,"04,Jan,90",DE,3,,,
-,,,,,186,Unai,L�pez,17,Midfielder,"30,Oct,95",ES,13,,,
-,,,,,187,Mikel,Merino,8,Midfielder,"22,Jun,96",ES,16,,,
-,,,,,188,Joan,Jord�n,8,Midfielder,"06,Jul,94",ES,2,,,
-,,,,,189,Marcos,Llorente,14,Midfielder,"30,Jan,95",ES,4,,,
-,,,,,190,Tiago Manuel,Dias Correia,10,Midfielder,"12,Jul,90",CV,13,,,
-,,,,,191,Javi,Mu�oz,5,Midfielder,"28,Feb,95",ES,18,,,
-,,,,,192,Aleix,Garc�a,14,Midfielder,"28,Jun,97",ES,9,,,
-,,,,,193,Rub�n,Alcaraz,4,Midfielder,"01,May,91",ES,12,,,
-,,,,,194,Gonzalo,Escalante,17,Midfielder,"27,Mar,93",AR,12,,,
-,,,,,195,Jos� Antonio,Rodr�guez D�az,10,Midfielder,"21,Feb,92",ES,14,,,
-,,,,,196,Jos� �ngel,G�mez Campa�a,21,Midfielder,"31,May,93",ES,18,,,
-,,,,,197,Pablo,Fornals,18,Midfielder,"22,Feb,96",ES,1,,,
-,,,,,198,Francis,Coquelin,19,Midfielder,"13,May,91",FR,6,,,
-,,,,,199,Nemanja,Maksimovic,20,Midfielder,"26,Jan,95",RS,11,,,
-,,,,,200,�rik,Lamela,17,Midfielder,"04,Mar,92",AR,2,,,
-,,,,,201,William,Silva de Carvalho,14,Midfielder,"07,Apr,92",PT,1,,,
-,,,,,202,Darko,Brasanac,14,Midfielder,"12,Feb,92",RS,28,,,
-,,,,,203,Nemanja,Gudelj,6,Midfielder,"16,Nov,91",RS,2,,,
-,,,,,204,Ilk,G�ndogan,22,Midfielder,"24,Oct,90",DE,21,,,
-,,,,,205,Javi,Gal�n,25,Midfielder,"19,Nov,94",ES,16,,,
-,,,,,206,José Luis,Garc�a Vay�,18,Midfielder,"11,Aug,98",ES,8,,,
-,,,,,207,Jonathan,Bamba,17,Midfielder,"26,Mar,96",CI,10,,,
-,,,,,208,Carles,Ale��,11,Midfielder,"05,Jan,98",ES,11,,,
-,,,,,209,Igor,Zubeldia,5,Midfielder,"30,Mar,97",ES,16,,,
-,,,,,210,Luis,Milla,5,Midfielder,"07,Oct,94",ES,11,,,
-,,,,,211,Iván,Alejo,11,Midfielder,"10,Feb,95",ES,12,,,
-,,,,,212,Fran,Beltr�n,8,Midfielder,"03,Feb,99",ES,10,,,
-,,,,,213,Marc,Roca,21,Midfielder,"26,Nov,96",ES,1,,,
-,,,,,214,Álex,Pozo,17,Midfielder,"22,Feb,99",ES,19,,,
-,,,,,215,Renato,Tapia,5,Midfielder,"28,Jul,95",PE,10,,,
-,,,,,216,Kike,P�rez,14,Midfielder,"14,Feb,97",ES,13,,,
-,,,,,217,Óscar,Melendo,21,Midfielder,"23,Aug,97",ES,14,,,
-,,,,,218,Sergio,Ruiz,20,Midfielder,"16,Dec,94",ES,14,,,
-,,,,,219,Benito,Ram�rez,11,Midfielder,"11,Jul,95",ES,18,,,
-,,,,,220,Jon,Guridi,18,Midfielder,"28,Feb,95",ES,17,,,
-,,,,,221,Dani,Rodr�guez,14,Midfielder,"06,Jun,88",ES,5,,,
-,,,,,222,Federico,Valverde,15,Midfielder,"22,Jul,98",UY,3,,,
-,,,,,223,Gonzalo,Melero,11,Midfielder,"02,Jan,94",ES,19,,,
-,,,,,224,Mauro,Arambarri,8,Midfielder,"30,Sep,95",UY,11,,,
-,,,,,225,Fabio,Gonzalez,25,Midfielder,"12,Feb,97",ES,18,,,
-,,,,,226,Ander,Guevara,6,Midfielder,"07,Jul,97",ES,17,,,
-,,,,,227,Brais,M�ndez,23,Midfielder,"07,Jan,97",ES,16,,,
-,,,,,228,Ferran,Torres,7,Midfielder,"29,Feb,00",ES,21,,,
-,,,,,229,Manu,Morlanes,8,Midfielder,"12,Jan,99",ES,5,,,
-,,,,,230,Jaílson,Marques Siqueira,16,Midfielder,"07,Sep,95",BR,10,,,
-,,,,,231,Juan,Cruz,11,Midfielder,"25,Apr,00",ES,28,,,
-,,,,,232,Luis,Rioja,11,Midfielder,"16,Oct,93",ES,17,,,
-,,,,,233,Iddrisu,Baba,4,Midfielder,"22,Jan,96",GH,19,,,
-,,,,,234,Edgar,Gonzalez,3,Midfielder,"01,Apr,97",ES,19,,,
-,,,,,235,Jon,Moncayola,7,Midfielder,"13,May,98",ES,15,,,
-,,,,,236,Ianis,Hagi,10,Midfielder,"22,Oct,98",RO,17,,,
-,,,,,237,Domingos André,Ribeiro Almeida,10,Midfielder,"30,May,00",PT,8,,,
-,,,,,238,Selim,Amallah,19,Midfielder,"15,Nov,96",MA,8,,,
-,,,,,239,Arnau,Puigmal,8,Midfielder,"10,Jan,01",ES,25,,,
-,,,,,240,Pablo,Goz�lbez,27,Midfielder,"30,Apr,01",ES,8,,,
-,,,,,241,Ibrahima,K�b�,6,Midfielder,"02,Aug,00",ML,20,,,
-,,,,,242,Pau,Victor,37,Midfielder,"26,Nov,01",ES,21,,,
-,,,,,243,Unai,Hern�ndez,35,Midfielder,"14,Dec,04",ES,21,,,
-,,,,,244,Pau,Prim,40,Midfielder,"22,Feb,06",ES,21,,,
-,,,,,245,Daniel,Luna,32,Midfielder,"07,May,03",CO,20,,,
+Team_ID,Team,Team_Short_Name,Team_Founded,Manager_ID,Manager_First_Name,Manager_Last_Name,Player_ID,First_Name,Last_Name,Shirt_Number,Position,Date_Of_Birth,Nationality
+1,Real Betis,BET,110,1,Manuel,Pellegrini,1,Marc,Bartra,15,Defender,23,ES
+2,Sevilla FC,SEV,119,2,Julen,Lopetegui,2,Sergio,Ramos,4,Defender,21,ES
+3,Real Madrid,RMA,115,3,Carlo,Ancelotti,3,Dani,Carvajal,2,Defender,28,ES
+4,Athletico de Madrid,ATM,100,4,Diego,Simeone,4,Josï¿½ Ignacio,Fernandez Iglesias,6,Defender,21,ES
+5,RCD Mallorca,MLL,104,5,Marcelino,Garcï¿½a Toral,5,Gabriel Armando,de Abreu,4,Defender,21,BR
+6,Villarreal CF,VIL,117,6,Ernesto,Valverde,6,Jaume,Costa,11,Defender,26,ES
+7,Athletic Club,ATH,111,7,Rubï¿½n,Baraja,7,Alberto,Moreno,18,Defender,21,ES
+8,Valencia CF,VAL,123,8,Miguel,ï¿½ngel Sï¿½nchez,8,Yuri,Berchiche,17,Defender,23,ES
+9,Girona FC,GIR,108,9,Rafael,Benï¿½tez,9,ï¿½scar,De Marcos,18,Defender,27,ES
+10,RC Celta,CEL,109,10,Josï¿½,Bordalï¿½s,10,Dimitri,Foulquier,20,Defender,27,GP
+11,Getafe CF,GET,116,11,Sergio,Gonzï¿½lez,11,Juan Pedro,Ramirez Lopez,15,Defender,21,ES
+12,Cï¿½diz CF,CAD,113,12,Iï¿½igo,Pï¿½rez,12,Josï¿½,Gimï¿½nez,2,Defender,25,UY
+13,Rayo Vallecano,RAY,112,13,Alexander,Medina,13,Josï¿½,Gayï¿½,14,Defender,23,ES
+14,Granada CF,GRA,122,14,Jagoba,Arrasate,14,Kiko,Femenï¿½a,17,Defender,28,ES
+15,CA Osasuna,OSA,123,15,Imanol,Alguacil,15,Javier,Manquillo,22,Defender,28,ES
+16,Real Sociedad,RSO,123,16,Luis,Garcï¿½a,16,Diego,Rico,16,Defender,20,ES
+17,Deportivo Alavï¿½s,ALA,105,17,Garcï¿½a,Pimienta,17,Joseba,Zaldï¿½a,2,Defender,28,ES
+18,UD Las Palmas,LPA,113,18,Gaizka,Garitano,18,Florian,Lejeune,24,Defender,28,FR
+19,UD Almerï¿½a,ALM,106,19,Alessio,Lisci,19,Jesï¿½s,Vallejo,5,Defender,28,ES
+20,CD Mirandï¿½s,MIR,107,20,Xavier,Hernï¿½ndez Creus,20,David,Garcï¿½a,5,Defender,23,ES
+21,FC Barcelona,BAR,109,21,Rubï¿½n,Albï¿½s,21,Jorge,Merï¿½,22,Defender,20,ES
+22,Real Valladolid CF,VLL,100,22,Miguel,ï¿½lvarez,22,Unai,Garcï¿½a,4,Defender,23,ES
+23,Albacete BP,ALB,122,23,Sebastiï¿½n,Beccacece,23,Eric,Bailly,12,Defender,21,CI
+24,Villarreal B,VIL,124,24,Sergio,Gonzalez,24,Djenï¿½,Dakonam,2,Defender,22,TG
+25,Elche CF,ELC,112,25,Xabi,Alonso,25,Aritz,Elustondo,6,Defender,23,ES
+26,Bayer 04,LVK,113,26,Josï¿½,Bordalï¿½s,26,Rubï¿½n,Duarte,3,Defender,21,ES
+27,Bournemouth,BOU,103,27,Iï¿½igo,Pï¿½rez,27,Kevin,Vï¿½zquez,20,Defender,28,ES
+28,CD LeganÃ©s,LEG,112,28,Xavier,Hernï¿½ndez Creus,28,Antonio,Raï¿½llo,21,Defender,23,ES
+29,Brighton,BHA,111,29,Miguel,ï¿½ngel Sï¿½nchez,29,Ignasi,Miquel,14,Defender,21,ES
+30,FC Bayern,BAY,109,30,Rafael,Benï¿½tez,30,Stefan,Savic,15,Defender,21,ME
+31,FC Andorra,AND,117,31,Andoni,Iraola,31,ï¿½ï¿½igo,Lekue,15,Defender,22,ES
+1,,,,32,Borja,Jimï¿½nez,32,Germï¿½n,Pezzella,6,Defender,24,AR
+12,,,,33,Luis,Garcï¿½a,33,Iza,Carcelï¿½n,20,Defender,30,ES
+12,,,,34,Roberto,De Zerbi,34,Rafael,Jimï¿½nez Jarque,3,Defender,30,ES
+4,,,,35,Thomas,Tuchel,35,Mario,Hermoso,22,Defender,29,ES
+7,,,,36,Eder,Sarabia,36,Yeray,ï¿½lvarez,5,Defender,28,ES
+3,,,,37,Miguel,ï¿½lvarez,37,Antonio,Rï¿½diger,22,Defender,29,DE
+3,,,,38,Gaizka,Ancelotti,38,David,Alaba,4,Defender,30,AT
+1,,,,39,Josï¿½,Garitano,39,Hï¿½ctor,Bellerï¿½n,2,Defender,28,ES
+5,,,,40,Garcï¿½a,Bordalï¿½s,40,Pablo,Maffeo,15,Defender,30,AR
+2,,,,41,Luis,Pimienta,41,Jesï¿½s,Navas,16,Defender,20,ES
+9,,,,42,Imanol,Garcï¿½a,42,Daley,Blind,17,Defender,21,NL
+18,,,,43,Xavier,Alguacil,43,Daley,Sinkgraven,18,Defender,20,NL
+16,,,,44,Carlo,Hernï¿½ndez Creus,44,Kieran,Tierney,17,Defender,22,GB
+6,,,,45,Rafael,Ancelotti,45,Raï¿½l,Albiol,3,Defender,24,HAR
+1,,,,46,Borja,Benï¿½tez,46,Sokratis,Papastathopoulos,19,Defender,29,GR
+13,,,,47,Luis,Jimï¿½nez,47,Aridane,Hernï¿½ndez,5,Defender,30,ES
+16,,,,48,Gaizka,Garcï¿½a,48,ï¿½lvaro,Odriozola,2,Defender,27,ES
+5,,,,49,Jagoba,Garitano,49,Antonio,Latorre Grueso,3,Defender,26,ES
+8,,,,50,Luis,Garitano,50,Mouctar,Diakhaby,4,Defender,25,GN
+14,,,,51,Rubï¿½n,Arrasate,51,Martin,Hongla,6,Defender,28,CM
+18,,,,52,Sebastiï¿½n,Garcï¿½a,52,Eric,Curbelo,6,Defender,27,ES
+10,,,,53,Alessio,Baraja,53,Unai,Nï¿½ï¿½ez,4,Defender,25,ES
+2,,,,54,Xavier,Baraja,54,Marcos,Acuï¿½a,19,Defender,28,AR
+17,,,,55,Juan,Ancelotti,55,Andoni,Gorosabel,2,Defender,20,ES
+19,,,,56,Speedy,Gonzalez,56,Juan,Brandï¿½riz Movilla,21,Defender,27,ES
+14,,,,,,,57,Miguel,Rubio,4,Defender,24,ES
+19,,,,,,,58,ï¿½lex,Centelles,20,Defender,27,ES
+15,,,,,,,59,Alejandro,Catena,24,Defender,25,ES
+11,,,,,,,60,Domingos de Sousa,Coutinho Meneses Duarte,6,Defender,22,PT
+15,,,,,,,61,Juan Cruz,ï¿½lvaro Armada,3,Defender,30,ES
+17,,,,,,,62,Abdel,Abqar,5,Defender,29,MA
+10,,,,,,,63,Joseph,Aidoo,15,Defender,27,GH
+16,,,,,,,64,Hamari,Traorï¿½,18,Defender,29,ML
+2,,,,,,,65,Adriï¿½,Pedrosa,3,Defender,25,ES
+8,,,,,,,66,Hugo,Guillamï¿½n,6,Defender,27,ES
+9,,,,,,,67,Valery,Fernï¿½ndez,11,Defender,24,ES
+13,,,,,,,68,Martï¿½n,Pascual,4,Defender,28,ES
+13,,,,,,,69,Alfonso,Espino,12,Defender,24,UY
+17,,,,,,,70,ï¿½lex,Sola,7,Defender,26,ES
+18,,,,,,,71,Sergi,Cardona,3,Defender,26,ES
+18,,,,,,,72,ï¿½lex,Suï¿½rez,4,Defender,30,ES
+11,,,,,,,73,Omar,Alderete,15,Defender,25,PY
+9,,,,,,,74,Miguel,Gutiï¿½rrez,3,Defender,20,ES
+19,,,,,,,75,Cï¿½sar,Montes,22,Defender,21,MX
+20,,,,,,,76,Houboulang,Mendes,17,Defender,23,GW
+19,,,,,,,77,Aleksandar,Radovanovic,16,Defender,20,RS
+21,,,,,,,78,Alejandro,Balde,3,Defender,22,ES
+22,,,,,,,79,Cï¿½sar,Tï¿½rrega,34,Defender,22,ES
+23,,,,,,,80,Kaiky,Fernandes Melo,15,Defender,23,BR
+24,,,,,,,81,Carlos,Romero,18,Defender,22,ES
+21,,,,,,,82,Hï¿½ctor,Fort,39,Defender,30,ES
+21,,,,,,,83,Pau,Cubarsï¿½,33,Defender,30,ES
+25,,,,,,,84,David,Lï¿½pez,35,Defender,29,ES
+4,,,,,,,85,ï¿½lvaro,Morata,19,Forward,30,ES
+6,,,,,,,86,Josï¿½ Luis,Morales,15,Forward,22,ES
+6,,,,,,,87,Gerard,Moreno,7,Forward,21,ES
+5,,,,,,,88,Abdï¿½n,Prats,9,Forward,29,ES
+1,,,,,,,89,Ayoze,Pï¿½rez,10,Forward,25,ES
+17,,,,,,,90,Kike,Garcï¿½a,15,Forward,20,ES
+7,,,,,,,91,Iker,Muniain,10,Forward,29,ES
+18,,,,,,,92,Sandro,Ramï¿½rez,9,Forward,30,ES
+19,,,,,,,93,Leonardo Micali,Carrilho Baptistï¿½o,12,Forward,30,BR
+9,,,,,,,94,Cristhian,Stuani,7,Forward,24,UY
+12,,,,,,,95,Juan Miguel,Jimï¿½nez Lï¿½pez,9,Forward,27,ES
+19,,,,,,,96,Jonathan,Viera,8,Forward,26,ES
+4,,,,,,,97,Antoine,Griezmann,7,Forward,26,FR
+12,,,,,,,98,Roger,Martï¿½,21,Forward,24,ES
+2,,,,,,,99,Jesï¿½s Joaquï¿½n,Fernï¿½ndez Sï¿½enz de la Torre,7,Forward,23,ES
+15,,,,,,,100,Rubï¿½n,Garcï¿½a,14,Forward,28,ES
+3,,,,,,,101,Lucas,Vï¿½zquez,17,Forward,25,ES
+13,,,,,,,102,Raï¿½l,de Tomï¿½s,22,Forward,20,ES
+18,,,,,,,103,Munir,El Haddadi,17,Forward,30,MA
+16,,,,,,,104,Carlos,Fernï¿½ndez,9,Forward,21,ES
+2,,,,,,,105,Mariano,Dï¿½az,12,Forward,26,DO
+1,,,,,,,106,Willian Josï¿½,Da Silva,12,Forward,29,BR
+11,,,,,,,107,Jaime,Mata,7,Forward,22,ES
+10,,,,,,,108,Iago,Aspas,10,Forward,26,ES
+15,,,,,,,109,Rubï¿½n,Peï¿½a,15,Forward,22,ES
+7,,,,,,,110,Alex,Berenguer,7,Forward,27,ES
+22,,,,,,,111,ï¿½lvaro,Negredo,21,Forward,20,ES
+26,,,,,,,112,Borja,Iglesias,9,Forward,24,ES
+11,,,,,,,113,Borja,Mayoral,19,Forward,28,ES
+22,,,,,,,114,Mamadou,Sylla,7,Forward,30,SN
+13,,,,,,,115,Josï¿½,Pozo,6,Forward,24,ES
+21,,,,,,,116,Robert,Lewandowski,9,Forward,26,PL
+14,,,,,,,117,Josï¿½,Callejï¿½n,9,Forward,28,ES
+16,,,,,,,118,Mikel,Oyarzabal,10,Forward,22,ES
+22,,,,,,,119,Amath,Ndiaye,19,Forward,23,SN
+3,,,,,,,120,Josï¿½ Luis,Sanmartï¿½n Mato,14,Forward,28,ES
+9,,,,,,,121,Viktor,Tsygankov,8,Forward,23,UA
+10,,,,,,,122,Franco,Cervi,11,Forward,27,AR
+27,,,,,,,123,Enes,ï¿½nal,26,Forward,29,TR
+5,,,,,,,124,Nemanja,Radonjic,23,Forward,22,RS
+21,,,,,,,125,Raphael,Dias Belloli,11,Forward,26,BR
+8,,,,,,,126,Hugo,Duro,9,Forward,24,ES
+14,,,,,,,127,Lucas,Boyï¿½,7,Forward,23,AR
+28,,,,,,,128,Miguel,de la Fuente,9,Forward,20,ES
+21,,,,,,,129,Joï¿½o,Fï¿½lix Sequeira,14,Forward,27,PT
+8,,,,,,,130,Alberto,Marï¿½,22,Forward,29,ES
+17,,,,,,,131,Carlos,Vicente,22,Forward,26,ES
+29,,,,,,,132,Ansu,Fati,31,Forward,24,ES
+30,,,,,,,133,Bryan,Zaragoza,17,Forward,30,ES
+31,,,,,,,134,Jon,Karrikaburu,9,Forward,20,ES
+20,,,,,,,135,Javier,Martï¿½n,18,Forward,28,ES
+24,,,,,,,136,Ilias,Akhomach,20,Forward,20,MA
+24,,,,,,,137,Jorge,Pascual,11,Forward,28,ES
+15,,,,,,,138,Aitor,Fernï¿½ndez,13,Goalkeeper,24,ES
+3,,,,,,,139,Kepa,Arrizabalaga Revuelta,25,Goalkeeper,25,ES
+1,,,,,,,140,Claudio,Bravo,1,Goalkeeper,25,CL
+10,,,,,,,141,Vicente,Guaita,25,Goalkeeper,21,ES
+9,,,,,,,142,Juan Carlos,Martï¿½n Corral,1,Goalkeeper,21,ES
+5,,,,,,,143,Ivï¿½n,Cuï¿½llar,25,Goalkeeper,27,ES
+8,,,,,,,144,Jaume,Domï¿½nech,1,Goalkeeper,30,ES
+17,,,,,,,145,Antonio,Sivera,1,Goalkeeper,20,ES
+4,,,,,,,146,Jan,Oblak,13,Goalkeeper,24,SI
+11,,,,,,,147,David,Soria,13,Goalkeeper,29,ES
+16,,,,,,,148,ï¿½lex,Remiro,1,Goalkeeper,22,ES
+2,,,,,,,149,Marko,Dmitrovic,1,Goalkeeper,24,RS
+7,,,,,,,150,Unai,Simï¿½n,1,Goalkeeper,29,ES
+6,,,,,,,151,Pepe,Reina,1,Goalkeeper,23,ES
+12,,,,,,,152,David,Gil,13,Goalkeeper,26,ES
+24,,,,,,,153,Miguel ï¿½ngel,Morro,13,Goalkeeper,27,ES
+13,,,,,,,154,Dani,Cï¿½rdenas,13,Goalkeeper,28,ES
+24,,,,,,,155,Iker,ï¿½lvarez,1,Goalkeeper,25,AD
+22,,,,,,,156,Andrï¿½ Filipe,Magalhï¿½es Ribeiro Ferreira,13,Goalkeeper,27,PT
+19,,,,,,,157,Bruno,Iribarne,37,Goalkeeper,23,ES
+18,,,,,,,158,ï¿½lvaro,Killane,30,Goalkeeper,23,AR
+14,,,,,,,159,Fran,ï¿½rbol,35,Goalkeeper,29,ES
+3,,,,,,,160,Luka,Modric,10,Midfielder,26,HR
+1,,,,,,,161,Francisco Romï¿½n,Alarcï¿½n Suï¿½rez,22,Midfielder,26,ES
+6,,,,,,,162,Manu,Trigueros,14,Midfielder,29,ES
+15,,,,,,,163,Moi,Gï¿½mez,16,Midfielder,22,ES
+7,,,,,,,164,Daniel,Garcï¿½a Carrillo,14,Midfielder,20,ES
+7,,,,,,,165,Ander,Herrera,21,Midfielder,24,ES
+13,,,,,,,166,ï¿½lvaro,Garcï¿½a,18,Midfielder,30,ES
+6,,,,,,,167,Denis,Suï¿½rez,22,Midfielder,22,ES
+4,,,,,,,168,Jorge,Resurrecciï¿½n Merodio,6,Midfielder,28,ES
+7,,,,,,,169,Raï¿½l,Garcï¿½a,22,Midfielder,28,ES
+9,,,,,,,170,David,Lï¿½pez,5,Midfielder,20,ES
+12,,,,,,,171,ï¿½lex,Fernï¿½ndez,8,Midfielder,21,ES
+15,,,,,,,172,Johan,Mojica,22,Midfielder,29,CO
+4,,,,,,,173,Saï¿½l,ï¿½ï¿½guez,8,Midfielder,20,ES
+6,,,,,,,174,Dani,Parejo,10,Midfielder,23,ES
+7,,,,,,,175,ï¿½ï¿½igo,Ruiz de Galarreta,16,Midfielder,21,ES
+9,,,,,,,176,Borja,Garcï¿½a,10,Midfielder,27,ES
+15,,,,,,,177,Lucas,Torrï¿½,6,Midfielder,28,ES
+5,,,,,,,178,Omar,Mascarell,5,Midfielder,20,GQ
+2,,,,,,,179,ï¿½liver,Torres,21,Midfielder,24,ES
+5,,,,,,,180,Sergi,Darder,10,Midfielder,29,ES
+9,,,,,,,181,Cristian,Portuguï¿½s Manzanera,24,Midfielder,24,ES
+3,,,,,,,182,Dani,Ceballos,19,Midfielder,21,ES
+14,,,,,,,183,Gerard,Gumbau,23,Midfielder,27,ES
+4,,,,,,,184,Rodrigo,De Paul,5,Midfielder,26,AR
+3,,,,,,,185,Toni,Kroos,8,Midfielder,30,DE
+13,,,,,,,186,Unai,Lï¿½pez,17,Midfielder,30,ES
+16,,,,,,,187,Mikel,Merino,8,Midfielder,22,ES
+2,,,,,,,188,Joan,Jordï¿½n,8,Midfielder,22,ES
+4,,,,,,,189,Marcos,Llorente,14,Midfielder,21,ES
+13,,,,,,,190,Tiago Manuel,Dias Correia,10,Midfielder,28,CV
+18,,,,,,,191,Javi,Muï¿½oz,5,Midfielder,24,ES
+9,,,,,,,192,Aleix,Garcï¿½a,14,Midfielder,20,ES
+12,,,,,,,193,Rubï¿½n,Alcaraz,4,Midfielder,26,ES
+12,,,,,,,194,Gonzalo,Escalante,17,Midfielder,25,AR
+14,,,,,,,195,Josï¿½ Antonio,Rodrï¿½guez Dï¿½az,10,Midfielder,27,ES
+18,,,,,,,196,Josï¿½ ï¿½ngel,Gï¿½mez Campaï¿½a,21,Midfielder,24,ES
+1,,,,,,,197,Pablo,Fornals,18,Midfielder,26,ES
+6,,,,,,,198,Francis,Coquelin,19,Midfielder,20,FR
+11,,,,,,,199,Nemanja,Maksimovic,20,Midfielder,30,RS
+2,,,,,,,200,ï¿½rik,Lamela,17,Midfielder,29,AR
+1,,,,,,,201,William,Silva de Carvalho,14,Midfielder,25,PT
+28,,,,,,,202,Darko,Brasanac,14,Midfielder,29,RS
+2,,,,,,,203,Nemanja,Gudelj,6,Midfielder,25,RS
+21,,,,,,,204,Ilk,Gï¿½ndogan,22,Midfielder,30,DE
+16,,,,,,,205,Javi,Galï¿½n,25,Midfielder,20,ES
+8,,,,,,,206,JosÃ© Luis,Garcï¿½a Vayï¿½,18,Midfielder,23,ES
+10,,,,,,,207,Jonathan,Bamba,17,Midfielder,21,CI
+11,,,,,,,208,Carles,Aleï¿½ï¿½,11,Midfielder,26,ES
+16,,,,,,,209,Igor,Zubeldia,5,Midfielder,30,ES
+11,,,,,,,210,Luis,Milla,5,Midfielder,26,ES
+12,,,,,,,211,IvÃ¡n,Alejo,11,Midfielder,26,ES
+10,,,,,,,212,Fran,Beltrï¿½n,8,Midfielder,22,ES
+1,,,,,,,213,Marc,Roca,21,Midfielder,20,ES
+19,,,,,,,214,Ãlex,Pozo,17,Midfielder,29,ES
+10,,,,,,,215,Renato,Tapia,5,Midfielder,26,PE
+13,,,,,,,216,Kike,Pï¿½rez,14,Midfielder,27,ES
+14,,,,,,,217,Ã“scar,Melendo,21,Midfielder,27,ES
+14,,,,,,,218,Sergio,Ruiz,20,Midfielder,22,ES
+18,,,,,,,219,Benito,Ramï¿½rez,11,Midfielder,28,ES
+17,,,,,,,220,Jon,Guridi,18,Midfielder,22,ES
+5,,,,,,,221,Dani,Rodrï¿½guez,14,Midfielder,27,ES
+3,,,,,,,222,Federico,Valverde,15,Midfielder,25,UY
+19,,,,,,,223,Gonzalo,Melero,11,Midfielder,20,ES
+11,,,,,,,224,Mauro,Arambarri,8,Midfielder,27,UY
+18,,,,,,,225,Fabio,Gonzalez,25,Midfielder,23,ES
+17,,,,,,,226,Ander,Guevara,6,Midfielder,21,ES
+16,,,,,,,227,Brais,Mï¿½ndez,23,Midfielder,28,ES
+21,,,,,,,228,Ferran,Torres,7,Midfielder,26,ES
+5,,,,,,,229,Manu,Morlanes,8,Midfielder,27,ES
+10,,,,,,,230,JaÃ­lson,Marques Siqueira,16,Midfielder,24,BR
+28,,,,,,,231,Juan,Cruz,11,Midfielder,25,ES
+17,,,,,,,232,Luis,Rioja,11,Midfielder,24,ES
+19,,,,,,,233,Iddrisu,Baba,4,Midfielder,21,GH
+19,,,,,,,234,Edgar,Gonzalez,3,Midfielder,27,ES
+15,,,,,,,235,Jon,Moncayola,7,Midfielder,30,ES
+17,,,,,,,236,Ianis,Hagi,10,Midfielder,23,RO
+8,,,,,,,237,Domingos AndrÃ©,Ribeiro Almeida,10,Midfielder,27,PT
+8,,,,,,,238,Selim,Amallah,19,Midfielder,24,MA
+25,,,,,,,239,Arnau,Puigmal,8,Midfielder,25,ES
+8,,,,,,,240,Pablo,Gozï¿½lbez,27,Midfielder,25,ES
+20,,,,,,,241,Ibrahima,Kï¿½bï¿½,6,Midfielder,24,ML
+21,,,,,,,242,Pau,Victor,37,Midfielder,27,ES
+21,,,,,,,243,Unai,Hernï¿½ndez,35,Midfielder,20,ES
+21,,,,,,,244,Pau,Prim,40,Midfielder,24,ES
+20,,,,,,,245,Daniel,Luna,32,Midfielder,30,CO
